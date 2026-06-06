@@ -1,0 +1,4658 @@
+[
+  {
+    "id": 1,
+    "title": "Sınav 1: Türk Hukuk İnkılabı",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Osmanlı Devleti'nde padişahın yetkilerini kısıtlayan ilk belge aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Tanzimat Fermanı",
+          "B": "Islahat Fermanı",
+          "C": "Sened-i İttifak",
+          "D": "Kanun-i Esasi",
+          "E": "Mecelle"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "text": "Türk Medeni Kanunu hangi ülkenin medeni kanunu örnek alınarak hazırlanmıştır?",
+        "options": {
+          "A": "Fransa",
+          "B": "Almanya",
+          "C": "İtalya",
+          "D": "İsviçre",
+          "E": "İngiltere"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "text": "Türkiye'de kadınlara belediye seçimlerine katılma hakkı hangi yıl verilmiştir?",
+        "options": {
+          "A": "1930",
+          "B": "1933",
+          "C": "1934",
+          "D": "1926",
+          "E": "1931"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 4,
+        "text": "Yeni Türk Devleti'nin ilk anayasası aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "1924 Anayasası",
+          "B": "Kanun-i Esasi",
+          "C": "1921 Anayasası (Teşkilat-ı Esasiye)",
+          "D": "1961 Anayasası",
+          "E": "1876 Anayasası"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 5,
+        "text": "\"Laiklik\" ilkesi anayasaya hangi yıl dahil edilmiştir?",
+        "options": {
+          "A": "1924",
+          "B": "1928",
+          "C": "1937",
+          "D": "1945",
+          "E": "1934"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "text": "1924 Anayasası'nda yer alan \"Devletin dini İslam'dır\" maddesi anayasadan hangi yıl çıkarılmıştır?",
+        "options": {
+          "A": "1926",
+          "B": "1928",
+          "C": "1937",
+          "D": "1930",
+          "E": "1924"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "text": "Osmanlı Devleti'nde İslam hukukuna göre hazırlanan ve medeni kanun niteliği taşıyan \"Mecelle\" kimin başkanlığındaki bir heyet tarafından hazırlanmıştır?",
+        "options": {
+          "A": "Mustafa Reşit Paşa",
+          "B": "Mithat Paşa",
+          "C": "Ahmet Cevdet Paşa",
+          "D": "Ali Paşa",
+          "E": "Fuat Paşa"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "text": "Türk Ceza Kanunu (1926) hangi ülkenin ceza kanunu örnek alınarak hazırlanmıştır?",
+        "options": {
+          "A": "İtalya",
+          "B": "Fransa",
+          "C": "İsviçre",
+          "D": "Almanya",
+          "E": "Belçika"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "text": "1921 Anayasası'nın (Teşkilat-ı Esasiye) en belirgin özelliği aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Sert ve kazuistik olması",
+          "B": "Çerçeve ve yumuşak bir anayasa olması",
+          "C": "Güçler ayrılığını benimsemesi",
+          "D": "İki meclisli bir yapıyı öngörmesi",
+          "E": "Temel hak ve özgürlüklere geniş yer vermesi"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "text": "Cumhuriyet döneminde açılan ilk yükseköğretim kurumu olan Ankara Adliye Hukuk Mektebi hangi yıl açılmıştır?",
+        "options": {
+          "A": "1924",
+          "B": "1925",
+          "C": "1926",
+          "D": "1928",
+          "E": "1933"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 11,
+        "text": "Şeriye ve Evkaf Vekaleti'nin kaldırılması hangi yıl gerçekleşmiştir?",
+        "options": {
+          "A": "1922",
+          "B": "1923",
+          "C": "1924",
+          "D": "1926",
+          "E": "1928"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 12,
+        "text": "Türk Medeni Kanunu ile kadınlara aşağıdaki haklardan hangisi verilmemiştir?",
+        "options": {
+          "A": "Mirastan eşit pay alma",
+          "B": "İstediği mesleğe girme",
+          "C": "Boşanma hakkı",
+          "D": "Siyasi seçimlerde oy kullanma",
+          "E": "Mahkemede eşit şahitlik"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 13,
+        "text": "Kadınlara milletvekili seçme ve seçilme hakkı hangi yıl verilmiştir?",
+        "options": {
+          "A": "1930",
+          "B": "1933",
+          "C": "1934",
+          "D": "1935",
+          "E": "1937"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 14,
+        "text": "Türkiye Cumhuriyeti'nin idare hukuku alanındaki düzenlemelerinde daha çok hangi ülkenin sistemi örnek alınmıştır?",
+        "options": {
+          "A": "İngiltere",
+          "B": "Fransa",
+          "C": "Almanya",
+          "D": "İtalya",
+          "E": "ABD"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 15,
+        "text": "Türk hukuk tarihinde hukuk birliğinin kesin olarak sağlanması aşağıdakilerden hangisi ile gerçekleşmiştir?",
+        "options": {
+          "A": "Teşkilat-ı Esasiye'nin kabulü",
+          "B": "Mecelle'nin kaldırılması ve Türk Medeni Kanunu'nun kabulü",
+          "C": "Şeriye mahkemelerinin kapatılması",
+          "D": "Ankara Hukuk Mektebi'nin açılması",
+          "E": "Cumhuriyetin ilanı"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 16,
+        "text": "1924 Anayasası'nda benimsenen hükümet sistemi aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Başkanlık sistemi",
+          "B": "Yarı başkanlık sistemi",
+          "C": "Meclis hükümeti sistemi ile parlamenter sistem arası karma sistem",
+          "D": "Mutlak monarşi",
+          "E": "Meşruti monarşi"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 17,
+        "text": "İstiklal Mahkemeleri'nin son kez görev yaptığı olay aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Şeyh Sait İsyanı",
+          "B": "Menemen Olayı",
+          "C": "İzmir Suikastı Girişimi",
+          "D": "31 Mart Vakası",
+          "E": "Çerkez Ethem İsyanı"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 18,
+        "text": "Osmanlı Devleti'nin ilk yazılı anayasası olan Kanun-i Esasi hangi padişah döneminde ilan edilmiştir?",
+        "options": {
+          "A": "Abdülmecid",
+          "B": "Abdülaziz",
+          "C": "II. Abdülhamit",
+          "D": "V. Murat",
+          "E": "V. Mehmet Reşat"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 19,
+        "text": "Borçlar Kanunu ve İcra İflas Kanunu hangi ülkeden iktibas edilmiştir (alınmıştır)?",
+        "options": {
+          "A": "İsviçre",
+          "B": "Fransa",
+          "C": "İtalya",
+          "D": "Almanya",
+          "E": "Avusturya"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "text": "Çok partili siyasi hayata kesintisiz olarak hangi yıl geçilmiştir?",
+        "options": {
+          "A": "1924",
+          "B": "1930",
+          "C": "1945",
+          "D": "1950",
+          "E": "1961"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sınav 2: Eğitim ve Kültür Hayatındaki Düzenlemeler",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Eğitim ve öğretimde birliği sağlayan, medreselerin kapatılmasına zemin hazırlayan kanun aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Tevhidi Tedrisat Kanunu",
+          "B": "Maarif Teşkilatı Hakkında Kanun",
+          "C": "Harf İnkılabı",
+          "D": "Üniversite Reformu",
+          "E": "Millet Mektepleri Talimatnamesi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "text": "Tevhidi Tedrisat Kanunu hangi tarihte kabul edilmiştir?",
+        "options": {
+          "A": "29 Ekim 1923",
+          "B": "3 Mart 1924",
+          "C": "1 Kasım 1928",
+          "D": "15 Nisan 1931",
+          "E": "12 Temmuz 1932"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "text": "Yeni Türk harflerinin (Latin alfabesinin) kabul edildiği tarih aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "1 Kasım 1928",
+          "B": "3 Mart 1924",
+          "C": "24 Kasım 1928",
+          "D": "12 Temmuz 1932",
+          "E": "15 Nisan 1931"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 4,
+        "text": "Yeni harfleri halka öğretmek amacıyla 1929 yılından itibaren yurt genelinde açılan eğitim kurumları aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Köy Enstitüleri",
+          "B": "Halkevleri",
+          "C": "Millet Mektepleri",
+          "D": "Türk Ocakları",
+          "E": "Darülfünun"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 5,
+        "text": "Mustafa Kemal Paşa'ya \"Başöğretmen\" unvanı hangi kurumun talimatnamesi ile verilmiştir?",
+        "options": {
+          "A": "Türk Dil Kurumu",
+          "B": "Türk Tarih Kurumu",
+          "C": "Millet Mektepleri",
+          "D": "Halkevleri",
+          "E": "Köy Enstitüleri"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "text": "1933 yılında yapılan Üniversite Reformu ile kapatılan Darülfünun'un yerine hangi üniversite kurulmuştur?",
+        "options": {
+          "A": "Ankara Üniversitesi",
+          "B": "İstanbul Üniversitesi",
+          "C": "Ege Üniversitesi",
+          "D": "Gazi Üniversitesi",
+          "E": "Hacettepe Üniversitesi"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "text": "Üniversite reformunun yapılması için Türkiye'ye davet edilen ve rapor hazırlayan İsviçreli bilim insanı kimdir?",
+        "options": {
+          "A": "Albert Malche",
+          "B": "John Dewey",
+          "C": "Alexander D. Macall",
+          "D": "Paul Monroe",
+          "E": "Ernest Reuter"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "text": "Türk Tarih Kurumu (Türk Tarihi Tetkik Cemiyeti) hangi yıl kurulmuştur?",
+        "options": {
+          "A": "1928",
+          "B": "1931",
+          "C": "1932",
+          "D": "1933",
+          "E": "1935"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "text": "Türk dilini yabancı dillerin boyunduruğundan kurtarmak ve zenginliğini ortaya çıkarmak amacıyla 1932'de kurulan kurum aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Türk Ocağı",
+          "B": "Türk Dil Kurumu",
+          "C": "Türk Tarih Kurumu",
+          "D": "Dil ve Tarih-Coğrafya Fakültesi",
+          "E": "Maarif Vekaleti"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "text": "Türkiye Cumhuriyeti'nde güzel sanatlar alanında eğitim vermek amacıyla kurulan ve günümüzdeki Mimar Sinan Güzel Sanatlar Üniversitesi'nin temeli olan kurum aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Darülbedayi",
+          "B": "Darülelhan",
+          "C": "Sanayi-i Nefise Mektebi",
+          "D": "Musiki Muallim Mektebi",
+          "E": "Ankara Devlet Konservatuvarı"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "text": "1932 yılında halkın kültürel ve sosyal gelişimini sağlamak, Cumhuriyet ideolojisini yaymak amacıyla açılan kurumlar hangisidir?",
+        "options": {
+          "A": "Türk Ocakları",
+          "B": "Millet Mektepleri",
+          "C": "Halkevleri",
+          "D": "Köy Enstitüleri",
+          "E": "Eğitmen Kursları"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 12,
+        "text": "Maarif Teşkilatı Hakkında Kanun hangi yıl çıkarılmıştır?",
+        "options": {
+          "A": "1924",
+          "B": "1926",
+          "C": "1928",
+          "D": "1933",
+          "E": "1940"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 13,
+        "text": "İlk Türk operası olan \"Özsoy\" operası kim tarafından bestelenmiştir?",
+        "options": {
+          "A": "Cemal Reşit Rey",
+          "B": "Ahmet Adnan Saygun",
+          "C": "Ulvi Cemal Erkin",
+          "D": "Hasan Ferit Alnar",
+          "E": "Necil Kazım Akses"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "text": "Türk Tarih Tezi'nin savunulduğu ve ders kitaplarına girmesini sağlayan ilk büyük kurultay (I. Türk Tarih Kongresi) hangi yıl toplanmıştır?",
+        "options": {
+          "A": "1930",
+          "B": "1932",
+          "C": "1935",
+          "D": "1937",
+          "E": "1939"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 15,
+        "text": "Osmanlı döneminden kalan ve tiyatro alanında faaliyet gösteren Darülbedayi, Cumhuriyet döneminde hangi isme dönüşmüştür?",
+        "options": {
+          "A": "İstanbul Şehir Tiyatroları",
+          "B": "Devlet Opera ve Balesi",
+          "C": "Cumhurbaşkanlığı Senfoni Orkestrası",
+          "D": "Devlet Konservatuvarı",
+          "E": "Güzel Sanatlar Akademisi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "text": "1924 yılında Atatürk'ün davetiyle Türkiye'ye gelerek eğitim sistemi hakkında rapor sunan Amerikalı eğitimci kimdir?",
+        "options": {
+          "A": "Albert Malche",
+          "B": "John Dewey",
+          "C": "Alfred Heilbronn",
+          "D": "Fritz Baade",
+          "E": "Philip Schwartz"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 17,
+        "text": "Köy Enstitüleri hangi Milli Eğitim Bakanı döneminde kurulmuştur?",
+        "options": {
+          "A": "Vasıf Çınar",
+          "B": "Mustafa Necati",
+          "C": "Reşit Galip",
+          "D": "Hasan Ali Yücel",
+          "E": "Saffet Arıkan"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 18,
+        "text": "Resim ve heykel alanında sanatçı yetiştirmek üzere açılan kurumların yaygınlaşmasını destekleyen ve ilk resim-heykel müzesini açan kurum hangisidir?",
+        "options": {
+          "A": "Darülfünun",
+          "B": "Güzel Sanatlar Akademisi",
+          "C": "Türk Ocakları",
+          "D": "Halkevleri",
+          "E": "Köy Enstitüleri"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 19,
+        "text": "Aşağıdakilerden hangisi Atatürk dönemi eğitim politikalarının temel ilkelerinden biri değildir?",
+        "options": {
+          "A": "Eğitimde laiklik",
+          "B": "Eğitimde millilik",
+          "C": "Eğitimde eşitlik ve karma eğitim",
+          "D": "Geleneksel medrese eğitimini yaygınlaştırma",
+          "E": "Uygulamalı ve işe yarar eğitim"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 20,
+        "text": "1921 yılında Kurtuluş Savaşı devam ederken Ankara'da toplanan ve Atatürk'ün eğitim vizyonunu ortaya koyduğu kongre hangisidir?",
+        "options": {
+          "A": "İzmir İktisat Kongresi",
+          "B": "Maarif Kongresi",
+          "C": "I. Tarih Kongresi",
+          "D": "I. Dil Kurultayı",
+          "E": "Sivas Kongresi"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Sınav 3: Sosyal ve Ekonomik Alanda Yapılan İnkılaplar",
+    "questions": [
+      {
+        "id": 1,
+        "text": "1925 yılında kabul edilen ve sosyal hayatta eşitliği sağlamayı, ayrıcalık ifade eden kıyafetleri kaldırmayı amaçlayan inkılap hangisidir?",
+        "options": {
+          "A": "Şapka İnkılabı",
+          "B": "Soyadı Kanunu",
+          "C": "Kılık Kıyafet Kanunu",
+          "D": "Tekke ve Zaviyelerin Kapatılması",
+          "E": "Hafta sonu tatilinin değiştirilmesi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "text": "Toplumda ayrıcalık belirten ağa, hacı, hafız, hoca, molla, efendi, bey, paşa gibi unvanların kaldırılmasını sağlayan kanun aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Tevhidi Tedrisat Kanunu",
+          "B": "Soyadı Kanunu",
+          "C": "Medeni Kanun",
+          "D": "Şapka Kanunu",
+          "E": "Kılık Kıyafet Kanunu"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "text": "Türkiye'de hafta sonu tatili Cuma gününden Pazar gününe hangi yıl alınmıştır?",
+        "options": {
+          "A": "1924",
+          "B": "1925",
+          "C": "1931",
+          "D": "1935",
+          "E": "1939"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "Miladi Takvim Türkiye'de hangi tarihten itibaren kullanılmaya başlanmıştır?",
+        "options": {
+          "A": "1 Ocak 1926",
+          "B": "29 Ekim 1923",
+          "C": "3 Mart 1924",
+          "D": "1 Kasım 1928",
+          "E": "1 Ocak 1930"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "text": "\"Tekke, zaviye ve türbelerin kapatılması\" hangi yıl gerçekleşmiştir?",
+        "options": {
+          "A": "1923",
+          "B": "1924",
+          "C": "1925",
+          "D": "1926",
+          "E": "1928"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "text": "Türkiye'nin ekonomik bağımsızlığını hedefleyen ve 17 Şubat 1923'te toplanan kongre aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Maarif Kongresi",
+          "B": "İzmir İktisat Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Erzurum Kongresi",
+          "E": "Ankara Sanayi Kongresi"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "text": "Çiftçinin üzerindeki ağır bir vergi yükü olan \"Aşar Vergisi\" hangi yıl kaldırılmıştır?",
+        "options": {
+          "A": "1923",
+          "B": "1924",
+          "C": "1925",
+          "D": "1926",
+          "E": "1927"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "text": "Özel teşebbüsü sanayiye teşvik etmek amacıyla 1927 yılında çıkarılan kanun hangisidir?",
+        "options": {
+          "A": "Teşvik-i Sanayi Kanunu",
+          "B": "Kabotaj Kanunu",
+          "C": "Çiftçiyi Topraklandırma Kanunu",
+          "D": "Milli Korunma Kanunu",
+          "E": "Varlık Vergisi Kanunu"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "text": "Türk karasularında yolcu ve yük taşıma hakkını yalnızca Türk gemilerine veren kanun aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Kapitülasyonların Kaldırılması",
+          "B": "Kabotaj Kanunu",
+          "C": "Teşvik-i Sanayi Kanunu",
+          "D": "Ticaret Kanunu",
+          "E": "Gümrük Tarife Kanunu"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "text": "Kabotaj Kanunu hangi tarihte yürürlüğe girmiştir?",
+        "options": {
+          "A": "1 Temmuz 1926",
+          "B": "1 Kasım 1928",
+          "C": "29 Ekim 1923",
+          "D": "3 Mart 1924",
+          "E": "15 Nisan 1931"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 11,
+        "text": "Cumhuriyet döneminde kurulan ilk özel banka (milli sermayeli) aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Ziraat Bankası",
+          "B": "İş Bankası",
+          "C": "Merkez Bankası",
+          "D": "Sümerbank",
+          "E": "Etibank"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 12,
+        "text": "İş Bankası'nın ilk genel müdürü kimdir?",
+        "options": {
+          "A": "İsmet İnönü",
+          "B": "Celal Bayar",
+          "C": "Fethi Okyar",
+          "D": "Şükrü Saraçoğlu",
+          "E": "Kazım Karabekir"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 13,
+        "text": "Devletçilik ilkesi doğrultusunda sanayi yatırımlarını planlamak ve yürütmek için hazırlanan Birinci Beş Yıllık Sanayi Planı hangi yıllar arasında uygulanmıştır?",
+        "options": {
+          "A": "1923-1928",
+          "B": "1927-1932",
+          "C": "1934-1938",
+          "D": "1938-1943",
+          "E": "1945-1950"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 14,
+        "text": "1933 yılında sanayi yatırımlarını finanse etmek ve kurulan fabrikaları yönetmek amacıyla kurulan banka hangisidir?",
+        "options": {
+          "A": "Merkez Bankası",
+          "B": "Sümerbank",
+          "C": "Etibank",
+          "D": "Sanayi ve Maadin Bankası",
+          "E": "Halk Bankası"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 15,
+        "text": "Madencilik faaliyetlerini desteklemek ve yeraltı kaynaklarını işletmek amacıyla kurulan banka hangisidir?",
+        "options": {
+          "A": "Etibank",
+          "B": "Sümerbank",
+          "C": "Ziraat Bankası",
+          "D": "İş Bankası",
+          "E": "Merkez Bankası"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "text": "Türk parasının değerini korumak ve para politikalarını yönetmek amacıyla Merkez Bankası hangi yıl kurulmuştur?",
+        "options": {
+          "A": "1924",
+          "B": "1925",
+          "C": "1930",
+          "D": "1933",
+          "E": "1935"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 17,
+        "text": "Aşağıdakilerden hangisi İzmir İktisat Kongresi'nde alınan kararlardan (Misak-ı İktisadi) biri değildir?",
+        "options": {
+          "A": "Hammaddesi yurt içinde olan sanayi dalları kurulmalıdır.",
+          "B": "Yabancı sermayeye kesinlikle karşı çıkılmalı, hiçbir yabancı yatırım kabul edilmemelidir.",
+          "C": "El işçiliğinden ve küçük imalattan süratle fabrikaya geçilmelidir.",
+          "D": "Özel sektörün gerçekleştiremediği yatırımlar devlet tarafından yapılmalıdır.",
+          "E": "Yerli malı kullanımı teşvik edilmelidir."
+        },
+        "answer": "B"
+      },
+      {
+        "id": 18,
+        "text": "Uzunluk ve ağırlık ölçü birimlerinde değişiklik yapılarak arşın, endaze, okka yerine metre ve kilograma geçilmesi hangi yıl kabul edilmiştir?",
+        "options": {
+          "A": "1925",
+          "B": "1928",
+          "C": "1931",
+          "D": "1934",
+          "E": "1935"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 19,
+        "text": "Atatürk döneminde tarımı desteklemek amacıyla aşağıdakilerden hangisi yapılmamıştır?",
+        "options": {
+          "A": "Aşar vergisinin kaldırılması",
+          "B": "Ziraat Bankası'nın kredi imkanlarının artırılması",
+          "C": "Yüksek Ziraat Enstitüsü'nün açılması",
+          "D": "Toprak Reformu Kanunu ile tüm ağaların topraklarının bedelsiz dağıtılması",
+          "E": "Tohum ıslah istasyonlarının ve örnek çiftliklerin kurulması"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 20,
+        "text": "1938 yılında uygulanmak üzere hazırlanan ancak II. Dünya Savaşı'nın çıkması nedeniyle uygulanamayan plan hangisidir?",
+        "options": {
+          "A": "I. Beş Yıllık Sanayi Planı",
+          "B": "II. Beş Yıllık Sanayi Planı",
+          "C": "Milli Korunma Planı",
+          "D": "Kalkınma Planı",
+          "E": "Çiftçiyi Topraklandırma Planı"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Sınav 4: Mustafa Kemal Atatürk Dönemi’nde Dış Politika",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Türkiye'nin Lozan Antlaşması'ndan sonra dış politikada karşılaştığı ilk uluslararası sorun aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Hatay Sorunu",
+          "B": "Boğazlar Sorunu",
+          "C": "Yabancı Okullar Sorunu",
+          "D": "Musul Sorunu",
+          "E": "Nüfus Mübadelesi"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "text": "Yabancı okullar sorunu Türkiye ile en çok hangi ülke arasında gerginliğe neden olmuştur?",
+        "options": {
+          "A": "İngiltere",
+          "B": "Fransa",
+          "C": "İtalya",
+          "D": "Yunanistan",
+          "E": "SSCB"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "text": "Türkiye ile Yunanistan arasında 1930 yılında çözüme kavuşturulan ve ilişkilerin düzelmesini sağlayan sorun hangisidir?",
+        "options": {
+          "A": "Kıbrıs Sorunu",
+          "B": "Kıta Sahanlığı Sorunu",
+          "C": "Nüfus Mübadelesi (Etabli) Sorunu",
+          "D": "Kardak Kayalıkları",
+          "E": "Batı Trakya Türkleri Sorunu"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "text": "Türkiye ile İngiltere arasında yaşanan Musul Sorunu, hangi antlaşma ile çözülmüş ve Musul Irak'a (İngiliz mandasına) bırakılmıştır?",
+        "options": {
+          "A": "1921 Ankara Antlaşması",
+          "B": "1926 Ankara Antlaşması",
+          "C": "Lozan Antlaşması",
+          "D": "Montrö Sözleşmesi",
+          "E": "Gümrü Antlaşması"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "text": "Türkiye, batı sınırlarının güvenliğini sağlamak amacıyla 1934 yılında hangi bölgesel paktı kurmuştur?",
+        "options": {
+          "A": "Sadabat Paktı",
+          "B": "Balkan Antantı",
+          "C": "Kellog-Briand Paktı",
+          "D": "Küçük Antant",
+          "E": "Bağdat Paktı"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "text": "Aşağıdakilerden hangisi Balkan Antantı'na üye devletlerden biri değildir?",
+        "options": {
+          "A": "Türkiye",
+          "B": "Yunanistan",
+          "C": "Yugoslavya",
+          "D": "Romanya",
+          "E": "Bulgaristan"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 7,
+        "text": "Türkiye, doğu sınırlarının güvenliğini sağlamak amacıyla 1937'de hangi paktı imzalamıştır?",
+        "options": {
+          "A": "Sadabat Paktı",
+          "B": "Balkan Antantı",
+          "C": "CENTO",
+          "D": "Varşova Paktı",
+          "E": "Kuzey Atlantik Paktı"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "text": "Sadabat Paktı'na üye olan devletler aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+        "options": {
+          "A": "Türkiye - İran - Irak - Afganistan",
+          "B": "Türkiye - Suriye - Irak - İran",
+          "C": "Türkiye - SSCB - İran - Afganistan",
+          "D": "Türkiye - Irak - Mısır - Suriye",
+          "E": "Türkiye - İran - Pakistan - Afganistan"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "text": "Boğazların egemenliğini tamamen Türkiye'ye veren ve Boğazlar Komisyonunu kaldıran sözleşme aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Sevr Antlaşması",
+          "B": "Lozan Boğazlar Sözleşmesi",
+          "C": "Montrö Boğazlar Sözleşmesi",
+          "D": "Hünkar İskelesi Antlaşması",
+          "E": "Londra Boğazlar Sözleşmesi"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 10,
+        "text": "Montrö Boğazlar Sözleşmesi hangi yıl imzalanmıştır?",
+        "options": {
+          "A": "1932",
+          "B": "1934",
+          "C": "1936",
+          "D": "1938",
+          "E": "1939"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "text": "Türkiye, Milletler Cemiyeti'ne (Cemiyet-i Akvam) hangi yıl üye olmuştur?",
+        "options": {
+          "A": "1928",
+          "B": "1930",
+          "C": "1932",
+          "D": "1934",
+          "E": "1936"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 12,
+        "text": "Milletler Cemiyeti'ne Türkiye'yi davet eden ülke aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "İngiltere",
+          "B": "Fransa",
+          "C": "İspanya",
+          "D": "SSCB",
+          "E": "İtalya"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 13,
+        "text": "Hatay, hangi yıl anavatan Türkiye'ye katılmıştır?",
+        "options": {
+          "A": "1936",
+          "B": "1937",
+          "C": "1938",
+          "D": "1939",
+          "E": "1940"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 14,
+        "text": "Bağımsız Hatay Cumhuriyeti'nin ilk ve tek cumhurbaşkanı kimdir?",
+        "options": {
+          "A": "Tayfur Sökmen",
+          "B": "Abdurrahman Melek",
+          "C": "Şükrü Kaya",
+          "D": "Tevfik Rüştü Aras",
+          "E": "Celal Bayar"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "text": "Atatürk'ün dış politikada \"Kırk asırlık Türk yurdu düşman elinde esir kalamaz\" diyerek şahsi bir mesele olarak gördüğü yer neresidir?",
+        "options": {
+          "A": "Musul",
+          "B": "Kıbrıs",
+          "C": "Batı Trakya",
+          "D": "Hatay",
+          "E": "Kerkük"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 16,
+        "text": "Türkiye Cumhuriyeti'nin dış politikasının temel ilkesi aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Turancılık",
+          "B": "Yurtta Sulh Cihanda Sulh",
+          "C": "İslamcılık",
+          "D": "Yayılmacılık",
+          "E": "Yalnızcılık (İzolasyon)"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 17,
+        "text": "Fransa ile Türkiye arasında Osmanlı borçları meselesi hangi yıl varılan mutabakatla yeniden yapılandırılarak çözülmüştür?",
+        "options": {
+          "A": "1928 / 1933",
+          "B": "1924",
+          "C": "1939",
+          "D": "1945",
+          "E": "1954"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "text": "1932 yılında Türkiye'nin Milletler Cemiyeti'ne girmesiyle birlikte uluslararası siyasette daha aktif rol almaya başladığı dönemde en uzun süre Dışişleri Bakanlığı yapan devlet adamı kimdir?",
+        "options": {
+          "A": "İsmet İnönü",
+          "B": "Bekir Sami Bey",
+          "C": "Tevfik Rüştü Aras",
+          "D": "Hasan Saka",
+          "E": "Fatin Rüştü Zorlu"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 19,
+        "text": "Atatürk döneminde Türk gemisi Bozkurt ile Fransız gemisi Lotus'un Ege Denizi'nde çarpışması sonucu Lahey Adalet Divanı'na taşınan ve Türkiye'nin lehine sonuçlanan olay hangi isimle bilinir?",
+        "options": {
+          "A": "Razgrad Olayı",
+          "B": "Wagon-Lits (Vagon Li) Olayı",
+          "C": "Bozkurt-Lotus Olayı",
+          "D": "Etabli Sorunu",
+          "E": "Demirtaş Olayı"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 20,
+        "text": "1933 yılında İstanbul'daki Fransız yataklı vagon şirketinde Türkçe konuşulduğu için Türk işçilere ceza verilmesi üzerine başlayan ve Türk diline sahip çıkma amacını taşıyan protesto olayı hangisidir?",
+        "options": {
+          "A": "Razgrad Olayı",
+          "B": "Vagon Li Olayı",
+          "C": "Bozkurt-Lotus Olayı",
+          "D": "Bursa Olayı",
+          "E": "Menemen Olayı"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Sınav 5: II. Dünya Savaşı Süreci",
+    "questions": [
+      {
+        "id": 1,
+        "text": "II. Dünya Savaşı hangi olayın ardından başlamıştır?",
+        "options": {
+          "A": "Almanya'nın Avusturya'yı ilhak etmesi",
+          "B": "Almanya'nın Polonya'yı işgal etmesi",
+          "C": "Japonya'nın Pearl Harbor'a saldırması",
+          "D": "İtalya'nın Habeşistan'a saldırması",
+          "E": "Almanya'nın Fransa'ya saldırması"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "text": "II. Dünya Savaşı sırasında Türkiye'nin izlediği dış politikanın temel karakteri aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Almanya'nın yanında savaşa girmek",
+          "B": "Müttefiklerin yanında aktif olarak savaşmak",
+          "C": "Denge politikası izleyerek savaş dışı kalmak (Aktif Tarafsızlık)",
+          "D": "SSCB ile ittifak kurarak savaşa girmek",
+          "E": "İtalya ile Akdeniz'de işbirliği yapmak"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "text": "Türkiye'de II. Dünya Savaşı'nın ekonomik olumsuzluklarını hafifletmek ve karaborsayı engellemek amacıyla 1940'ta çıkarılan kanun hangisidir?",
+        "options": {
+          "A": "Teşvik-i Sanayi Kanunu",
+          "B": "Milli Korunma Kanunu",
+          "C": "Varlık Vergisi Kanunu",
+          "D": "Toprak Mahsulleri Vergisi Kanunu",
+          "E": "Tekalif-i Milliye"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "text": "1942 yılında olağanüstü savaş koşulları öne sürülerek, haksız kazanç sağlayanlardan bir defaya mahsus olmak üzere alınan tartışmalı vergi hangisidir?",
+        "options": {
+          "A": "Aşar Vergisi",
+          "B": "Ağnam Vergisi",
+          "C": "Toprak Mahsulleri Vergisi",
+          "D": "Varlık Vergisi",
+          "E": "Emlak Vergisi"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 5,
+        "text": "II. Dünya Savaşı yıllarında kırsal kesimdeki üretimi artırmak ve vergilendirmek için çıkarılan kanun aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Varlık Vergisi",
+          "B": "Toprak Mahsulleri Vergisi",
+          "C": "Çiftçiyi Topraklandırma Kanunu",
+          "D": "Köy Enstitüleri Kanunu",
+          "E": "Milli Korunma Kanunu"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "text": "II. Dünya Savaşı'nın sonlarına doğru müttefik devletlerin (İngiltere ve AB",
+        "options": {
+          "D": "San Francisco Konferansı",
+          "A": "Yalta Konferansı",
+          "B": "Potsdam Konferansı",
+          "C": "Adana Görüşmeleri",
+          "E": "Lozan Konferansı"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 7,
+        "text": "1943 yılında İsmet İnönü, Winston Churchill ve Franklin D. Roosevelt'in bir araya geldiği ve Türkiye'nin savaşa girmesinin istendiği görüşme nerede yapılmıştır?",
+        "options": {
+          "A": "Kahire",
+          "B": "Tahran",
+          "C": "Moskova",
+          "D": "Casablanca",
+          "E": "Yalta"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "text": "Türkiye, San Francisco Konferansı'na katılıp Birleşmiş Milletler'in kurucu üyelerinden biri olabilmek için hangi adımı atmıştır?",
+        "options": {
+          "A": "NATO'ya başvurmuştur",
+          "B": "Almanya ve Japonya'ya sembolik olarak savaş ilan etmiştir",
+          "C": "Montrö Sözleşmesi'ni feshetmiştir",
+          "D": "Kore'ye asker göndermimiştir",
+          "E": "Marshall Planı'nı imzalamıştır"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "text": "II. Dünya Savaşı yıllarında Türkiye'de Cumhurbaşkanlığı görevini kim yürütmüştür?",
+        "options": {
+          "A": "Mustafa Kemal Atatürk",
+          "B": "Celal Bayar",
+          "C": "İsmet İnönü",
+          "D": "Refik Saydam",
+          "E": "Şükrü Saraçoğlu"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 10,
+        "text": "Ekmek karnesi uygulaması Türkiye'de hangi dönemde yapılmıştır?",
+        "options": {
+          "A": "I. Dünya Savaşı",
+          "B": "Kurtuluş Savaşı",
+          "C": "1929 Ekonomik Buhranı",
+          "D": "II. Dünya Savaşı",
+          "E": "1974 Kıbrıs Barış Harekatı"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 11,
+        "text": "Müttefik Devletler'in Nazi Almanyası'nı kesin olarak mağlup etmek için Fransa kıyılarına yaptığı büyük askeri harekat hangisidir?",
+        "options": {
+          "A": "Barbarossa Harekatı",
+          "B": "Normandiya Çıkarması",
+          "C": "Kartal Hücumu",
+          "D": "Pearl Harbor Baskını",
+          "E": "Midway Muharebesi"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 12,
+        "text": "SSCB'nin II. Dünya Savaşı sonrasında Türkiye'den Kars ve Ardahan'ı istemesi ve Boğazlarda üs talep etmesi Türkiye'yi dış politikada kime yakınlaştırmıştır?",
+        "options": {
+          "A": "Çin",
+          "B": "Almanya",
+          "C": "İtalya",
+          "D": "İngiltere ve ABD (Batı Bloku)",
+          "E": "Bağlantısızlar Bloku"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 13,
+        "text": "II. Dünya Savaşı'nı bitiren olay aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Almanya'nın teslim olması",
+          "B": "ABD'nin Japonya'ya (Hiroşima ve Nagazaki) atom bombası atması",
+          "C": "İtalya'da Mussolini'nin devrilmesi",
+          "D": "Birleşmiş Milletler'in kurulması",
+          "E": "Normandiya Çıkarması"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "text": "Soğuk Savaş döneminin başlamasına zemin hazırlayan, Avrupa'yı ikiye bölen konferanslardan biri aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Yalta Konferansı",
+          "B": "Bandung Konferansı",
+          "C": "Belgrad Konferansı",
+          "D": "Cenevre Konferansı",
+          "E": "Helsinki Konferansı"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "text": "II. Dünya Savaşı sırasında Refik Saydam'ın vefatı üzerine Başbakanlık görevine getirilen kişi kimdir?",
+        "options": {
+          "A": "Celal Bayar",
+          "B": "Şükrü Saraçoğlu",
+          "C": "Hasan Saka",
+          "D": "Şemsettin Günaltay",
+          "E": "Recep Peker"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 16,
+        "text": "II. Dünya Savaşı yıllarında Türkiye'de geceleri ışıkların kapatılması, sığınakların hazırlanması gibi uygulamalara ne ad verilir?",
+        "options": {
+          "A": "Seferberlik",
+          "B": "Sıkıyönetim",
+          "C": "Karartma",
+          "D": "Ambargo",
+          "E": "Pasif Korunma"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 17,
+        "text": "II. Dünya Savaşı sonrasında dünyada kalıcı barışı sağlamak amacıyla kurulan uluslararası örgüt hangisidir?",
+        "options": {
+          "A": "Milletler Cemiyeti",
+          "B": "Birleşmiş Milletler",
+          "C": "NATO",
+          "D": "Varşova Paktı",
+          "E": "Avrupa Birliği"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 18,
+        "text": "Aşağıdakilerden hangisi II. Dünya Savaşı'nın mihver (saldırgan) devletlerinden biri değildir?",
+        "options": {
+          "A": "Almanya",
+          "B": "İtalya",
+          "C": "Japonya",
+          "D": "Fransa",
+          "E": "Macaristan"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 19,
+        "text": "Almanya'nın SSCB'ye saldırmasıyla başlayan harekatın adı nedir?",
+        "options": {
+          "A": "Barbarossa Harekatı",
+          "B": "Sea Lion (Deniz Aslanı)",
+          "C": "Pearl Harbor",
+          "D": "Overlord",
+          "E": "Kursk Muharebesi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "text": "1945 yılında Türkiye'de çok partili hayata geçişin iç siyasi dinamikleri dışında en önemli dış siyasi nedeni aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Türkiye'nin NATO'ya girmek istemesi",
+          "B": "Birleşmiş Milletler Bildirgesi ve demokratik Batı blokunda yer alma hedefi",
+          "C": "SSCB'nin Türkiye'ye ekonomik yardım vaadi",
+          "D": "Avrupa Birliği'ne uyum yasaları",
+          "E": "Marshall Planı'nın şartı olması"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sınav 6: Atatürk Düşünce Sistemi Çerçevesinde Atatürk İlkeleri",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Atatürk ilkelerinden hangisi yeniliklere açık olmayı, çağdaşlaşmayı ve sürekli gelişimi ifade eder?",
+        "options": {
+          "A": "Cumhuriyetçilik",
+          "B": "Milliyetçilik",
+          "C": "Halkçılık",
+          "D": "Laiklik",
+          "E": "İnkılapçılık"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 2,
+        "text": "\"Egemenlik kayıtsız şartsız milletindir.\" sözü doğrudan hangi Atatürk ilkesiyle ilişkilidir?",
+        "options": {
+          "A": "Cumhuriyetçilik",
+          "B": "Devletçilik",
+          "C": "Laiklik",
+          "D": "İnkılapçılık",
+          "E": "Devletçilik"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "text": "Toplumda sınıf mücadelesini reddeden, kanun önünde eşitliği savunan ve sosyal adaleti hedefleyen Atatürk ilkesi hangisidir?",
+        "options": {
+          "A": "Milliyetçilik",
+          "B": "Cumhuriyetçilik",
+          "C": "Halkçılık",
+          "D": "Laiklik",
+          "E": "Devletçilik"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "text": "Soyadı Kanunu'nun kabulü ve ayrıcalık bildiren unvanların kaldırılması en çok hangi ilkenin gereğidir?",
+        "options": {
+          "A": "Devletçilik",
+          "B": "Halkçılık",
+          "C": "Laiklik",
+          "D": "Cumhuriyetçilik",
+          "E": "Milliyetçilik"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "text": "Türk Tarih Kurumu ve Türk Dil Kurumu'nun kurulması, Kabotaj Kanunu'nun çıkarılması hangi ilkenin doğrudan bir sonucudur?",
+        "options": {
+          "A": "Laiklik",
+          "B": "Devletçilik",
+          "C": "İnkılapçılık",
+          "D": "Milliyetçilik",
+          "E": "Cumhuriyetçilik"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 6,
+        "text": "Akıl ve bilimi rehber edinen, devlet ve din işlerinin birbirinden ayrılmasını öngören Atatürk ilkesi aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "İnkılapçılık",
+          "B": "Devletçilik",
+          "C": "Laiklik",
+          "D": "Halkçılık",
+          "E": "Milliyetçilik"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 7,
+        "text": "Özel sektörün sermaye yetersizliği nedeniyle yapamadığı büyük yatırımların bizzat devlet eliyle yapılmasını öngören ilke hangisidir?",
+        "options": {
+          "A": "Milliyetçilik",
+          "B": "Devletçilik",
+          "C": "Halkçılık",
+          "D": "İnkılapçılık",
+          "E": "Cumhuriyetçilik"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "text": "Aşağıdaki inkılaplardan hangisi Cumhuriyetçilik ilkesi doğrultusunda yapılmamıştır?",
+        "options": {
+          "A": "TBMM'nin açılması",
+          "B": "Saltanatın kaldırılması",
+          "C": "Halifeliğin kaldırılması",
+          "D": "Çok partili hayata geçiş denemeleri",
+          "E": "Teşvik-i Sanayi Kanunu'nun çıkarılması"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 9,
+        "text": "Halifeliğin kaldırılması (3 Mart 1924) aşağıdaki ilkelerden en çok hangileri ile ilgilidir?",
+        "options": {
+          "A": "Laiklik - Cumhuriyetçilik",
+          "B": "Devletçilik - Halkçılık",
+          "C": "Milliyetçilik - Devletçilik",
+          "D": "İnkılapçılık - Devletçilik",
+          "E": "Cumhuriyetçilik - Milliyetçilik"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "text": "Aşar vergisinin kaldırılması en çok hangi ilke doğrultusunda köylüyü rahatlatmak için yapılmıştır?",
+        "options": {
+          "A": "Milliyetçilik",
+          "B": "Laiklik",
+          "C": "Halkçılık",
+          "D": "İnkılapçılık",
+          "E": "Cumhuriyetçilik"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "text": "Birinci Beş Yıllık Sanayi Planı'nın uygulanması doğrudan hangi ilke ile ilgilidir?",
+        "options": {
+          "A": "Milliyetçilik",
+          "B": "Cumhuriyetçilik",
+          "C": "İnkılapçılık",
+          "D": "Devletçilik",
+          "E": "Halkçılık"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 12,
+        "text": "Tekke, zaviye ve türbelerin kapatılması öncelikle hangi ilkeyle ilgilidir?",
+        "options": {
+          "A": "Devletçilik",
+          "B": "Cumhuriyetçilik",
+          "C": "Milliyetçilik",
+          "D": "Laiklik",
+          "E": "Halkçılık"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 13,
+        "text": "Şapka ve kılık kıyafet inkılabı, toplumun modern görünüm kazanmasını hedeflediği için öncelikle hangi ilkenin kapsamındadır?",
+        "options": {
+          "A": "Cumhuriyetçilik",
+          "B": "Devletçilik",
+          "C": "İnkılapçılık",
+          "D": "Milliyetçilik",
+          "E": "Halkçılık"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 14,
+        "text": "Atatürk ilkeleri 1924 Anayasası'na hangi yıl dahil edilmiştir?",
+        "options": {
+          "A": "1924",
+          "B": "1928",
+          "C": "1934",
+          "D": "1937",
+          "E": "1945"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 15,
+        "text": "\"Bizim milletimiz derin bir maziye sahiptir. Bu sebeple milli kültürümüzü araştırıp ortaya çıkarmalıyız.\" diyen birinin benimsediği temel ilke hangisidir?",
+        "options": {
+          "A": "Milliyetçilik",
+          "B": "Laiklik",
+          "C": "Devletçilik",
+          "D": "Cumhuriyetçilik",
+          "E": "Halkçılık"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "text": "Medeni Kanun'un kabulü ile kadınlara sosyal ve ekonomik hakların verilerek erkeklerle eşit hale getirilmesi hangi iki ilkenin ortak sonucudur?",
+        "options": {
+          "A": "Devletçilik - Milliyetçilik",
+          "B": "Halkçılık - Laiklik",
+          "C": "Cumhuriyetçilik - Devletçilik",
+          "D": "İnkılapçılık - Milliyetçilik",
+          "E": "Laiklik - Devletçilik"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 17,
+        "text": "Aşağıdakilerden hangisi Atatürk'ün milliyetçilik anlayışının bir özelliği değildir?",
+        "options": {
+          "A": "Birleştirici ve bütünleştiricidir.",
+          "B": "Irkçılığı (kafatası milliyetçiliğini) reddeder.",
+          "C": "Ümmetçilik anlayışını savunur.",
+          "D": "Sınıf ayrımına karşı çıkar.",
+          "E": "Laik ve demokratik özellikler taşır."
+        },
+        "answer": "C"
+      },
+      {
+        "id": 18,
+        "text": "Saltanatın kaldırılması (1 Kasım 1922) öncelikle hangi ilkenin gereğidir?",
+        "options": {
+          "A": "Cumhuriyetçilik",
+          "B": "Laiklik",
+          "C": "Halkçılık",
+          "D": "Milliyetçilik",
+          "E": "Devletçilik"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 19,
+        "text": "Atatürk inkılaplarının durağanlaşmasını engelleyen ve sürekli olarak çağın ihtiyaçlarına göre yenilenmesini öngören ilke nedir?",
+        "options": {
+          "A": "Halkçılık",
+          "B": "Laiklik",
+          "C": "İnkılapçılık",
+          "D": "Devletçilik",
+          "E": "Cumhuriyetçilik"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 20,
+        "text": "Atatürk'ün temel ilkeleri kaç tanedir (Altı Ok)?",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "7",
+          "E": "8"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Sınav 7: Bütünleyici İlkeler",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Atatürk ilkelerinden Cumhuriyetçilik ve Milliyetçilik ilkelerinin doğal bir sonucu olan ve \"Milletin kendi geleceğini kendi iradesiyle belirlemesi\" anlamına gelen bütünleyici ilke hangisidir?",
+        "options": {
+          "A": "Milli Egemenlik",
+          "B": "Akılcılık ve Bilimsellik",
+          "C": "Çağdaşlaşma",
+          "D": "Milli Bağımsızlık",
+          "E": "Yurtta Sulh Cihanda Sulh"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "text": "Kurtuluş Savaşı'nın yapılma amacı ve dış politikanın temeli olan, başka devletlerin boyunduruğu altına girmemeyi ifade eden bütünleyici ilke hangisidir?",
+        "options": {
+          "A": "Milli Egemenlik",
+          "B": "Milli Bağımsızlık",
+          "C": "İnsan ve İnsanlık Sevgisi",
+          "D": "Akılcılık",
+          "E": "Çağdaşlık"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "text": "\"Hayatta en hakiki mürşit ilimdir, fendir.\" sözü Atatürk'ün hangi bütünleyici ilkesini vurgular?",
+        "options": {
+          "A": "Milli Bağımsızlık",
+          "B": "Milli Egemenlik",
+          "C": "Akılcılık ve Bilimsellik",
+          "D": "Çağdaşlaşma",
+          "E": "Milli Birlik ve Beraberlik"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "text": "Atatürk'ün \"Yurtta Sulh, Cihanda Sulh\" ilkesi hangi temel ilkenin bütünleyicisidir ve dış politikaya yansımıştır?",
+        "options": {
+          "A": "Milliyetçilik",
+          "B": "Devletçilik",
+          "C": "Halkçılık",
+          "D": "Laiklik",
+          "E": "Cumhuriyetçilik"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 5,
+        "text": "Milli Birlik ve Beraberlik ilkesi, Atatürk'ün hangi temel ilkesinin doğal bir uzantısıdır?",
+        "options": {
+          "A": "Cumhuriyetçilik",
+          "B": "Laiklik",
+          "C": "Devletçilik",
+          "D": "Milliyetçilik",
+          "E": "İnkılapçılık"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 6,
+        "text": "Çağdaşlaşma ve Batılılaşma hedefi en çok hangi temel ilkenin bütünleyicisidir?",
+        "options": {
+          "A": "İnkılapçılık",
+          "B": "Devletçilik",
+          "C": "Milliyetçilik",
+          "D": "Halkçılık",
+          "E": "Laiklik"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 7,
+        "text": "Kapitülasyonların kaldırılması öncelikle hangi bütünleyici ilkenin bir gereğidir?",
+        "options": {
+          "A": "Milli Egemenlik",
+          "B": "Akılcılık",
+          "C": "Milli Bağımsızlık",
+          "D": "Çağdaşlaşma",
+          "E": "İnsan Sevgisi"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "text": "TBMM'nin açılması, hangi bütünleyici ilkenin eyleme dönüşmüş halidir?",
+        "options": {
+          "A": "Milli Egemenlik",
+          "B": "Çağdaşlaşma",
+          "C": "Bilimsellik",
+          "D": "Milli Birlik",
+          "E": "İnsanlık Sevgisi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "text": "Medreselerin kapatılıp modern okulların açılması, batıl inançların yasaklanması hangi bütünleyici ilke ile doğrudan ilişkilidir?",
+        "options": {
+          "A": "Milli Bağımsızlık",
+          "B": "Milli Birlik",
+          "C": "Akılcılık ve Bilimsellik",
+          "D": "Yurtta Sulh Cihanda Sulh",
+          "E": "Milli Egemenlik"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 10,
+        "text": "Türkiye'nin Milletler Cemiyeti'ne üye olması hangi bütünleyici ilke doğrultusunda atılmış bir adımdır?",
+        "options": {
+          "A": "Akılcılık",
+          "B": "Milli Egemenlik",
+          "C": "Milli Birlik",
+          "D": "Yurtta Sulh, Cihanda Sulh",
+          "E": "Çağdaşlaşma"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 11,
+        "text": "Atatürk'ün dış politikada saldırganlıktan uzak durması ve komşularıyla paktlar kurması (Balkan, Sadabat vb.) hangi ilkenin sonucudur?",
+        "options": {
+          "A": "İnkılapçılık",
+          "B": "Yurtta ve Dünyada Barış",
+          "C": "Milli Birlik",
+          "D": "Bilimsellik",
+          "E": "Egemenlik"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 12,
+        "text": "Vatanın bütünlüğünün tehlikede olduğu zamanlarda milletin tek yürek olması, sınıf kavgalarının reddedilmesi hangi bütünleyici ilkedir?",
+        "options": {
+          "A": "Milli Egemenlik",
+          "B": "Milli Birlik ve Beraberlik",
+          "C": "Akılcılık",
+          "D": "Çağdaşlaşma",
+          "E": "Bağımsızlık"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 13,
+        "text": "Devlet yönetiminde din kurallarının değil, pozitif bilimin ve aklın esas alınması \"Laiklik\" dışında hangi bütünleyici ilkeyle ifade edilir?",
+        "options": {
+          "A": "Çağdaşlaşma",
+          "B": "İnsanlık Sevgisi",
+          "C": "Milli Egemenlik",
+          "D": "Akılcılık ve Bilimsellik",
+          "E": "Barışçılık"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 14,
+        "text": "Türk Milleti'nin muasır medeniyetler seviyesinin üzerine çıkma ülküsü hangi bütünleyici ilkeyi yansıtır?",
+        "options": {
+          "A": "Çağdaşlaşma (Batılılaşma)",
+          "B": "Milli Egemenlik",
+          "C": "Akılcılık",
+          "D": "Yurtta Sulh Cihanda Sulh",
+          "E": "İnsan Sevgisi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "text": "\"Bağımsızlık benim karakterimdir.\" diyen Mustafa Kemal Atatürk bu sözüyle neyi vurgulamıştır?",
+        "options": {
+          "A": "Milli Egemenlik",
+          "B": "İnsan Sevgisi",
+          "C": "Milli Bağımsızlık",
+          "D": "Akılcılık",
+          "E": "Çağdaşlık"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 16,
+        "text": "Irk, din, dil ayrımı gözetmeksizin herkesin yasa önünde eşit olması \"Halkçılık\" temel ilkesinin yanı sıra hangi bütünleyici ilkeyle de ilgilidir?",
+        "options": {
+          "A": "İnsan ve İnsanlık Sevgisi",
+          "B": "Bağımsızlık",
+          "C": "Egemenlik",
+          "D": "Bilimsellik",
+          "E": "Çağdaşlaşma"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 17,
+        "text": "Aşağıdakilerden hangisi bütünleyici ilkelerden biri değildir?",
+        "options": {
+          "A": "Milli Egemenlik",
+          "B": "Akılcılık ve Bilimsellik",
+          "C": "Devletçilik",
+          "D": "Milli Bağımsızlık",
+          "E": "Yurtta Sulh Cihanda Sulh"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 18,
+        "text": "Kurtuluş Savaşı sırasındaki Tekalif-i Milliye emirlerinin başarıyla uygulanması milletin en çok hangi yönünü (bütünleyici ilkeyi) gösterir?",
+        "options": {
+          "A": "Çağdaşlaşma",
+          "B": "Bilimsellik",
+          "C": "Milli Birlik ve Beraberlik",
+          "D": "İnsanlık sevgisi",
+          "E": "Egemenlik"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 19,
+        "text": "Saltanatın Kaldırılması (1922) işlemi, Milli Bağımsızlık ve Milli Egemenlik ilkelerinden hangisi ile doğrudan ve öncelikli olarak ilişkilidir?",
+        "options": {
+          "A": "Yalnızca Bağımsızlık",
+          "B": "Milli Egemenlik",
+          "C": "Bilimsellik",
+          "D": "Çağdaşlaşma",
+          "E": "Yurtta Sulh"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 20,
+        "text": "Erzurum Kongresi'nde \"Kuvayımilliyeyi amil, iradeimilliyeyi hakim kılmak esastır\" maddesi sırasıyla hangi iki bütünleyici ilkeyi ifade eder?",
+        "options": {
+          "A": "Çağdaşlaşma - Bilimsellik",
+          "B": "Milli Bağımsızlık - Milli Egemenlik",
+          "C": "İnsan Sevgisi - Barışçılık",
+          "D": "Akılcılık - Birlik Beraberlik",
+          "E": "Barışçılık - Çağdaşlaşma"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sınav 8: Darbelerin Gölgesinde Türkiye (1960 - 1980)",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Türkiye Cumhuriyeti tarihinde gerçekleşen ilk askeri darbe hangi tarihte olmuştur?",
+        "options": {
+          "A": "27 Mayıs 1960",
+          "B": "12 Mart 1971",
+          "C": "12 Eylül 1980",
+          "D": "28 Şubat 1997",
+          "E": "15 Temmuz 2016"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "text": "27 Mayıs 1960 darbesi ile iktidardan uzaklaştırılan siyasi parti aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Cumhuriyet Halk Partisi (CHP)",
+          "B": "Demokrat Parti (DP)",
+          "C": "Adalet Partisi (AP)",
+          "D": "Milli Selamet Partisi (MSP)",
+          "E": "Milliyetçi Hareket Partisi (MHP)"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "text": "27 Mayıs 1960 darbesi sonrasında ülkeyi yönetmek için kurulan askeri cunta (kurul) hangisidir?",
+        "options": {
+          "A": "Milli Güvenlik Konseyi",
+          "B": "Milli Birlik Komitesi",
+          "C": "Yurtta Sulh Konseyi",
+          "D": "Temsil Heyeti",
+          "E": "Yüksek Askeri Şura"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "text": "1960 darbesi sonrası Demokrat Partililerin yargılandığı mahkeme nerede kurulmuştur?",
+        "options": {
+          "A": "Yassıada",
+          "B": "İmralı Adası",
+          "C": "Silivri",
+          "D": "Sincan",
+          "E": "Ankara Merkez Komutanlığı"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "text": "Yassıada yargılamaları sonucunda idam edilen Başbakan kimdir?",
+        "options": {
+          "A": "Celal Bayar",
+          "B": "Adnan Menderes",
+          "C": "Fatin Rüştü Zorlu",
+          "D": "Hasan Polatkan",
+          "E": "Süleyman Demirel"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "text": "27 Mayıs darbesinden sonra hazırlanan ve halk oylamasıyla kabul edilen, özgürlükçü ve temel haklara geniş yer veren anayasa hangisidir?",
+        "options": {
+          "A": "1921 Anayasası",
+          "B": "1924 Anayasası",
+          "C": "1961 Anayasası",
+          "D": "1982 Anayasası",
+          "E": "2010 Anayasa Değişikliği"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 7,
+        "text": "1961 Anayasası ile kurulan ve anayasaya uygunluk denetimi yapan yüksek mahkeme hangisidir?",
+        "options": {
+          "A": "Yargıtay",
+          "B": "Danıştay",
+          "C": "Sayıştay",
+          "D": "Anayasa Mahkemesi",
+          "E": "Uyuşmazlık Mahkemesi"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 8,
+        "text": "1961 Anayasası yasama organını nasıl düzenlemiştir?",
+        "options": {
+          "A": "Sadece TBMM",
+          "B": "Millet Meclisi ve Cumhuriyet Senatosu olmak üzere iki kanatlı",
+          "C": "Sadece Cumhuriyet Senatosu",
+          "D": "Temsilciler Meclisi",
+          "E": "Danışma Meclisi"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "text": "12 Mart 1971 Muhtırası kime verilmiştir ve istifasına neden olmuştur?",
+        "options": {
+          "A": "İsmet İnönü",
+          "B": "Süleyman Demirel",
+          "C": "Bülent Ecevit",
+          "D": "Nihat Erim",
+          "E": "Ferit Melen"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "text": "1974 yılında \"Ayşe tatile çıksın\" parolasıyla gerçekleştirilen Kıbrıs Barış Harekatı sırasında Türkiye'nin başbakanı kimdir?",
+        "options": {
+          "A": "Süleyman Demirel",
+          "B": "Necmettin Erbakan",
+          "C": "Bülent Ecevit",
+          "D": "Alparslan Türkeş",
+          "E": "Nihat Erim"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "text": "1960'larda Türkiye'den işçi göçünün en yoğun olarak yaşandığı ülke neresidir?",
+        "options": {
+          "A": "ABD",
+          "B": "Fransa",
+          "C": "İngiltere",
+          "D": "Almanya",
+          "E": "SSCB"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 12,
+        "text": "1973 yılında Boğaziçi Köprüsü'nün açılarak Avrupa ile Asya'nın birbirine bağlandığı dönemde Cumhurbaşkanı kimdir?",
+        "options": {
+          "A": "Celal Bayar",
+          "B": "Cemal Gürsel",
+          "C": "Cevdet Sunay",
+          "D": "Fahri Korutürk",
+          "E": "Kenan Evren"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 13,
+        "text": "Demokrat Parti'nin siyasi mirasını devralan ve 1960'lı-70'li yıllara damgasını vuran Süleyman Demirel liderliğindeki parti hangisidir?",
+        "options": {
+          "A": "Cumhuriyet Halk Partisi",
+          "B": "Adalet Partisi",
+          "C": "Anavatan Partisi",
+          "D": "Doğru Yol Partisi",
+          "E": "Milli Selamet Partisi"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "text": "1970'li yıllarda dünyada yaşanan hangi küresel kriz Türkiye ekonomisini derinden sarsmıştır?",
+        "options": {
+          "A": "1929 Ekonomik Buhranı",
+          "B": "Petrol Krizi",
+          "C": "Asya Finans Krizi",
+          "D": "2008 Küresel Krizi",
+          "E": "Dot-com Balonu"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 15,
+        "text": "1971 Muhtırası sonrası anayasada yapılan 1971-1973 değişikliklerinin genel amacı nedir?",
+        "options": {
+          "A": "Özgürlükleri daha da genişletmek",
+          "B": "Yürütmeyi güçlendirmek ve temel haklara sınırlamalar getirmek",
+          "C": "Çok partili hayatı sonlandırmak",
+          "D": "Senatoyu kaldırmak",
+          "E": "Başkanlık sistemine geçmek"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 16,
+        "text": "\"Milliyetçi Cephe (M",
+        "options": {
+          "C": "1975-1977",
+          "A": "1950-1960",
+          "B": "1961-1965",
+          "D": "1983-1991",
+          "E": "1999-2002"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 17,
+        "text": "Türkiye'nin ilk koalisyon hükümeti hangi yıl, kimin başbakanlığında kurulmuştur?",
+        "options": {
+          "A": "1961 - İsmet İnönü (CHP-AP)",
+          "B": "1974 - Bülent Ecevit (CHP-MSP)",
+          "C": "1991 - Süleyman Demirel (DYP-SHP)",
+          "D": "1975 - Süleyman Demirel (MC Hükümeti)",
+          "E": "1950 - Adnan Menderes"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "text": "1961 Anayasası'nda yer alan ve üniversitelere tanınan hak aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Üniversitelerin kapatılması",
+          "B": "Bilimsel ve idari özerklik",
+          "C": "Üniversitelerin Milli Eğitim Bakanlığına tam bağlanması",
+          "D": "Sadece devlet adamlarının üniversiteye girebilmesi",
+          "E": "YÖK'ün kurulması"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 19,
+        "text": "1960 darbesi sonrasında idam edilen bakanlar kimlerdir?",
+        "options": {
+          "A": "Fatin Rüştü Zorlu - Hasan Polatkan",
+          "B": "Celal Bayar - Refik Koraltan",
+          "C": "Namık Gedik - Ethem Menderes",
+          "D": "Samet Ağaoğlu - Tevfik İleri",
+          "E": "Fuat Köprülü - Hasan Saka"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "text": "27 Mayıs darbesini yapan Milli Birlik Komitesi'nin başkanı kimdir?",
+        "options": {
+          "A": "Kenan Evren",
+          "B": "Cemal Gürsel",
+          "C": "Alparslan Türkeş",
+          "D": "Cevdet Sunay",
+          "E": "Faruk Gürler"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Sınav 9: 12 Eylül 1980 Darbesi ve Sonrasında Türkiye",
+    "questions": [
+      {
+        "id": 1,
+        "text": "12 Eylül 1980 askeri darbesini yapan Milli Güvenlik Konseyi'nin (MGK) başkanı kimdir?",
+        "options": {
+          "A": "Cemal Gürsel",
+          "B": "Cevdet Sunay",
+          "C": "Fahri Korutürk",
+          "D": "Kenan Evren",
+          "E": "Turgut Özal"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 2,
+        "text": "12 Eylül darbesinin gerekçeleri arasında aşağıdakilerden hangisi gösterilemez?",
+        "options": {
+          "A": "Ekonomik istikrarsızlık ve enflasyon",
+          "B": "Sağ-sol çatışmaları ve terör olayları",
+          "C": "Cumhurbaşkanının aylarca seçilememesi",
+          "D": "Kıbrıs Barış Harekatı'nın başarısızlığı",
+          "E": "Siyasi partiler arasındaki kutuplaşma"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "text": "12 Eylül darbesi sonrasında siyasi liderler (Demirel, Ecevit, Erbakan, Türkeş) nerede gözetim altında tutulmuştur/sürgüne gönderilmiştir?",
+        "options": {
+          "A": "Yassıada",
+          "B": "Zincirbozan (Gelibolu/Çanakkale)",
+          "C": "İmralı",
+          "D": "Ulucanlar",
+          "E": "Silivri"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "text": "12 Eylül darbesi sonrası hazırlanan 1982 Anayasası'nı hazırlayan kurul hangisidir?",
+        "options": {
+          "A": "Temsilciler Meclisi",
+          "B": "Danışma Meclisi",
+          "C": "Milli Birlik Komitesi",
+          "D": "Kurucu Meclis",
+          "E": "TBMM"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "text": "1982 Anayasası, referandumda yüzde kaç \"Evet\" oyu ile kabul edilmiştir?",
+        "options": {
+          "A": "%61",
+          "B": "%75",
+          "C": "%91.37",
+          "D": "%98",
+          "E": "%51"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "text": "1982 Anayasası'nın kabulüyle birlikte Türkiye'nin 7. Cumhurbaşkanı sıfatını doğrudan kazanan kişi kimdir?",
+        "options": {
+          "A": "Turgut Özal",
+          "B": "Süleyman Demirel",
+          "C": "Kenan Evren",
+          "D": "Ahmet Necdet Sezer",
+          "E": "Abdullah Gül"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 7,
+        "text": "1980 öncesi Türkiye ekonomisinde ithal ikameci modelden ihracata dayalı serbest piyasa ekonomisine geçişi simgeleyen ekonomik kararların adı nedir?",
+        "options": {
+          "A": "24 Ocak Kararları",
+          "B": "5 Nisan Kararları",
+          "C": "27 Mayıs Kararları",
+          "D": "28 Şubat Kararları",
+          "E": "12 Eylül Ekonomik Paketi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "text": "24 Ocak 1980 kararlarının mimarı olan ve daha sonra darbe hükümetinde başbakan yardımcılığı yapan, 1983'te de başbakan olan siyasetçi kimdir?",
+        "options": {
+          "A": "Bülend Ulusu",
+          "B": "Süleyman Demirel",
+          "C": "Turgut Özal",
+          "D": "Mesut Yılmaz",
+          "E": "Tansu Çiller"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "text": "1982 Anayasası'nın 1961 Anayasası'na göre en belirgin farkı nedir?",
+        "options": {
+          "A": "Çift meclisli olması",
+          "B": "Daha özgürlükçü olması",
+          "C": "Yürütme organını (Cumhurbaşkanı) güçlendirmesi",
+          "D": "Anayasa Mahkemesini kaldırması",
+          "E": "Sosyal devlet ilkesini kaldırması"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 10,
+        "text": "12 Eylül darbesinden sonra siyasi partilerin kapatılmasının ardından, 1983 seçimlerine katılmasına izin verilen partilerden ve seçimi kazanarak tek başına iktidar olan parti hangisidir?",
+        "options": {
+          "A": "Adalet Partisi (AP)",
+          "B": "Milliyetçi Demokrasi Partisi (MDP)",
+          "C": "Halkçı Parti (HP)",
+          "D": "Anavatan Partisi (ANAP)",
+          "E": "Sosyaldemokrat Halkçı Parti (SHP)"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 11,
+        "text": "1980 sonrası dönemde kurulan ve üniversiteleri tek bir çatı altında toplayarak denetim altına alan kurum hangisidir?",
+        "options": {
+          "A": "Milli Eğitim Bakanlığı",
+          "B": "Üniversitelerarası Kurul",
+          "C": "Yükseköğretim Kurulu (YÖK)",
+          "D": "TÜBİTAK",
+          "E": "ÖSYM"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 12,
+        "text": "Eski siyasilerin (Demirel, Ecevit vb.) siyasi yasakları hangi yıl yapılan halk oylaması (referandum) ile ucu ucuna kıl payı farkla kaldırılmıştır?",
+        "options": {
+          "A": "1982",
+          "B": "1983",
+          "C": "1987",
+          "D": "1989",
+          "E": "1991"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 13,
+        "text": "1989 yılında TBMM tarafından seçilerek Türkiye'nin 8. Cumhurbaşkanı olan lider kimdir?",
+        "options": {
+          "A": "Süleyman Demirel",
+          "B": "Turgut Özal",
+          "C": "Kenan Evren",
+          "D": "Tansu Çiller",
+          "E": "Necmettin Erbakan"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "text": "Türkiye Cumhuriyeti'nin ilk kadın başbakanı olan siyasetçi kimdir?",
+        "options": {
+          "A": "Tansu Çiller",
+          "B": "Meral Akşener",
+          "C": "Işılay Saygın",
+          "D": "Behice Boran",
+          "E": "Türkan Saylan"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "text": "1990'lı yıllarda Türkiye siyasetinde yaşanan koalisyon dönemlerinde, refah partisi lideri Necmettin Erbakan ile Tansu Çiller'in kurduğu hükümete ne ad verilir?",
+        "options": {
+          "A": "ANAYOL Hükümeti",
+          "B": "REFAHYOL Hükümeti",
+          "C": "DSP-MHP-ANAP Hükümeti",
+          "D": "Milliyetçi Cephe",
+          "E": "SHP-DYP Hükümeti"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 16,
+        "text": "28 Şubat 1997 tarihinde gerçekleşen ve siyasete askeri müdahale olarak tarihe geçen sürece ne ad verilir?",
+        "options": {
+          "A": "Post-modern Darbe",
+          "B": "E-muhtıra",
+          "C": "Balyoz Harekatı",
+          "D": "12 Mart Muhtırası",
+          "E": "Gece Yarısı Muhtırası"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 17,
+        "text": "1999 yılında gerçekleşen ve Türkiye'yi derinden sarsan büyük Marmara (Gölcük) Depremi hangi tarihte olmuştur?",
+        "options": {
+          "A": "17 Ağustos",
+          "B": "12 Kasım",
+          "C": "23 Ekim",
+          "D": "1 Mayıs",
+          "E": "24 Ocak"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "text": "1982 Anayasası'nda yer alan ve darbecilerin yargılanmasını engelleyen geçici 15. madde hangi yıl yapılan anayasa referandumu ile kaldırılmıştır?",
+        "options": {
+          "A": "2001",
+          "B": "2007",
+          "C": "2010",
+          "D": "2017",
+          "E": "1995"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 19,
+        "text": "1980-2000 yılları arasında Türkiye'nin dış politikasında yoğun mesai harcadığı, AB ile bütünleşme sürecindeki en önemli aşamalardan biri olan \"Gümrük Birliği\"ne Türkiye hangi yıl girmiştir?",
+        "options": {
+          "A": "1987",
+          "B": "1990",
+          "C": "1996",
+          "D": "1999",
+          "E": "2004"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 20,
+        "text": "1999 yılında Helsinki Zirvesi'nde Türkiye'ye Avrupa Birliği konusunda verilen statü nedir?",
+        "options": {
+          "A": "Tam Üye",
+          "B": "Aday Ülke (Adaylık Statüsü)",
+          "C": "İmtiyazlı Ortak",
+          "D": "Gözlemci Üye",
+          "E": "Ortak Üye"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Sınav 10: Genel Tekrar",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Aşağıdakilerden hangisi Osmanlı Devleti'nde anayasal düzene geçişin en önemli dönüm noktasıdır?",
+        "options": {
+          "A": "Sened-i İttifak",
+          "B": "Tanzimat Fermanı",
+          "C": "Kanun-i Esasi (I. Meşrutiyet)",
+          "D": "Islahat Fermanı",
+          "E": "Mecelle"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "text": "Türkiye'de hukuk birliğini sağlayan gelişme nedir?",
+        "options": {
+          "A": "Türk Medeni Kanunu'nun kabulü",
+          "B": "Şeriye ve Evkaf Vekaletinin kaldırılması",
+          "C": "Teşkilat-ı Esasiye'nin ilanı",
+          "D": "Saltanatın kaldırılması",
+          "E": "İstiklal Mahkemeleri"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "text": "Tevhidi Tedrisat Kanunu'nun (3 Mart 1924) en temel amacı nedir?",
+        "options": {
+          "A": "Üniversiteleri özerk yapmak",
+          "B": "Eğitim-öğretimi birleştirmek ve Milli Eğitim Bakanlığına bağlamak",
+          "C": "Latin harflerini öğretmek",
+          "D": "Köylüye okuma yazma öğretmek",
+          "E": "Dini eğitimi yaygınlaştırmak"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "text": "Şapka Kanunu hangi ilke ile doğrudan ilişkilidir?",
+        "options": {
+          "A": "İnkılapçılık ve Laiklik",
+          "B": "Milliyetçilik ve Devletçilik",
+          "C": "Halkçılık ve Cumhuriyetçilik",
+          "D": "Devletçilik ve Laiklik",
+          "E": "Cumhuriyetçilik ve Milliyetçilik"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "text": "İzmir İktisat Kongresi'nde alınan Misak-ı İktisadi kararları daha çok hangi hedefe yöneliktir?",
+        "options": {
+          "A": "Siyasi bağımsızlığa",
+          "B": "Demokratikleşmeye",
+          "C": "Ekonomik bağımsızlığa (Milli Ekonomi)",
+          "D": "Laik devlete",
+          "E": "Hukuk devrimine"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "text": "Boğazlar üzerinde Türkiye'nin tam egemenliğini sağlayan uluslararası antlaşma/sözleşme nedir?",
+        "options": {
+          "A": "Lozan",
+          "B": "Montrö",
+          "C": "Hünkar İskelesi",
+          "D": "Sevr",
+          "E": "Mudanya"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "text": "II. Dünya Savaşı yıllarında Türkiye'de kıtlığı önlemek amacıyla alınan tedbirlerin yasal dayanağı nedir?",
+        "options": {
+          "A": "Tekalif-i Milliye",
+          "B": "Varlık Vergisi",
+          "C": "Milli Korunma Kanunu",
+          "D": "Toprak Reformu",
+          "E": "Kabotaj Kanunu"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "text": "Devletin yönetim şeklinin Cumhuriyet olduğu 1921 Anayasası'na hangi yıl yapılan değişiklikle eklenmiştir?",
+        "options": {
+          "A": "1921",
+          "B": "1923",
+          "C": "1924",
+          "D": "1928",
+          "E": "1937"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "text": "Aşağıdaki ilkelerden hangisi ekonomide özel teşebbüsün yetersiz kaldığı yerde devletin yatırımlara öncülük etmesini savunur?",
+        "options": {
+          "A": "Milliyetçilik",
+          "B": "Cumhuriyetçilik",
+          "C": "Halkçılık",
+          "D": "Devletçilik",
+          "E": "Laiklik"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 10,
+        "text": "Türkiye Cumhuriyeti'nde ilk çok partili seçimler (çok partili hayata geçiş) hangi yıl yapılmıştır?",
+        "options": {
+          "A": "1945",
+          "B": "1946",
+          "C": "1950",
+          "D": "1960",
+          "E": "1983"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 11,
+        "text": "27 Mayıs 1960 darbesi sonrasında kabul edilen, güçler ayrılığına dayalı ve senato içeren anayasa hangisidir?",
+        "options": {
+          "A": "1921",
+          "B": "1924",
+          "C": "1961",
+          "D": "1982",
+          "E": "2017"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 12,
+        "text": "12 Eylül 1980 askeri darbesini gerçekleştiren lider kimdir?",
+        "options": {
+          "A": "Kenan Evren",
+          "B": "Cemal Gürsel",
+          "C": "Cevdet Sunay",
+          "D": "Alparslan Türkeş",
+          "E": "Çevik Bir"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 13,
+        "text": "Kıbrıs Barış Harekatı (1974) yapıldığında Türkiye'de başbakan kimdi?",
+        "options": {
+          "A": "Süleyman Demirel",
+          "B": "Bülent Ecevit",
+          "C": "Necmettin Erbakan",
+          "D": "Nihat Erim",
+          "E": "Turgut Özal"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "text": "Türkiye'nin NATO'ya üye olması hangi olaydan sonra gerçekleşmiştir?",
+        "options": {
+          "A": "II. Dünya Savaşı",
+          "B": "Kore Savaşı",
+          "C": "Kıbrıs Barış Harekatı",
+          "D": "1960 Darbesi",
+          "E": "Vietnam Savaşı"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 15,
+        "text": "1926 yılında Türkiye ile İngiltere arasında imzalanan Ankara Antlaşması ile çözülen sorun hangisidir?",
+        "options": {
+          "A": "Boğazlar",
+          "B": "Hatay",
+          "C": "Musul",
+          "D": "Yabancı Okullar",
+          "E": "Dış Borçlar"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 16,
+        "text": "Mustafa Kemal Atatürk'e \"Atatürk\" soyadını kim/hangi kurum vermiştir?",
+        "options": {
+          "A": "İsmet İnönü",
+          "B": "Türk Dil Kurumu",
+          "C": "TBMM",
+          "D": "Milli Eğitim Bakanlığı",
+          "E": "Bakanlar Kurulu"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 17,
+        "text": "Türk Medeni Kanunu'nun kabulü ile;\nI. Resmi nikah zorunluluğu getirilmesi\nII. Kadınlara siyasi haklar verilmesi\nIII. Tek eşliliğin kabulü\nyukarıdakilerden hangileri sağlanmıştır?",
+        "options": {
+          "A": "Yalnız I",
+          "B": "I ve II",
+          "C": "I ve III",
+          "D": "II ve III",
+          "E": "I, II ve III"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 18,
+        "text": "\"Devletin dini İslamdır\" ibaresinin anayasadan çıkarılması hangi temel ilke doğrultusunda atılmış bir adımdır?",
+        "options": {
+          "A": "Laiklik",
+          "B": "Milliyetçilik",
+          "C": "Devletçilik",
+          "D": "Halkçılık",
+          "E": "Cumhuriyetçilik"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 19,
+        "text": "Atatürk döneminde kurulan dış güvenlik paktları sırasıyla hangileridir?",
+        "options": {
+          "A": "Balkan Antantı - Sadabat Paktı",
+          "B": "NATO - CENTO",
+          "C": "Küçük Antant - Bağdat Paktı",
+          "D": "Varşova Paktı - Balkan Antantı",
+          "E": "Sadabat Paktı - CENTO"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "text": "Türkiye Cumhuriyeti'nde kadınlar aşağıdaki haklardan hangisini en son elde etmişlerdir?",
+        "options": {
+          "A": "Belediye seçimlerinde oy kullanma (1930)",
+          "B": "Muhtarlık seçimlerine katılma (1933)",
+          "C": "Milletvekili seçme ve seçilme (1934)",
+          "D": "Mirasta eşitlik (1926)",
+          "E": "Boşanma hakkı (1926)"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Sınav 11: Ünite 1",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Kuva-yı Milliye ile yapılan mücadele dönemi aşağıdaki hangi gelişmeyle \nbirlikte sonra ermiştir?",
+        "options": {
+          "A": "Sakarya Savaşı’ndan sonra",
+          "B": "I. İnönü Savaşı’ndan sonra",
+          "C": "Büyük Taarruz’dan sonra",
+          "D": "Mudanya Mütarekesi’nden sonra",
+          "E": "II. İnönü Savaşı’ndan sonra"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "text": "İtilaf Devletleri hangi savaştan sonra Londra’da bir konferans \ndüzenleyerek Sevr Antlaşması’ndan taviz verebileceklerini \ngöstermişlerdir?",
+        "options": {
+          "A": "I. İnönü Muharebesi",
+          "B": "II. İnönü Muharebesi",
+          "C": "Sakarya Muharebesi",
+          "D": "Büyük Taarruz Muharebesi",
+          "E": "Kütahya-Eskişehir Muharebesi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "text": "Batum’daki egemenlik hakkımız hangi antlaşmadan sonra Gürcistan’a \nverilmiştir?",
+        "options": {
+          "A": "Kars Antlaşması",
+          "B": "Gümrü Antlaşması",
+          "C": "Moskova Antlaşması",
+          "D": "Mudanya Mütarekesi",
+          "E": "Lozan Antlaşması"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "text": "TBMM Hükümeti’nin ilk imzaladığı ve Türkiye adının geçtiği ilk antlaşma \naşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Ankara Antlaşması",
+          "B": "Gümrü Antlaşması",
+          "C": "Kars Antlaşması",
+          "D": "Lozan Antlaşması",
+          "E": "Moskova Antlaşması"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "text": "İstiklal Marşımız hangi tarihte kabul edilmiştir?",
+        "options": {
+          "A": "19 Mayıs 1919",
+          "B": "23 Nisan 1920",
+          "C": "20 Ocak 1921",
+          "D": "12 Mart 1921",
+          "E": "29 Ekim 1923       \n \n \n \n\nMilli Mücadele’de Cepheler (Askeri ve Siyasi Gelişmeler)"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 6,
+        "text": "Gümrü, Moskova ve Ankara Antlaşmaları sırasıyla hangi devletlerle \nyapılmıştır?",
+        "options": {
+          "A": "Ermenistan-Fransa-Sovyet Rusya",
+          "B": "Fransa-Ermenistan-Sovyet Rusya",
+          "C": "Sovyet Rusya-Ermenistan-Fransa",
+          "D": "Ermenistan-Sovyet Rusya-Fransa",
+          "E": "Fransa-Sovyet Rusya-Ermenistan"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 7,
+        "text": "TBMM tarafından oluşturulan düzenli ordu ilk başarısını hangi savaşı \nkazanarak göstermiştir?",
+        "options": {
+          "A": "Sakarya Muharebesi’nde",
+          "B": "Büyük Taarruz Muharebesi’nde",
+          "C": "I. İnönü Muharebesi’nde",
+          "D": "Maraş Savunması’nda",
+          "E": "II. İnönü Muharebesi’nde"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "text": "İtilaf Devletleri TBMM Hükümeti’ni ilk defa resmen ne zaman \ntanımışlardır?",
+        "options": {
+          "A": "Lozan Antlaşması’nda",
+          "B": "Londra Konferansı’nda",
+          "C": "Moskova Antlaşması’nda",
+          "D": "San Remo Konferansı’nda",
+          "E": "Ankara Antlaşması’nda \n \nI. İtalya işgal ettiği bölgeleri boşaltmaya başladı, \nII. İtilaf Devletleri arasında görüş ayrılıkları su yüzüne çıkmaya başladı, \nIII. Fransa Ankara ile anlaşma yolları aramaya başladı."
+        },
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "text": "Yukarıda belirtilen gelişmeler hangi savaştan sonra ortaya çıkmıştır?",
+        "options": {
+          "A": "II. İnönü Muharebesi’nden sonra",
+          "B": "I. İnönü Muharebesi’nden sonra",
+          "C": "Doğu Harekâtı’ndan sonra",
+          "D": "Urfa Savunması’ndan sonra",
+          "E": "Sakarya Muharebesi’nden sonra"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "text": "Doğu sınırlarımızın tespiti ile ilgili olarak yapılan antlaşmaların doğru \nsıralaması aşağıdakilerden hangisinde verilmiştir?",
+        "options": {
+          "A": "Lozan-Ankara-Gümrü Antlaşmaları",
+          "B": "Gümrü-Moskova-Kars Antlaşmaları",
+          "C": "Ankara-Lozan-Gümrü Antlaşmaları",
+          "D": "Mudanya-Lozan-Moskova Antlaşmaları",
+          "E": "Moskova-Kars-Gümrü Antlaşmaları"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Sınav 12: Ünite 2",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Mustafa Kemal Paşa’nın, Başkomutanlık Kanunu’nun kendisine tanıdığı \nyetkilerle 7-8 Ağustos 1921’de yayımladığı yükümlülüklerin genel adı \naşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Kuva-yı Milliye",
+          "B": "Kuva-yı İnzibatiye",
+          "C": "Tekâlif-i Milliye",
+          "D": "Takrir-i Sükûn",
+          "E": "Düyun-ı Umumiye"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "text": "Saltanatın kaldırılmasında etkili olan hususlar arasında aşağıdakilerden \nhangisi bulunmaktadır?",
+        "options": {
+          "A": "TBMM’nin Lozan görüşmelerine tek başına girmek istemesi",
+          "B": "Cumhuriyetçi düşüncelerin güçlenmesi",
+          "C": "Anadolu’da işgal ve protesto mitinglerinin yapılması",
+          "D": "Halifenin halk üzerinde etkisini sürdürmesi",
+          "E": "1921 Anayasası’nın laik olmaması"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "text": "Doğu Trakya’nın yeni bir savaşa başvurulmadan kurtarılması \naşağıdakilerden hangisinde gerçekleşen diplomatik bir zaferle olmuştur?",
+        "options": {
+          "A": "Ankara Antlaşması",
+          "B": "Mudanya Mütarekesi",
+          "C": "Lozan Antlaşması",
+          "D": "Moskova Antlaşması",
+          "E": "Gümrü Antlaşması"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "text": "Mustafa Kemal Paşa’ya “Mareşal” rütbesi ve “Gazi” unvanı hangi savaştan \nsonra verilmiştir?",
+        "options": {
+          "A": "Çanakkale Savaşları",
+          "B": "Büyük Taarruz",
+          "C": "Trablusgarp Savaşı",
+          "D": "I. Balkan Savaşı",
+          "E": "Sakarya Savaşı"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 5,
+        "text": "Lozan Antlaşması’ndan sonra Türkiye ile Yunanistan arasında en zor \nçözümlenen sorun hangisidir?",
+        "options": {
+          "A": "Boğazlar",
+          "B": "Adalar",
+          "C": "Trakya’nın boşaltılması",
+          "D": "Nüfus Mübadelesi",
+          "E": "Patrikhane \n\nMilli Mücadele’de Cepheler II (Askeri ve Siyasi Gelişmeler)"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 6,
+        "text": "Kurtuluş Savaşı'nın en sıkıntılı günlerinde, TBMM Hükümeti'nin \ngelirleri savaş giderlerini karşılamaya yetmiyordu. Aşağıdakilerin \nhangisiyle bu durumun giderilmesine çalışılmıştır?",
+        "options": {
+          "A": "Asker sayısının azaltılması",
+          "B": "Devletçilik ilkesinin uygulanması",
+          "C": "Kapitülasyonların kaldırılması",
+          "D": "Hıyanet-i Vataniye Kanunu'nun çıkarılması",
+          "E": "Tekâlif-i Milliye Emirlerinin çıkarılması"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 7,
+        "text": "13 Ekim 1921 de üç devletle imzalanan ve doğu sınırlarımızı tamamen \ngüvence altına alan antlaşma aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Mudanya Mütarekesi",
+          "B": "Lozan Antlaşması",
+          "C": "Kars Antlaşması",
+          "D": "Gümrü Antlaşması",
+          "E": "Ankara Antlaşması"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "text": "TBMM Hükümeti'nin tanınması ve siyasi yönden güçlenmesi ile ilgili olarak \nFransa'nın İngiltere'yle görüş ayrılığına düşmesine aşağıdaki \nantlaşmalardan hangisi neden olmuştur?",
+        "options": {
+          "A": "Gümrü Antlaşması",
+          "B": "Ankara Antlaşması",
+          "C": "Moskova Antlaşması",
+          "D": "Kars Antlaşması",
+          "E": "Mudanya Mütarekesi"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "text": "Mudanya Mütarekesi; \"İstanbul ve Boğazlar, TBMM Hükümeti'nin \nidaresine bırakılacaktır.\" hükmü, Osmanlı Devleti ile ilgili hangi durumu \ngöstermektedir?",
+        "options": {
+          "A": "Hukuken sona ereceğini",
+          "B": "Küçük bir devlet olarak kalacağını",
+          "C": "Anlaşma Devletleri’ne bağımlı kalacağını",
+          "D": "TBMM Hükümeti ile anlaşacağını",
+          "E": "Anlaşma Devletleri’ne itiraz edeceğini"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "text": "Lozan Antlaşması’ndan sonra aşağıdakilerden hangisi, Türkiye Cumhuriyeti \nhükümetleri için bir sorun oluşturmamıştır?",
+        "options": {
+          "A": "Türkiye-Irak sınırı",
+          "B": "Hatay Meselesi",
+          "C": "Boğazlar Meselesi",
+          "D": "Kapitülasyonlar",
+          "E": "Türk-Yunan ilişkileri"
+        },
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Sınav 13: Ünite 3",
+    "questions": [
+      {
+        "id": 1,
+        "text": "İtilaf Devletleri’nin Lozan Barış Görüşmelerine TBMM Hükümeti ile birlikte \nİstanbul Hükümetini de çağırmalarının yukarıdakilerden hangisi ya da \nhangilerine neden olduğu savunulabilir?",
+        "options": {
+          "A": "Yalnız III",
+          "B": "Yalnız I",
+          "C": "I ve II",
+          "D": "I, II ve III",
+          "E": "I ve III"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "text": "Cumhuriyet Dönemi’nde gerçekleştirilen inkılap hareketlerinin temel \namacı aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Çağdaş uygarlık düzeyine ulaşmak",
+          "B": "Türk milletinin bağımsızlığını sağlamak",
+          "C": "Ekonomik alanda kalkınmayı sağlamak",
+          "D": "Türkiye’yi Batılı ülkelerle rekabet edecek hâle getirmek",
+          "E": "Türkiye’nin savaşabilme yeteneğini artırmak"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "text": "Hilafet kurumunun sağlam temellere oturtulması ve Halifenin statüsünün \nbelirlenmesi hususunda, hangi ülkenin İslami cemaati ısrarcı bir tavır \ntakınmıştı?",
+        "options": {
+          "A": "Arnavutluk Müslümanları",
+          "B": "Fas Müslümanları",
+          "C": "Hint Müslümanları",
+          "D": "Irak Müslümanları",
+          "E": "İran Müslümanları"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "text": "Mustafa Kemal Paşa’nın II. Meclisten beklediği görev aşağıdakilerden \nhangisidir?",
+        "options": {
+          "A": "Vatanı kurtarmak",
+          "B": "İktisadi kalkınma",
+          "C": "Dış politikada atılım",
+          "D": "İnkılapları gerçekleştirme",
+          "E": "Saltanat sistemine son verme  \n \n \n \n \n \n \n\nSiyasal Alanda Yapılan İnkılaplar"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 5,
+        "text": "Ankara hangi tarihte başkent olmuştur?",
+        "options": {
+          "A": "1923",
+          "B": "1925",
+          "C": "1928",
+          "D": "1930",
+          "E": "1960"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 6,
+        "text": "Yeni Türk devletinin kurulmasından sonra Türkiye’de kurulan ilk siyasi \nparti hangisidir?",
+        "options": {
+          "A": "Ahali Fırkası",
+          "B": "Demokrat Parti",
+          "C": "İttihat ve Terakki Fırkası",
+          "D": "Hürriyet ve İtilaf Fırkası",
+          "E": "Halk Fırkası"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 7,
+        "text": "Halifeliğin Saltanatla birlikte kaldırılamayışının sebebi aşağıdakilerden \nhangisidir?",
+        "options": {
+          "A": "Türk kamuoyunun hazır olmayışı",
+          "B": "Terakkiperver Cumhuriyet Fırkasının karşı çıkması",
+          "C": "Lozan görüşmelerinde siyasal bir sorun olabilme ihtimali",
+          "D": "Müslüman dünyanın tepkisi",
+          "E": "Halifeliğin tek başına siyasal bir güç olamayacağı düşüncesi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "text": "“Egemenlik kayıtsız şartsız millettir.”  düşüncesi doğrultusunda aşağıdaki \nyeniliklerden hangisi gerçekleştirilmiştir?",
+        "options": {
+          "A": "Yeni hukuk sistemine geçilmesi",
+          "B": "Kabine sistemin hayata geçirilmesi",
+          "C": "1921 Anayasası’nın hazırlanması",
+          "D": "Milli Eğitim Teşkilat Kanunu’nun kabulü",
+          "E": "Saltanatın kaldırılması"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 9,
+        "text": "Halk Fırkasının ilk siyasi programının adı aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Dokuz Umde",
+          "B": "Kalkınma Programı",
+          "C": "Parti Tüzüğü",
+          "D": "Misâk-ı Milli Kararları",
+          "E": "Tekâlif-i Milliye Emirleri  \n \n \n \n \n \n \n\nSiyasal Alanda Yapılan İnkılaplar"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "text": "Saltanatın kaldırılmasının sonuçları arasında aşağıdakilerden hangisi \nbulunmaz?",
+        "options": {
+          "A": "Osmanlı Devleti hukuken sona erdi.",
+          "B": "Padişahlık makamı korundu.",
+          "C": "Milli egemenlik ilkesinin önünü açtı.",
+          "D": "Ankara Hükümeti ve İstanbul Hükümeti ikilemine son verildi.",
+          "E": "Cumhuriyet’in ilanına zemin hazırladı."
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Sınav 14: Ünite 4",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Türkiye’de Şeyh Sait İsyanı ve Menemen Olayı aşağıdakilerden hangisinin \nbir süre için ertelenmesine neden olmuştur?",
+        "options": {
+          "A": "Devletçilik politikasına",
+          "B": "Milletler Cemiyeti ile ilişki kurulmasına",
+          "C": "Dış ticarete ağırlık verilmesine",
+          "D": "Çok partili siyasi hayata geçilmesine",
+          "E": "Kadınlara siyasal haklar tanınmasına"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 2,
+        "text": "Türkiye Cumhuriyeti Devleti’nin ilk örgütlü muhalefet partisi \naşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Terakkiperver Cumhuriyet Fırkası",
+          "B": "Cumhuriyet Halk Fırkası",
+          "C": "Hürriyet ve İtilaf Fırkası",
+          "D": "Serbest Cumhuriyet Fırkası",
+          "E": "Ahali Cumhuriyet Fırkası"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "text": "Şeyh Sait İsyanı hangi sorunun İngilizlerin lehine sonuçlanmasına sebep \nolmuştur?",
+        "options": {
+          "A": "Kıbrıs Sorunu",
+          "B": "Boğazlar Sorunu",
+          "C": "Musul Sorunu",
+          "D": "Hatay Sorunu",
+          "E": "Doğu Trakya Sorunu"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "text": "Mustafa Kemal Paşa’nın telkinleriyle kurulan; ancak Cumhuriyet’e karşı \nolanların faaliyetleri nedeniyle kurucuları tarafından kapatılan siyasi parti \naşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Cumhuriyet Halk Fırkası",
+          "B": "Terakkiperver Cumhuriyet Fırkası",
+          "C": "Serbest Cumhuriyet Fırkası",
+          "D": "İttihat ve Terakki Fırkası",
+          "E": "Sulh ve Selamet-i Osmaniye Fırkası"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 5,
+        "text": "Terakkiperver Cumhuriyet Fırkası hangi kanuna dayanılarak kapatılmıştır?",
+        "options": {
+          "A": "Ceza Mahkemeleri",
+          "B": "Takrir-i Sükûn",
+          "C": "Ceza-Usul",
+          "D": "Medeni Kanun",
+          "E": "1922 tarihli Siyasi Partiler Kanunu \n \n \n\nCumhuriyet’in İlanı Sonrası Çok Partili Hayata Geçiş Çabaları ve Bazı Önemli \nGelişmeler"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "text": "Siyasi partiler ve özellikleri eşleştirmelerinden hangisi yanlıştır?",
+        "options": {
+          "A": "Halk Fırkası-Yeni Türk devletinin ilk siyasi partisidir.",
+          "B": "Terakkiperver Cumhuriyet Fırkası-Yeni Türk devletinin ilk muhalefet \npartisidir.",
+          "C": "Serbest Cumhuriyet Fırkası-Mustafa Kemal Paşa’nın desteği ile \nkurulmuştur.",
+          "D": "Terakkiperver Cumhuriyet Fırkası-Takrir-i Sükûn Kanunu ile \nkapatılmıştır.",
+          "E": "Serbest Cumhuriyet Fırkası-Ekonomide Devletçilik politikasını \nsavunmuştur."
+        },
+        "answer": "E"
+      },
+      {
+        "id": 7,
+        "text": "23 Aralık 1930’da meydana gelen Menemen Olayında katledilen ve bu \nolayla özdeşleşen kişi aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Şeyh Sait",
+          "B": "Kubilay",
+          "C": "Demirci Mehmet Efe",
+          "D": "Hasan Tahsin",
+          "E": "Şeyh Eşref"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "text": "Ali Fethi Bey, aşağıdaki hangi siyasi partinin genel başkanıdır?",
+        "options": {
+          "A": "İttihat ve Terakki Fırkası",
+          "B": "Milli Kalkınma Partisi",
+          "C": "Serbest Cumhuriyet Fırkası",
+          "D": "Türkiye Komünist Partisi",
+          "E": "Demokrat Parti"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "text": "Serbest Cumhuriyet Fırkasının özellikleri arasında aşağıdakilerden hangisi \nbulunmaz?",
+        "options": {
+          "A": "Yayılmacı",
+          "B": "Liberal",
+          "C": "Özgürlükçü",
+          "D": "Cumhuriyetçi",
+          "E": "Milliyetçi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "text": "İnkılaplara ve özelliklede Mustafa Kemal Paşa’nın şahsına düşmanlık hisleri \nbesleyen, menfaatleri zedelenmiş bazı kişilerin onu ortadan kaldırmak için \ntertipledikleri planlardan biri aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "31 Mart Vakası",
+          "B": "Reval Görüşmeleri",
+          "C": "Arap Ayaklanması",
+          "D": "İzmir Suikastı",
+          "E": "Süryani Ayaklanması"
+        },
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Sınav 15: Ünite 5",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Medeni Kanun’la hangi tür toplumsal ilişki veya yöntem düzenlenir?",
+        "options": {
+          "A": "Hırsızlık yapanla malı çalınan arasındaki ilişki",
+          "B": "Vergi yükümlüsü ile Maliye Bakanlığı arasındaki ilişki",
+          "C": "Bir öğrenci ile okul yönetimi arasındaki ilişkiler",
+          "D": "Alacaklı birinin yargıca başvurmasındaki yöntem",
+          "E": "Karı-koca arasındaki ilişkiler"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 2,
+        "text": "Kamu Hukuku’nun dalları arasında aşağıdakilerden hangisi bulunmaz?",
+        "options": {
+          "A": "Anayasa Hukuku",
+          "B": "İdare Hukuku",
+          "C": "Vergi Hukuku",
+          "D": "Aile Hukuku",
+          "E": "Ceza Hukuku"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "text": "Hangi tarihte bir Türk anayasası kabul edilmemiştir?",
+        "options": {
+          "A": "1876",
+          "B": "1921",
+          "C": "1924",
+          "D": "1960",
+          "E": "1982"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "Parlamenter Sistem’in tanımı aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Parlamentonun bulunduğu demokratik sistemler",
+          "B": "Hükümetin ayrı elde olup, halk tarafından seçildiği sistem",
+          "C": "Hükümetle parlamento arasında karşılıklı denge sistemi",
+          "D": "Hükümetin, başkan tarafından saptanıp, parlamentoya karşı bağımsız \nhareket edebilmesi",
+          "E": "Hükümetin parlamento tarafından seçilmesi"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 5,
+        "text": "Laiklik ilkesinin gerçekleşmesi anayasanın hangi tarihteki değişikliği ile \nmümkün olmuştur?",
+        "options": {
+          "A": "1923",
+          "B": "1924",
+          "C": "1928",
+          "D": "1937",
+          "E": "1980 \n \n \n \n \n \n \n\nTürk Hukuk İnkılabı"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 6,
+        "text": "Türk Hukuk İnkılabının gerekçeleri arasında aşağıdakilerden hangisi \nbulunmaz?",
+        "options": {
+          "A": "Hukukta birlikteliğin olmaması",
+          "B": "Mevcut kanunların ihtiyaçları karşılayamaması",
+          "C": "Mahkeme düzeninin modern usullerden uzak olması",
+          "D": "Şer’i kanunların yeniden etkinleştirilmek istenmesi",
+          "E": "Kadın hakları konusunda var olan eşitsizlikler"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 7,
+        "text": "Türk demokrasi tarihinde yapılmış anayasalar arasında aşağıdakilerden \nhangisi bulunmaktadır?",
+        "options": {
+          "A": "1855 Kanûn-ı Esâsî",
+          "B": "1944 Anayasası",
+          "C": "1931 Anayasası",
+          "D": "1924 Anayasası",
+          "E": "1927 Anayasası"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 8,
+        "text": "İsviçre Medeni Kanunu geniş kapsamlı bir incelemeden sonra Türk toplum \nyapısına uyarlandı ve TBMM’de kabul edildi (22 Nisan 1926). \nAşağıdakilerden hangisi bu kanunun kabul edilmesinin sebeplerinden birisi \ndeğildir?",
+        "options": {
+          "A": "Türk aile yapısına uygun olması",
+          "B": "Dilinin sade ve anlaşılır olması",
+          "C": "Kadın-erkek eşitliğine dayanmaması",
+          "D": "Uygulamada kolaylık sağlaması",
+          "E": "Hâkime geniş takdir yetkisi vermesi"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "text": "Türk hukuk tarihinin ilk medeni kanunu aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Mecelle",
+          "B": "Meşrutiyet",
+          "C": "Tanzimat",
+          "D": "Kanûn-ı Esâsî",
+          "E": "Sened-i İttifak"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "text": "1926’da kabul edilen Türk Ceza Kanunu hangi ülkenin Ceza Kanunu örnek \nalınarak hazırlanmıştır?",
+        "options": {
+          "A": "Fransa",
+          "B": "İtalya",
+          "C": "İngiltere",
+          "D": "Almanya",
+          "E": "Rusya"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Sınav 16: Ünite 6",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Tevhid-i Tedrisat kavramı hangi anlamda kullanılmaktadır?",
+        "options": {
+          "A": "Bütün eğitim kurumlarının devletin denetimi altına geçmesi",
+          "B": "Medreselerin ıslahı ile ilgili çıkarılan kanun",
+          "C": "Üniversite ile ilgili kanun",
+          "D": "İlköğretimin mecburi olması",
+          "E": "Sanat okullarına verilen isim"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "text": "Yeni Türk alfabesi hangi tarihte kabul edilmiştir?",
+        "options": {
+          "A": "20 Nisan 1924",
+          "B": "17 Şubat 1927",
+          "C": "1 Kasım 1928",
+          "D": "1 Haziran 1929",
+          "E": "26 Aralık 1929"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "text": "Türkler tarafından aşağıdaki alfabelerden hangisi kullanılmamıştır?",
+        "options": {
+          "A": "Latin alfabesi",
+          "B": "Arap alfabesi",
+          "C": "Sogd alfabesi",
+          "D": "Japon alfabesi",
+          "E": "Kiril alfabesi \n \nI. Tevhid-i Tedrisat Kanunu'nun çıkarılması,  \nII. Toprak reformunun yapılması, \nIII. Şer’iyye ve Evkaf Vekâleti’ne bağlı medreselerin kapatılması"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "Cumhuriyetin ilk yıllarında hayata geçirilen yukarıdaki inkılaplardan \nhangisi ya da hangileri laik devlet düzenine geçmek amacıyla ilgili değildir?",
+        "options": {
+          "A": "Yalnız I",
+          "B": "Yalnız II",
+          "C": "I ve II",
+          "D": "I ve III",
+          "E": "II ve III"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "text": "Türk Dil Kurumu’nun açılarak Türk dilinin gelişiminin araştırılması \naşağıdaki ilkelerden hangisiyle ilgilidir?",
+        "options": {
+          "A": "Milliyetçilik",
+          "B": "Halkçılık",
+          "C": "Devletçilik",
+          "D": "Laiklik",
+          "E": "İnkılapçılık \n \n \n\nEğitim ve Kültür Alanında Yapılan İnkılaplar"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 6,
+        "text": "Tevhid-i Tedrisat Kanunu’nun sağladığı gelişmeler arasında \naşağıdakilerden hangisi bulunmaz?",
+        "options": {
+          "A": "Ülkede var olan bütün eğitim kurumlarının tek çatı altında toplanması",
+          "B": "Öğretim ilkelerinde birlik sağlanması",
+          "C": "Eğitim programlarının çağdaşlaştırılması",
+          "D": "Kız ve erkek öğrencilerin ayrı sınıflarda okutulması ilkesinin kabul \nedilmesi",
+          "E": "Okuma, yazma ve öğrenmenin kolaylaştırılması"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 7,
+        "text": "Osmanlı Devleti’nde görülen sosyal ve kültür çatışmaların Türkiye \nCumhuriyeti Devleti’nde de görülmemesi için eğitim alanındaki yeniliklerin \nhangi esas üzerine yapılacağı prensip olarak kabul edilmiştir?",
+        "options": {
+          "A": "Laiklik",
+          "B": "Çağdaşlık",
+          "C": "Millilik",
+          "D": "Bilimsellik",
+          "E": "Birlik"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 8,
+        "text": "Atatürk döneminde Türk Tarih Kurumu’nun açılması aşağıdaki ilkelerden \nhangisiyle ilgilidir?",
+        "options": {
+          "A": "Milliyetçilik",
+          "B": "Halkçılık",
+          "C": "Devletçilik",
+          "D": "Laiklik",
+          "E": "İnkılapçılık"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "text": "Kütahya-Eskişehir Muharebelerinin en şiddetli günlerinde eğitim \nproblemlerinin tespiti için Ankara’da toplanan kongre aşağıdakilerden \nhangisidir?",
+        "options": {
+          "A": "Tarih Kongresi",
+          "B": "Dil Kongresi",
+          "C": "İktisat Kongresi",
+          "D": "Maarif Kongresi",
+          "E": "Sağlık Kongresi \n \nI. Yeni Türk harflerinin kabul edilmesi \nII. Millet Mekteplerinin açılması  \nIII. Üniversite reformunun hazırlanması"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 10,
+        "text": "Yukarıda verilen inkılapların kronolojik sıralaması aşağıdakilerden \nhangisidir?",
+        "options": {
+          "A": "I, II, III",
+          "B": "I, III, II",
+          "C": "III, II, I",
+          "D": "III, I, II",
+          "E": "II, I, III"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Sınav 17: Ünite 7",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Sosyal alanda yapılan inkılaplar arasında aşağıdakilerden hangisi \nbulunmaz?",
+        "options": {
+          "A": "Tekke ve zaviyelerin kapatılması",
+          "B": "Kılık Kıyafet Kanunu’nun çıkarılması",
+          "C": "Soyadı Kanunu’nun kabulü",
+          "D": "Takvim, saat ve ölçülerde değişiklikler",
+          "E": "Din adamlarına ibadet yerlerinde şapka takma mecburiyeti getirilmesi"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 2,
+        "text": "1924-1930 yılları arasında yapılan inkılap çalışmaları arasında \naşağıdakilerden hangisi bulunmaz?",
+        "options": {
+          "A": "Tekke, zaviye ve türbelerin kapatılması",
+          "B": "Yeni Türk harflerinin kabulü",
+          "C": "Türk kadınına seçme ve seçilme hakkının verilmesi",
+          "D": "Şapka Kanunu’nun çıkarılması",
+          "E": "Tevhid-i Tedrisat Kanunu’nun kabul edilmesi"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "text": "Rumî 1305 yılı Miladi olarak hangi yıla karşılık gelir?",
+        "options": {
+          "A": "1839",
+          "B": "1885",
+          "C": "1889",
+          "D": "1900",
+          "E": "1902"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "text": "Aşağıdaki inkılaplardan hangisi eğitim ve kültür hayatının kolaylaşmasını \nsağlamıştır?",
+        "options": {
+          "A": "Soyadı Kanunu",
+          "B": "Harf İnkılabı",
+          "C": "Şapka Kanunu",
+          "D": "Takvimde değişiklik",
+          "E": "Türbelerin kapatılması"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "text": "Soyadı Kanunu Atatürk ilkelerinden hangisi ile daha yakından ilgilidir?",
+        "options": {
+          "A": "Devletçilik",
+          "B": "Halkçılık",
+          "C": "Milliyetçilik",
+          "D": "Laiklik",
+          "E": "Cumhuriyetçilik \n \n \n \n \n \n\nSosyal Alanda Yapılan İnkılaplar \n \nI.  Medeni haklar \nII. Siyasi haklar \nIII. Sosyal haklar"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "text": "17 Şubat 1926 tarihinde kabul edilen Türk Medeni Kanunu’nun \nuygulanmaya konulmasıyla yukarıdaki alanlardan hangisi ya da \nhangilerinde kadın erkek eşitliği sağlanmış oldu?",
+        "options": {
+          "A": "Yalnız I",
+          "B": "II ve III",
+          "C": "I ve III",
+          "D": "I, II ve III",
+          "E": "Yalnız II"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 7,
+        "text": "Yeni Türk devleti, savaş sırasında ortaya çıkan kimsesiz ve yetim çocukların \nkötü durumlara düşmelerini önlemek için Türkiye Çocuk Esirgeme \nKurumu’nu (Himaye-i Etfal) hangi tarihte kurdu?",
+        "options": {
+          "A": "1920",
+          "B": "1921",
+          "C": "1923",
+          "D": "1930",
+          "E": "1925"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "text": "1934 yılında çıkarılan bir kanunla, toplumsal sınıfları ve ayrıcalıkları belirten \nunvanların kaldırılması, aşağıdaki ilkelerden hangisiyle doğrudan ilişkilidir?",
+        "options": {
+          "A": "Halkçılık",
+          "B": "Milliyetçilik",
+          "C": "Cumhuriyetçilik",
+          "D": "Devletçilik",
+          "E": "Laiklik"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "text": "Türkiye’de yapılan inkılaplarla, uluslararası ticari ilişkilerde kolaylık \nsağlayan düzenleme aşağıdakilerden hangisi için söylenebilir?",
+        "options": {
+          "A": "Halifeliğin kaldırılması",
+          "B": "Yeni ölçü sistemlerinin kabul edilmesi",
+          "C": "Tevhid-i Tedrisat Kanunu’nun kabulü",
+          "D": "Türk Dil Kurumu’nun kurulması",
+          "E": "Parlamenter Sistem’e geçilmesi \n \n \n \n \n\nSosyal Alanda Yapılan İnkılaplar"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "text": "Türkiye Cumhuriyeti’nde uluslararası ölçü birimlerine geçilmesi aşağıdaki \nalanlardan hangisiyle ilişkilerde kolaylık sağlamıştır?",
+        "options": {
+          "A": "Kamu Yönetimi",
+          "B": "Ziraat",
+          "C": "Sağlık",
+          "D": "Kültür-Sanat",
+          "E": "Ticaret"
+        },
+        "answer": "E"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Sınav 18: Ünite 8",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Aşağıdakilerden hangisi I. Türkiye İktisat Kongresi’nin toplanma \namaçlarından biri değildir?",
+        "options": {
+          "A": "Kalkınmanın plan, program, yöntem ve kaynaklarını belirlemek,",
+          "B": "Tam bağımsızlık yolunda ekonomi alanında atılacak adımları \nbelirlemek,",
+          "C": "Batıda var olan gelişmeleri ülkeye taşımak,",
+          "D": "Özel ve kamu gücünün oluşturulması için gerekli adımları atmak,",
+          "E": "Dış borçlanma için çalışmalar yapmak,"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 2,
+        "text": "İzmir'de 1923 yılında toplanan I. Türkiye İktisat Kongresi'nin önemi \naşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Sanayinin kurulması için ilk önemli plan yapılmıştır.",
+          "B": "Vergi reformunun esasları saptanmıştır.",
+          "C": "Tarım sorunlarının görüşülmesinden vazgeçilmiştir.",
+          "D": "Türk tarihinde ilk kez bu nitelikte bir kongre toplanmıştır.",
+          "E": "Kongre'yi açan İsmet Paşa devletçiliği övmüştür."
+        },
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "text": "Aşağıdakilerden hangisi coğrafi keşiflerin sonuçlarından biri değildir?",
+        "options": {
+          "A": "Avrupalı devletlerin yeni sömürgeler elde etmesi",
+          "B": "Ticaret yollarının değişmesi",
+          "C": "Ticaretle uğraşan burjuva sınıfının zenginleşmesi",
+          "D": "Akdeniz limanlarının ticaretin merkezi durumuna gelmesi",
+          "E": "Amerika’nın eski bir uygarlık merkezi olduğunun görülmesi"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "Devletçi ekonomiye geçişin nedeni aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Bütçe açığının giderek çoğalması",
+          "B": "Sanayi sektörünün gelişememesi",
+          "C": "Tarımdan beklenen ürünün alınamaması",
+          "D": "Kamu harcamalarının artması",
+          "E": "Dünya'da büyük bir ekonomik krizin yaşanması"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 5,
+        "text": "Türkiye Cumhuriyeti Hükümeti Merkez Bankası ne zaman kurulmuştur?",
+        "options": {
+          "A": "1924",
+          "B": "1927",
+          "C": "1930",
+          "D": "1935",
+          "E": "1937"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "text": "Atatürk Dönemi’nde ekonomik alanda yapılan çalışmaların amaçları \narasında aşağıdakilerden hangisi bulunmaz?",
+        "options": {
+          "A": "Ekonomide millî ve millileştirme çabalarını sürdürmek",
+          "B": "IMF’ye üye olmak",
+          "C": "Büyük yatırımları devlet eliyle yapmak \n\nEkonomik Alanda Yapılan İnkılaplar",
+          "D": "Dünya ticaretinde yer edinmek",
+          "E": "Ekonomide modern teknikleri kullanarak üretim yapmak"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "text": "I. Türkiye İktisat Kongresi’nde ülkede sanayinin geliştirilmesi için alınan \nkararlar arasında aşağıdakilerden hangisi bulunmaz?",
+        "options": {
+          "A": "Sanayinin teşviki",
+          "B": "Sanayiciye kredi temini",
+          "C": "Sanayi için mühendis ve teknik eleman eğitimi",
+          "D": "Yerli malının teşviki",
+          "E": "Milli Korunma Kanunu’nun kaldırılması"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 8,
+        "text": "“Türkiye’nin gerçek sahibi, efendisi Türk köylüsüdür.” Aşağıdakilerden \nhangisinin Atatürk’ün bu sözü doğrultusunda yapılan düzenlemelerden \nbiri olduğu söylenebilir?",
+        "options": {
+          "A": "Kabotaj Kanunu’nun kabul edilmesi",
+          "B": "Teşvik-i Sanayi Kanunu’nun kabul edilmesi",
+          "C": "Aşar vergisinin kaldırılması",
+          "D": "Devletçilik politikasının uygulamaya konulması",
+          "E": "Misak-ı İktisadi kararlarının alınması"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "text": "Osmanlı ekonomisi ile ilgili genel yargılar arasında aşağıdakilerden hangisi \nbulunmaz?",
+        "options": {
+          "A": "Temel sanayi kurulamamıştır.",
+          "B": "Mamul madde alan, hammadde ve yiyecek maddeleri satan bir \ndevlettir.",
+          "C": "Var olan sanayi kuruluşları da yabancıların denetimindedir.",
+          "D": "Yurdun genelinde maden işletmeleri Türklerin elindedir.",
+          "E": "Maliyetler yüksektir."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 10,
+        "text": "“Misak-ı İktisadî” kararları aşağıdaki hangi kongrede alınmıştır? \na. Erzurum Kongresi’nde  \nb. I. Türkiye İktisat Kongresi’nde    \nc. Sivas Kongresi’nde   \nd. Alaşehir Kongresi’nde    \ne. İstanbul İhracatçılar Kongresi’nde",
+        "options": {},
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Sınav 19: Ünite 9",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Yukarıdakilerden hangisi ya da hangileri 1926 Ankara Antlaşması’yla \nTürkiye’nin sınırları dışında kalmıştır?",
+        "options": {
+          "A": "Yalnız I",
+          "B": "Yalnız II",
+          "C": "Yalnız III",
+          "D": "I ve II",
+          "E": "I, II ve III \n \nI. Boğazlar Komisyonu'nun kaldırılması ve görevinin Türk tarafına \ngeçmesi \nII. Yabancı savaş gemilerinin Boğazlardan geçişinin sınırlandırılarak, \nTürkiye'nin denetimine bırakılması \nIII. Yabancı devletlere ait ticaret gemilerinin her iki yönde Boğazlardan \ngeçişlerinin serbest olması"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "text": "Montrö Boğazlar Sözleşmesi'nin; hükümlerinden hangisi ya da hangileri, \nTürkiye'nin dünya devletleri arasındaki saygınlığının daha da arttığını \ngösterir?",
+        "options": {
+          "A": "Yalnız I",
+          "B": "Yalnız II",
+          "C": "Yalnız III",
+          "D": "I ve II",
+          "E": "I, II ve III"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "text": "Atatürk Dönemi’nde azınlıklarla ilgili konularda aşağıdaki ülkelerden \nhangisiyle sorunlar yaşanmıştır?",
+        "options": {
+          "A": "Bulgaristan",
+          "B": "Yunanistan",
+          "C": "Arnavutluk",
+          "D": "Yugoslavya",
+          "E": "Makedonya  \n \n \n \n \n \n \n\nAtatürk Dönemi Türk Dış Politikası"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "text": "Sadabad Paktı’nın kurulmasına neden olan gelişme aşağıdakilerden \nhangisidir?",
+        "options": {
+          "A": "İtalya’nın Asya ve Afrika’ya doğru yayılma siyaseti izlemesi",
+          "B": "Boğazlardan geçmek isteyen yabancı savaş gemilerinin Türkiye’den \nizin almak durumunda olması",
+          "C": "1929 yılında Amerika’nın ekonomik kriz yaşaması",
+          "D": "Birleşmiş Milletler Teşkilatı’nın kurulması",
+          "E": "İngiltere’nin Kıbrıs’ı işgal etmesi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "text": "Balkan Antantı’nın kurulmasında aşağıdaki gelişmelerden hangisi etkili \nolmuştur?",
+        "options": {
+          "A": "Milletler Cemiyeti’ne olan güvensizlik durumu",
+          "B": "Almanya ve İtalyan’ın emperyalist politikalar izlemesi",
+          "C": "Rusya’nın Balkanlara yönelik tarihi politikalarını sürdürmesi",
+          "D": "Bölge ülkeleriyle ekonomik iş birliği çabaları",
+          "E": "Türkiye Cumhuriyeti’nin bölgesel liderlik politikaları"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "text": "İngiltere, Musul ve Kerkük’ü elinden çıkarmamak için aşağıdaki olaylardan \nhangilerini desteklemiştir?",
+        "options": {
+          "A": "Şeyh Said Ayaklanmasını-Nasturi Ayaklanmasını",
+          "B": "Çerkez Ethem Ayaklanmasını-Şeyh Bedrettin Ayaklanmasını",
+          "C": "Menemen Olayını-Ermeni Ayaklanmasını",
+          "D": "Saltanatın Kaldırılmasını-Nasturi Ayaklanmasını",
+          "E": "Varlık Vergisi’ni-Süryani Ayaklanmasını"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 7,
+        "text": "Montrö Boğazlar Sözleşmesi’ni aşağıdaki devletlerden hangisi başta \nimzalamamış, daha sonra katılmıştır?",
+        "options": {
+          "A": "Sovyetler Birliği",
+          "B": "İtalya",
+          "C": "İngiltere",
+          "D": "Japonya",
+          "E": "Fransa  \n \n \n \n \n \n \n \n \n \n \n \n\nAtatürk Dönemi Türk Dış Politikası \n \nI. Balkan Paktı’nın kurulması  \nII. Milletler Cemiyeti’ne üye olma  \nIII. Boğazlar Komisyonu’nun kaldırılması  \nIV. Sadabat Paktı’na katılması \nV. Hatay’ın anavatana katılması"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "text": "Türkiye Cumhuriyeti’nin dış politikasıyla ilişkili gerçekleştirilen bazı olaylar, \nyukarıya çıkarılmıştır. Bunlardan hangisi ya da hangileri Atatürk’ün \nsağlığında gerçekleştirilememiştir?",
+        "options": {
+          "A": "Yalnız I",
+          "B": "II ve V",
+          "C": "Yalnız III",
+          "D": "III, IV, V",
+          "E": "Yalnız V"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 9,
+        "text": "Hatay’ın Türkiye’ye katılması Atatürk ilkelerinden hangisiyle ilgilidir?",
+        "options": {
+          "A": "Milliyetçilik",
+          "B": "Halkçılık",
+          "C": "Devletçilik",
+          "D": "Cumhuriyetçilik",
+          "E": "İnkılapçılık"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "text": "Atatürk tarafından belirlenen Türkiye Cumhuriyeti’nin dış politikasında \nbenimsenen ilkeler arasında aşağıdakilerden hangisi yer almaz?",
+        "options": {
+          "A": "Yurtta sulh cihanda sulh",
+          "B": "İnsan haklarını korumak",
+          "C": "Bağımsızlık",
+          "D": "Sömürgecilik",
+          "E": "Uluslararası eşitlik"
+        },
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Sınav 20: Ünite 10",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Türkiye'nin bu ülkeleri etkileyen yönü aşağıdakilerden hangisi olmuştur?",
+        "options": {
+          "A": "Yurtta ve dünyada barışı korumaya çalışması",
+          "B": "Başka ulusların haklarına saygılı olması",
+          "C": "Orta Doğu’da güç dengesini koruması",
+          "D": "Batı demokrasi ilkelerini benimsemesi",
+          "E": "Bağımsızlığını kazanma ve sürdürmedeki başarısı"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 2,
+        "text": "Köy Enstitüleri’nin kurulmasında emeği geçen Millî Eğitim Bakanı \naşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Abdülhalik Renda",
+          "B": "Şükrü Kaya",
+          "C": "Hasan Ali Yücel",
+          "D": "Tevfik Rüştü Aras",
+          "E": "Şemsettin Günaltay"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "text": "30 Ocak 1943’te Adana’ya gelerek Cumhurbaşkanı İsmet İnönü ile bir \naraya gelen İngiliz Başbakanı aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Winston Churchill",
+          "B": "Benjamin Disraeli",
+          "C": "William Ewart Gladstone",
+          "D": "David Lloyd George",
+          "E": "Stanley Baldwin"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 4,
+        "text": "Türkiye II. Dünya Savaşı'na fiilen katılmamasına rağmen özellikle ekonomik \nalanda büyük sıkıntılar çekmiştir. Buna göre, aşağıdakilerden hangisi \nekonomik sıkıntılara önlem niteliği taşımaz?",
+        "options": {
+          "A": "Millî Korunma Kanunu'nu çıkarmıştır.",
+          "B": "Milli Savunmaya önemli yatırımlar yapılmıştır.",
+          "C": "Zorunlu çalışma yükümlülüğü getirmiştir.",
+          "D": "Bazı ürünlerden alınan vergi oranı düşürülmüştür.",
+          "E": "Temel gıda maddelerinin tasarruflu bir şekilde tüketilmesini \nsağlamıştır. \n \n \n \n \n \n \n \n\nAtatürk Sonrası Türkiye \n \nTürkiye, Atatürk Dönemi'nde, iki kez çok partili hayata geçme \ndenemesinde bulunmuş; ancak bazı sebeplerden dolayı bu durum \ngerçekleşmemiştir."
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "text": "Türkiye, aşağıda verilen hangi tarihte çok partili hayata geçmiştir?",
+        "options": {
+          "A": "1939",
+          "B": "1945",
+          "C": "1950",
+          "D": "1955",
+          "E": "1960"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "text": "Atatürk’ün ölümünden sonra yaşanan gelişmeler arasında aşağıdakilerden \nhangisi bulunmaz?",
+        "options": {
+          "A": "İsmet İnönü cumhurbaşkanı seçilmiştir.",
+          "B": "İlk hükümeti Celal Bayar kurmuştur.",
+          "C": "İlk CHP kurultayında Atatürk “Ebedi Şef”, İnönü “Milli Şef” ilan \nedilmiştir.",
+          "D": "Türk Ocakları kapatılmıştır.",
+          "E": "Kazım Karabekir, Ali Fuat Cebesoy, Hüseyin Cahit gibi küskünlerin \nCHP’ye katılmaları ve milletvekili seçilmeleri sağlanmıştır."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 7,
+        "text": "“Mason Dernekleri” hangi dönemde kapatılmıştır?",
+        "options": {
+          "A": "Fethi Okyar Dönemi’nde",
+          "B": "Mustafa Kemal Atatürk Dönemi’nde",
+          "C": "Bülent Ecevit Dönemi’nde",
+          "D": "Turgut Özal Dönemi’nde",
+          "E": "Adnan Menderes Dönemi’nde"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "text": "Alternatif bir resmî ideoloji yaratma ve yeni bir seçkinler grubu oluşturma \ngirişiminde bulunmak üzere 1932-1934 yılları arasında Yakup Kadri \nKaraosmanoğlu ve arkadaşlarınca çıkarılan dergi hangisidir?",
+        "options": {
+          "A": "Darulfünun",
+          "B": "Belleten",
+          "C": "Kadro",
+          "D": "Milli Mecmua",
+          "E": "Ülkü"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "text": "Mustafa Kemal Atatürk’ün ölümünden sonra 1938-1950 yılları arasında \naşağıdaki devlet adamlarından hangisi cumhurbaşkanlığı yapmıştır?",
+        "options": {
+          "A": "Celal Bayar",
+          "B": "Adnan Menderes",
+          "C": "Fethi Okyar",
+          "D": "Cemal Gürsel",
+          "E": "İsmet İnönü \n \n\nAtatürk Sonrası Türkiye"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 10,
+        "text": "“Üretimin denetimi, çalışma şartlarını düzenleme, ihtiyaç hasıl olunca bazı \nmalların stoklanması, tüketimi engelleyici tedbirler alma gibi çok önemli \nyetkileri kapsayan kanun, 19 Şubat 1940’tan itibaren de uygulamaya \nkonulmuştur.”  Bu kanun veya karar aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Milli Korunma Kanunu",
+          "B": "Milli İktisat Kanunu",
+          "C": "Müstakil Grup Kararı",
+          "D": "Toprak Reformu",
+          "E": "Yerli Malı Kullanma Kanunu"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Sınav 21: Ünite 11",
+    "questions": [
+      {
+        "id": 1,
+        "text": "I. Dünya Savaşı sonrası kurulan Yeni Dünya Düzeni’nde Fransa’nın \ngüvenlik endişelerini gidermek ve dünya barışına katkı sağlamak için 16 \nEkim 1925’te katılımcı devletlerin üzerinde anlaştığı antlaşma \naşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Sevr Antlaşması",
+          "B": "Milletler Cemiyeti Paktı",
+          "C": "Lozan Antlaşması",
+          "D": "Lokarno Antlaşması",
+          "E": "Dawes Planı"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 2,
+        "text": "I. Dünya Savaşı’ndan galip çıkmasına rağmen kazanımlarından memnun \nkalmayan, Adriyatik’te, Balkanlar’da, Anadolu’da ve Alman sömürgelerinin \npaylaşımında kendilerine haksızlık edildiğini hatta fakir akraba muamelesi \nyapıldığını düşünen devlet aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Rusya",
+          "B": "Yunanistan",
+          "C": "Fransa",
+          "D": "Japonya",
+          "E": "İtalya \n \nI. Japonya’nın Mançurya’ya saldırması \nII. Mussolini’nin Akdeniz ve Orta Doğu hâkimiyetine yönelik siyaset \nizlemesi \nIII. Hızlı silahlanan Almanya’nın Versailles Antlaşması’nı tanımadığını \nbelirtmesi \nIV. Montreux Antlaşması’yla Boğazların Türkiye’nin egemenliğine \nbırakılması \nV. Orta Doğu’da İsrail Devleti’nin kurulması"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 3,
+        "text": "Yukarıdakilerden hangilerinin II. Dünya Savaşı’nın başlamasında etkili \nolduğu söylenemez?",
+        "options": {
+          "A": "I ve II",
+          "B": "II ve IV",
+          "C": "III ve IV",
+          "D": "IV ve V",
+          "E": "II, III ve IV"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "II. Dünya Savaşı hangi olay üzerine patlak vermiştir?",
+        "options": {
+          "A": "Almanların Polonya’yı işgali üzerine",
+          "B": "İtalyanların Arnavutluk’a saldırması üzerine",
+          "C": "Japonların Pasifik’te ABD donanmasına saldırması üzerine",
+          "D": "Almanların Kuzey Afrika’ya saldırması üzerine",
+          "E": "Sovyetlerin Polonya’ya saldırması üzerine \n\nII. Dünya Savaşı  \n \n \nI. Casablanca Konferansı \nII. Quebec Konferansı \nIII. Moskova Konferansı \nIV. Tahran Konferansı \nV. Postdam Konferansı"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "text": "Yukarıdakilerden hangisi ya da hangileri Türkiye’nin II. Dünya Savaşı’na \ngirişi ile ilgili gelişmelerden değildir?",
+        "options": {
+          "A": "Yalnız I",
+          "B": "Yalnız II",
+          "C": "Yalnız III",
+          "D": "I ve IV",
+          "E": "II ve V \n \n“Komünist Enternasyonal; Üçüncü Enternasyonal olarak da bilinir. \nVladimir Lenin ve Sovyetler Birliği Komünist Partisi tarafından kurulan, \nsilahlı kuvvetler de dâhil tüm mümkün araçlarla uluslararası burjuvaziyi \nyıkmak ve devletin tamamen yok oluşu için bir geçiş aşaması demek olan \nuluslararası bir komünist örgüttür.”"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 6,
+        "text": "Yukarıda tanımı verilen kavram aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Komintern",
+          "B": "Revizyonist",
+          "C": "Mihver",
+          "D": "Anschluss",
+          "E": "Sudet"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 7,
+        "text": "II. Dünya Savaşı’nın sebepleri arasında aşağıdakilerden hangisi bulunmaz?",
+        "options": {
+          "A": "Türkiye’nin saldırgan ve emperyalist politikalar takip etmesi",
+          "B": "I. Dünya Savaşı sonunda Yeni Dünya Düzeni’ni kurma görevi verilen \nMilletler Cemiyeti’nin sorumluluklarını yerine getirememesi",
+          "C": "Almanya’da Nazilerin iktidarı ele geçirmesiyle revizyonist politikalar \nsürdürmesi",
+          "D": "İtalya’da faşistlerin iktidara gelmesiyle saldırgan politikalar takip \nedilmesi",
+          "E": "Uzak Doğu’da Japonya’nın sömürgeci politikalar gütmesi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "text": "II. Dünya Savaşı’nın sonuçları arasında aşağıdakilerden hangisi bulunmaz?",
+        "options": {
+          "A": "ABD, Yeni Dünya Düzeni’nin en büyük aktörü oldu.",
+          "B": "Boğazların statüsü değişti.",
+          "C": "Nazizm, faşizm gibi totaliter rejimler yıkıldı.",
+          "D": "Japonya’da atılan atom bombaları sonucu binlerce sivil katledildi.",
+          "E": "Almanya, Doğu ve Batı Almanya diye ikiye ayrıldı. \n \n \n\nII. Dünya Savaşı"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "text": "Anlamı şef, lider, yol gösterici olan “Führer” unvanı hangi tarihî şahsiyete \nverilmiştir?",
+        "options": {
+          "A": "Mussolini",
+          "B": "Stalin",
+          "C": "Saddam Hüseyin",
+          "D": "Hitler",
+          "E": "Lenin"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 10,
+        "text": "İkinci Dünya Savaşı’nın çıkmasının en önemli nedeni aşağıdakilerden \nhangisidir?",
+        "options": {
+          "A": "Versay Antlaşması’nda saptanan Avrupa siyasal yapısının gerçekçi \nolmaması",
+          "B": "1938 yılından itibaren Almanya’nın saldırgan politika gütmesi",
+          "C": "Rusya’nın Akdeniz’de saldırgan politikalar izlemesi",
+          "D": "Almanya’nın Çekoslovakya’nın bir bölümünü, işgal etmesi",
+          "E": "ABD’nin yeni bir dünya düzeni kurmak istemesi"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Sınav 22: Ünite 12",
+    "questions": [
+      {
+        "id": 1,
+        "text": "27 Mayıs Askerî Müdahalesini yapan grubun adı ve lideri aşağıdakilerden \nhangisinde doğru olarak verilmiştir?",
+        "options": {
+          "A": "Milli Birlik Komitesi-Alparslan Türkeş",
+          "B": "Milli Birlik Komitesi-Cemal Gürsel",
+          "C": "Milli Birlik Komitesi-Celal Bayar",
+          "D": "Tahkikat Komisyonu-Alparslan Türkeş",
+          "E": "Milli Güvenlik Konseyi -Kenan Evren"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "text": "1946 seçimlerinden sonra kurulan CHP hükümetinin başbakanı aşağıdaki \nsiyasetçilerden hangisidir?",
+        "options": {
+          "A": "Recep Peker",
+          "B": "İsmet İnönü",
+          "C": "Hasan Saka",
+          "D": "Celâl Bayar",
+          "E": "Nuri Demirağ"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "text": "Türkiye Cumhuriyeti’nin siyasal tarihindeki ilk ve gerçek anlamda \nyarışmacı seçimi aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "1946",
+          "B": "1950",
+          "C": "1957",
+          "D": "1961",
+          "E": "1965"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "text": "1960 darbesi sonucunda kurulan Kurucu Mecliste temsil edilen gruplar \narasında aşağıdakilerden hangisi bulunmaz?",
+        "options": {
+          "A": "Barolar",
+          "B": "Gençlik örgütleri",
+          "C": "Demokrat Parti üyeleri",
+          "D": "Basın dernekleri",
+          "E": "Yargı organları"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 5,
+        "text": "Türkiye'de 1945 ile 1950 yılları arasında yaşanan siyasal gelişmeler \naşağıdakilerden hangisiyle adlandırılabilir?",
+        "options": {
+          "A": "Parlamentarizm",
+          "B": "Ebedi Şef Dönemi",
+          "C": "Sivilleşme süreci",
+          "D": "Meşrutiyet Dönemi",
+          "E": "Demokratikleşme süreci \n \n \n \n\nTürkiye’de Çok Partili Siyasi Hayata Geçiş ve Demokrat Parti İktidarı"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 6,
+        "text": "Türkiye hangi partinin iktidarında NATO’ya üye olmuştur?",
+        "options": {
+          "A": "İttihat ve Terakki Partisi",
+          "B": "Demokrat Parti",
+          "C": "Anavatan Partisi",
+          "D": "Adalet Partisi",
+          "E": "Cumhuriyet Halk Partisi"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "text": "Türkiye Cumhuriyeti’nin 3. Cumhurbaşkanı ve Demokrat Parti’nin \nkurucuları arasına bulunan Türk siyasetçi ve devlet adamı aşağıdakilerden \nhangisidir?",
+        "options": {
+          "A": "Adnan Menderes",
+          "B": "Fuat Köprülü",
+          "C": "Refik Saydam",
+          "D": "Celal Bayar",
+          "E": "Cevdet Sunay"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 8,
+        "text": "“Dörtlü Takrir” diye bilinen önergede imzası bulunan isimler arasında \naşağıdakilerden hangisi bulunmaz?",
+        "options": {
+          "A": "Adnan Menderes",
+          "B": "Refik Koraltan",
+          "C": "Celal Bayar",
+          "D": "Fuat Köprülü",
+          "E": "Kazım Karabekir"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 9,
+        "text": "Türkiye’nin çok partili siyasal hayata geçişinde aşağıdakilerden hangisi \netkin bir rol oynamamıştır?",
+        "options": {
+          "A": "II. Dünya Savaşı’nı demokratik devletlerin kazanması",
+          "B": "Demokratik yönetimin Atatürk ilkeleri gereği sayılması",
+          "C": "Ekonomik sorunlar karşında halkın yeni yönetimler isteği",
+          "D": "Sovyet Rusya’nın Türkiye’yi tehdit etmesi",
+          "E": "TBMM oluşturulan “Müstakil Grubun” yararlı olması"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 10,
+        "text": "Türkiye’nin 1945’te çok partili hayata geçiş sürecinde Celal Bayar ve \narkadaşlarının fikren ve fiilen destekledikleri için gazete ve matbaaları \nbaskına uğrayan Zekeriya ve Sabiha Sertel’in çıkardığı gazete \naşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Sabah Gazetesi",
+          "B": "Tan Gazetesi",
+          "C": "İrade-i Milliye Gazetesi",
+          "D": "Cumhuriyet Gazetesi",
+          "E": "Zafer Gazetesi"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Sınav 23: Ünite 13",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Aşağıda  verilen ifadelerden hangisi doğru değildir?",
+        "options": {
+          "A": "Monarşik yönetimler veraset şartını reddeder.",
+          "B": "Her Cumhuriyet demokratik değildir.",
+          "C": "Cumhuriyet rejiminde mutlaka seçim vardır.",
+          "D": "En gelişmiş toplum düzenine millet denir.",
+          "E": "Cumhuriyet rejiminde egemenlik milletindir."
+        },
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "text": "Atatürkçülüğün durağan bir düşünce olmaması aşağıdaki ilkelerden \nhangisine dayanmaktadır?",
+        "options": {
+          "A": "Milliyetçilik",
+          "B": "Devletçilik",
+          "C": "Halkçılık",
+          "D": "İnkılapçılık",
+          "E": "Cumhuriyetçilik"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "text": "Altı Atatürk ilkesinin anayasaya girmesi kaç tarihinde olmuştur?",
+        "options": {
+          "A": "1921",
+          "B": "1924",
+          "C": "1928",
+          "D": "1935",
+          "E": "1937"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 4,
+        "text": "Atatürk milliyetçiliğinin temel öğesi aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Irk birliği",
+          "B": "Birlikte yaşama konusunda ortak istek",
+          "C": "Siyasi birlik",
+          "D": "Vatan birliği",
+          "E": "Din birliği"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "text": "Türkiye’de 29 Ekim 1923’te ilan edilen yeni rejim hangi ilkenin doğal \nsonucu olarak kurulmuştur?",
+        "options": {
+          "A": "Halkçılık ilkesinin",
+          "B": "Laiklik ilkesinin",
+          "C": "Cumhuriyetçilik ilkesinin",
+          "D": "Milliyetçilik ilkesinin",
+          "E": "İnkılapçılık ilkesinin \n \n \n \n\nAtatürk Düşünce Sistemi Çerçevesinde Atatürk İlkeleri"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "text": "Halkçılık, aşağıdaki Atatürk ilkelerinden hangilerinin doğal bir sonucudur?",
+        "options": {
+          "A": "Devletçilik ve Laiklik",
+          "B": "İnkılapçılık ve Laiklik",
+          "C": "Devletçilik ve İnkılapçılık",
+          "D": "Cumhuriyetçilik ve Milliyetçilik",
+          "E": "Laiklik ve Milliyetçilik"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 7,
+        "text": "Toplumsal sınıfları ve ayrıcalıkları ortadan kaldıran ilke aşağıdakilerden \nhangisidir?",
+        "options": {
+          "A": "Halkçılık",
+          "B": "Milliyetçilik",
+          "C": "Cumhuriyetçilik",
+          "D": "Devletçilik",
+          "E": "Laiklik"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "text": "“Her millet, kendi devletini kurup, kendi isteğine göre kendisini \nyönetmelidir.” görüşü aşağıda verilen hangi iki ilkeye uygundur?",
+        "options": {
+          "A": "İnkılapçılık-Laiklik",
+          "B": "Milliyetçilik-Halkçılık",
+          "C": "Laiklik-Halkçılık",
+          "D": "Devletçilik-Laiklik",
+          "E": "Devletçilik-İnkılapçılık \n \n“Cumhuriyetin en önemli özelliği, millet egemenliğine dayanması ve \ndemokrasiyi benimsemesidir.”"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "text": "Bu bilgiye göre aşağıdakilerden hangisi Cumhuriyet rejiminin nitelikleri \narasında sayılmaz?",
+        "options": {
+          "A": "Millet egemenliğine dayanması",
+          "B": "Çağa en uygun bir sistem olması",
+          "C": "Demokrasinin en gelişmiş şekli olması",
+          "D": "Milli iradeyi her şeyden üstün tutması",
+          "E": "Tüm devlet görevlilerinin seçimle iş başına gelmesi"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 10,
+        "text": "İnanç özgürlüğünü güvence altına alma amacını aşağıdaki ilkelerden \nhangisi taşımaktadır?",
+        "options": {
+          "A": "Devletçilik",
+          "B": "Halkçılık",
+          "C": "Laiklik",
+          "D": "Cumhuriyetçilik",
+          "E": "Milliyetçilik"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Sınav 24: Ünite 14",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Türkiye’de Laiklik ilkesinin yerleşmesinin aşamaları arasında \naşağıdakilerden hangisi bulunmaktadır?",
+        "options": {
+          "A": "İzmir’de I. Türkiye İktisat Kongresi’nin toplanması",
+          "B": "Tekâlif-i Milliye kararlarının ilanı",
+          "C": "Aşar Vergisi’nin kaldırılması",
+          "D": "Türk Medeni Kanunu’nun kabulü",
+          "E": "Planlı ekonomiye geçilmesi"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 2,
+        "text": "Atatürk yeni Türk devletinde inkılaplarını gerçekleştirirken aşağıdakilerden \nhangisini temel hedef göstermiştir?",
+        "options": {
+          "A": "Halkçılık",
+          "B": "Devletçilik",
+          "C": "Laiklik",
+          "D": "Milliyetçilik",
+          "E": "Çağdaşlaşma"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 3,
+        "text": "Atatürkçülüğün laiklik ilkesine aşağıdakilerden hangisi uymaz?",
+        "options": {
+          "A": "Her Türk vatandaşı dinini seçmekte özgürdür.",
+          "B": "Hiç kimse din değiştirmeye zorlanamaz.",
+          "C": "Hiç kimsenin ibadetine dokunulamaz.",
+          "D": "Devlet bazı dini inanışların yayılmasına yardımcı olur.",
+          "E": "Devletin resmî dini yoktur."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "Atatürkçü Düşünce Sistemi’nde Halkçılık ilkesinin gerektirdiği unsurlar \narasında aşağıdakilerden hangisi bulunmaz?",
+        "options": {
+          "A": "Sınıf ayrımı",
+          "B": "Kanun önünde eşitlik",
+          "C": "Sosyal dayanışma",
+          "D": "Ayrıcalıklara karşı olma",
+          "E": "Siyasi demokrasi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "text": "Atatürk’ün bütünleyici ilkelerinden hangisi Cumhuriyetçilik temel ilkesini \nbütünler?",
+        "options": {
+          "A": "Milli birlik ve beraberlik ilkesi",
+          "B": "Milli egemenlik ilkesi",
+          "C": "Yurtta sulh, cihanda sulh ilkesi",
+          "D": "Tam bağımsızlık ilkesi",
+          "E": "Akılcılık ve bilimsellik ilkesi  \n \n \n\nBütünleyici İlkeler"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "text": "“Millet ve biz yok, birlik hâlinde millet var. Biz ve millet ayrı ayrı şeyler \ndeğiliz.” Atatürk’ün bu ifadesi hangi bütünleyici ilke ile ilgilidir?",
+        "options": {
+          "A": "Milli birlik, beraberlik ve ülke bütünlüğü",
+          "B": "Milli egemenlik",
+          "C": "Barışçılık",
+          "D": "Bilimsellik",
+          "E": "Çağdaşlık \n \nI. Bir milletin hür şekilde yaşamasını ifade eder.  \nII. Başka bir devlete bağımlı olmamak demektir.  \nIII. Devletin dış politikasının temel ilkelerindendir.  \nIV. Yönetim ve ekonomi alanındaki gelişmelerle doğrudan ilgilidir."
+        },
+        "answer": "A"
+      },
+      {
+        "id": 7,
+        "text": "Yukarıda özellikleri verilen bütünleyici ilke hangisidir?",
+        "options": {
+          "A": "Milli egemenlik",
+          "B": "Bilimsellik ve akılcılık",
+          "C": "Tam bağımsızlık",
+          "D": "Yurtta sulh, cihanda sulh",
+          "E": "Çağdaşlaşma ve Batılılaşma"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "text": "Atatürkçü Düşünce Sistemi’nin temel nitelikleri arasında aşağıdakilerden \nhangisi bulunmaz?",
+        "options": {
+          "A": "Yayılmacılık ve sömürgecilik",
+          "B": "Hâkimiyetin millete ait oluşu",
+          "C": "Milli tarih ve milli dil",
+          "D": "Akılcılık ve bilimsellik",
+          "E": "Milli birlik ve beraberlik anlayışı"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "text": "Atatürkçülükle aşağıdakilerden hangisi bağdaşmaz?",
+        "options": {
+          "A": "Ülkenin bağımsızlığını koruma",
+          "B": "Ekonomik kalkınmayı yabancı sermayeye dayandırma",
+          "C": "Yönetimi ulus egemenliğine bağlı tutma",
+          "D": "Çağdaş uygarlık düzeyine ulaştırma",
+          "E": "Kalkınmada aklın ve bilimin rehberliğini temel alma \n \nAtatürkçü düşünce sistemini oluşturan Atatürk’ün temel ilkelerini, çeşitli \nyönleriyle destekleyen ve tamamlayan ilkelere …………….. ilkeler denir."
+        },
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "text": "Cümlesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+        "options": {
+          "A": "Bilimsel",
+          "B": "İnsancıl",
+          "C": "Bütünleyici",
+          "D": "Barışçı",
+          "E": "Akılcı"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Sınav 25: 1980 Sonrası Siyasi Gelişmeler - 1",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Milli Güvenlik Konseyi (MGK) hangi darbe sonrası idareyi ele almıştır?",
+        "options": {
+          "A": "27 Mayıs 1960 Askerî Darbesi",
+          "B": "12 Mart 1971 Muhtırası",
+          "C": "12 Eylül 1980 Askerî Darbesi",
+          "D": "28 Şubat 1997",
+          "E": "15 Temmuz 2016"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "text": "12 Eylül darbesinin ardından Milli Güvenlik Konseyi Başkanı ve Devlet Başkanı olan isim kimdir?",
+        "options": {
+          "A": "Cevdet Sunay",
+          "B": "Kenan Evren",
+          "C": "Cemal Gürsel",
+          "D": "Fahri Korutürk",
+          "E": "Turgut Özal"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "text": "12 Eylül müdahalesi sonrası Başbakanlık görevine getirilen isim kimdir?",
+        "options": {
+          "A": "Süleyman Demirel",
+          "B": "Bülent Ecevit",
+          "C": "Turgut Özal",
+          "D": "Bülend Ulusu",
+          "E": "Sadi Irmak"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "13 Mayıs 1981 tarihinde Vatikan'ın San Pietro Meydanı'nda Papa II. Johannes Paulus’a suikast düzenleyerek uluslararası ilişkilerde Türkiye'nin durumunu zorlaştıran kişi kimdir?",
+        "options": {
+          "A": "Abdullah Çatlı",
+          "B": "Mehmet Ali Ağca",
+          "C": "Haluk Kırcı",
+          "D": "Yalçın Özbey",
+          "E": "Oral Çelik"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "text": "6 Kasım 1983 genel seçimlerinde oyların %45'ini alarak 211 milletvekili çıkaran ve Turgut Özal liderliğinde tek başına iktidara gelen parti hangisidir?",
+        "options": {
+          "A": "Milliyetçi Demokrasi Partisi (MDP)",
+          "B": "Halkçı Parti (HP)",
+          "C": "Anavatan Partisi (ANAP)",
+          "D": "Doğru Yol Partisi (DYP)",
+          "E": "Sosyal Demokrasi Partisi (SODEP)"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "text": "1983 Genel Seçimleri sonrasında Cumhurbaşkanı Kenan Evren, hükümeti kurmak için kime görev vermiştir?",
+        "options": {
+          "A": "Turgut Özal",
+          "B": "Necdet Calp",
+          "C": "Turgut Sunalp",
+          "D": "Süleyman Demirel",
+          "E": "Bülent Ecevit"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 7,
+        "text": "1980'li yıllarda sol seçmeni temsil etmek üzere kurulan ve Erdal İnönü ile özdeşleşen partinin adı nedir?",
+        "options": {
+          "A": "Demokratik Sol Parti (DSP)",
+          "B": "Cumhuriyet Halk Partisi (CHP)",
+          "C": "Sosyal Demokrasi Partisi (SODEP)",
+          "D": "Halkçı Parti (HP)",
+          "E": "Sosyaldemokrat Halkçı Parti (SHP)"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "text": "1982 Anayasası'nı hazırlamak üzere Kurucu Meclis bünyesinde oluşturulan anayasa komisyonunun başkanlığını hangi profesör yürütmüştür?",
+        "options": {
+          "A": "Prof. Dr. Mümtaz Soysal",
+          "B": "Prof. Dr. Orhan Aldıkaçtı",
+          "C": "Prof. Dr. Sıddık Sami Onar",
+          "D": "Prof. Dr. Tarık Zafer Tunaya",
+          "E": "Prof. Dr. Ergun Özbudun"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "text": "Hangi anayasa, halkoyuna sunulduktan sonra %91,3 oyla kabul edilmiştir?",
+        "options": {
+          "A": "1921 Anayasası",
+          "B": "1924 Anayasası",
+          "C": "1961 Anayasası",
+          "D": "1982 Anayasası",
+          "E": "1876 Kanun-i Esasi"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 10,
+        "text": "1982 Anayasası'nın halk tarafından kabul edilmesiyle birlikte, dönemin Devlet Başkanı Kenan Evren otomatik olarak hangi makamı üstlenmiştir?",
+        "options": {
+          "A": "Başbakanlık",
+          "B": "Meclis Başkanlığı",
+          "C": "Genelkurmay Başkanlığı",
+          "D": "Anayasa Mahkemesi Başkanlığı",
+          "E": "Cumhurbaşkanlığı"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 11,
+        "text": "1961 ve 1982 anayasalarının ortak yapısal benzerliklerinden biri nedir?",
+        "options": {
+          "A": "İkisinin de referandumsuz kabul edilmesi",
+          "B": "İkisinin de sivil anayasa olması",
+          "C": "İkisinin de askerî müdahaleler sonucunda 'Kurucu Meclis' tarafından hazırlanması",
+          "D": "İkisinin de meclis hükümeti sistemini benimsemesi",
+          "E": "İkisinin de kuvvetler birliği ilkesine dayanması"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 12,
+        "text": "1961 Anayasası'nı hazırlayan sivil kanat \"Temsilciler Kurulu\" iken, 1982 Anayasası'nı hazırlayan sivil kanat hangisidir?",
+        "options": {
+          "A": "Danışma Meclisi",
+          "B": "Milli Güvenlik Kurulu",
+          "C": "Senato",
+          "D": "Yüksek Kurul",
+          "E": "Kurucu Meclis Genel Kurulu"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Sınav 26: 1980 Sonrası Siyasi Gelişmeler - 2",
+    "questions": [
+      {
+        "id": 1,
+        "text": "15 Kasım 1983'te Kıbrıs Türk Federe Meclisi'nin bağımsızlık ilanıyla kurulan ve Türkiye tarafından derhal tanınan devletin resmi adı nedir?",
+        "options": {
+          "A": "Kıbrıs Türk Cumhuriyeti",
+          "B": "Kuzey Kıbrıs Türk Cumhuriyeti (KKT",
+          "C": "Kıbrıs Federe Devleti",
+          "D": "Bağımsız Kıbrıs Türk Devleti",
+          "E": "Türk Kıbrıs Cumhuriyeti"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "text": "Toplumdaki gelir dağılımı düzeyindeki farklılaşmayı ortadan kaldırmak için “Ortadirek” diye tabir ettiği bir toplum tabakası oluşturmaya çalışan başbakan kimdir?",
+        "options": {
+          "A": "Bülent Ecevit",
+          "B": "Süleyman Demirel",
+          "C": "Turgut Özal",
+          "D": "Mesut Yılmaz",
+          "E": "Necmettin Erbakan"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "text": "6 Eylül 1987 referandumunun ardından üzerindeki siyaset yasağı kalkan Süleyman Demirel, hangi partinin genel başkanlığına getirilmiştir?",
+        "options": {
+          "A": "Adalet Partisi (AP)",
+          "B": "Anavatan Partisi (ANAP)",
+          "C": "Doğru Yol Partisi (DYP)",
+          "D": "Demokrat Parti (DP)",
+          "E": "Milliyetçi Hareket Partisi (MHP)"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "text": "Parti genel başkanı yani siyasi bir kişilik olmasına rağmen, kamuoyunun bazı kesimlerinden tepkilere aldırış etmeden Türkiye’nin 8. Cumhurbaşkanı olan siyasetçi kimdir?",
+        "options": {
+          "A": "Süleyman Demirel",
+          "B": "Ahmet Necdet Sezer",
+          "C": "Abdullah Gül",
+          "D": "Turgut Özal",
+          "E": "Kenan Evren"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 5,
+        "text": "Başbakan Turgut Özal Cumhurbaşkanı seçilince, yeni hükümeti kurma görevini kime verdi?",
+        "options": {
+          "A": "Yıldırım Akbulut",
+          "B": "Mesut Yılmaz",
+          "C": "Tansu Çiller",
+          "D": "Süleyman Demirel",
+          "E": "Bülent Ecevit"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 6,
+        "text": "Turgut Özal’ın geçirdiği kalp krizi sonrası (1993), başbakan iken TBMM tarafından üçüncü tur oylamada 244 oy alarak seçilen Türkiye’nin 9. cumhurbaşkanı kimdir?",
+        "options": {
+          "A": "Süleyman Demirel",
+          "B": "Ahmet Necdet Sezer",
+          "C": "Tansu Çiller",
+          "D": "Mesut Yılmaz",
+          "E": "Erdal İnönü"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 7,
+        "text": "Körfez Krizi ve Birinci Körfez Savaşı (1990-1991) sırasında Türkiye Cumhuriyeti cumhurbaşkanı ve başbakanı kimlerdi?",
+        "options": {
+          "A": "Kenan Evren - Turgut Özal",
+          "B": "Turgut Özal - Yıldırım Akbulut",
+          "C": "Turgut Özal - Süleyman Demirel",
+          "D": "Süleyman Demirel - Tansu Çiller",
+          "E": "Süleyman Demirel - Mesut Yılmaz"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "text": "7 Ağustos 1990’da BM’nin “Irak’a yaptırım” kararına uyan ilk ülke hangisidir?",
+        "options": {
+          "A": "İngiltere",
+          "B": "Fransa",
+          "C": "Türkiye",
+          "D": "İsrail",
+          "E": "Suudi Arabistan"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "text": "1994 yılında yaşanan ağır mali kriz sonrasında, kamu kesimi ürünlerine büyük zamlar getiren ve tarihe \"5 Nisan Kararları\" olarak geçen ekonomik paketi yürürlüğe koyan Türkiye’nin ilk kadın başbakanı kimdir?",
+        "options": {
+          "A": "Behice Boran",
+          "B": "Türkan Akyol",
+          "C": "Tansu Çiller",
+          "D": "Işılay Saygın",
+          "E": "İmren Aykut"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 10,
+        "text": "1996 yılında Necmettin Erbakan liderliğinde kurulan RP-DYP koalisyon hükümeti döneminde, siyaset literatürüne giren ve başbakanlığın ortaklar arasında devredilmesini öngören sistemin adı nedir?",
+        "options": {
+          "A": "Seçimli Başbakanlık",
+          "B": "Rotasyon Sistemi (Dönüşümlü Başbakanlık)",
+          "C": "Eş Başbakanlık",
+          "D": "Ortak Yönetim",
+          "E": "Dönem Başbakanlığı"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 11,
+        "text": "28 Şubat Bildirisi’ne (1997) göre ülkenin önündeki en büyük tehdit ne idi?",
+        "options": {
+          "A": "Bölücü Terör",
+          "B": "İrtica (Gericilik / Şeriat tehdidi)",
+          "C": "Ekonomik Kriz",
+          "D": "Dış Güçler",
+          "E": "Askeri Vesayet"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 12,
+        "text": "Türk demokrasi tarihine \"28 Şubat Süreci\" olarak geçen ve irtica tehlikesine karşı sert önlemler içeren bildiri hangi anayasal kurulun toplantısı sonucunda yayınlanmıştır?",
+        "options": {
+          "A": "Yüksek Askeri Şura (YAŞ)",
+          "B": "Anayasa Mahkemesi",
+          "C": "Milli Güvenlik Kurulu (MGK)",
+          "D": "Bakanlar Kurulu",
+          "E": "Türkiye Büyük Millet Meclisi (TBMM)"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Sınav 27: 1980 Sonrası Siyasi Gelişmeler - 3",
+    "questions": [
+      {
+        "id": 1,
+        "text": "1990'lı yıllarda Necmettin Erbakan liderliğindeki Refah Partisi (RP) ile Tansu Çiller liderliğindeki Doğru Yol Partisi (DYP) arasında kurulan koalisyon hükümetine ne ad verilir?",
+        "options": {
+          "A": "REFAHYOL",
+          "B": "ANAYOL",
+          "C": "DSP-MHP-ANAP Koalisyonu",
+          "D": "Milliyetçi Cephe",
+          "E": "REFAH-ANAP"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "text": "ANAP ile DYP arasında kurulan ve kısa ömürlü olan diğer bir merkez sağ koalisyon hükümetinin adı nedir?",
+        "options": {
+          "A": "REFAHYOL",
+          "B": "ANAYOL",
+          "C": "Milliyetçi Cephe",
+          "D": "Büyük Koalisyon",
+          "E": "Demokrat Cephe"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "text": "Türk siyasi tarihinde önemli bir figür olan ve 4 Nisan 1997 tarihinde vefat eden Milliyetçi Hareket Partisi (MHP) lideri kimdir?",
+        "options": {
+          "A": "Devlet Bahçeli",
+          "B": "Muhsin Yazıcıoğlu",
+          "C": "Alparslan Türkeş",
+          "D": "Gün Sazak",
+          "E": "Dündar Taşer"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "text": "Milli Nizam Partisi ile başlayan süreçte; Refah Partisi, Fazilet Partisi ve Saadet Partisi çizgisine verilen siyasi akım adı nedir?",
+        "options": {
+          "A": "Milli Selamet",
+          "B": "Milli İrade",
+          "C": "Milli Cephe",
+          "D": "Milli Görüş",
+          "E": "Demokratik İslam"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 5,
+        "text": "Türkiye, hangi zirvede, 10–11 Aralık 1999 tarihlerinde yapılan AB Devlet ve Hükümet Başkanları toplantısında oybirliği ile Avrupa Birliği'ne aday ülke olarak kabul ve ilan edilmiştir?",
+        "options": {
+          "A": "Kopenhag Zirvesi",
+          "B": "Maastricht Zirvesi",
+          "C": "Helsinki Zirvesi",
+          "D": "Nice Zirvesi",
+          "E": "Lizbon Zirvesi"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "text": "28 Şubat 1997’de Milli Güvenlik Kurulu Kararları hangi hükümete karşı yapılan bir muhtıra olarak değerlendirilmektedir?",
+        "options": {
+          "A": "ANAYOL Hükümeti",
+          "B": "REFAHYOL Hükümeti",
+          "C": "DSP-MHP-ANAP Hükümeti",
+          "D": "I. Çiller Hükümeti",
+          "E": "Mesut Yılmaz Hükümeti"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "text": "18 Nisan 1999’da yapılan genel seçimlerin ardından ilk toplantısını 2 Mayısta yapan TBMM hangi krizle başlamıştır?",
+        "options": {
+          "A": "Cumhurbaşkanlığı Seçimi Krizi",
+          "B": "Anayasa Fırlatma Krizi",
+          "C": "Koalisyon Krizi",
+          "D": "\"Başörtüsü / Yemin\" Krizi (Merve Kavakçı olayı)",
+          "E": "367 Krizi"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 8,
+        "text": "5 Mayıs 2000 tarihinde yapılan meclis oylamasının 3. turunda Türkiye Cumhuriyeti'nin 10. Cumhurbaşkanı seçilen eski Anayasa Mahkemesi Başkanı kimdir?",
+        "options": {
+          "A": "Süleyman Demirel",
+          "B": "Abdullah Gül",
+          "C": "Ahmet Necdet Sezer",
+          "D": "Fahri Korutürk",
+          "E": "Turgut Özal"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "text": "3 Kasım 2002 tarihinde yapılan erken genel seçimde tek başına iktidara gelen siyasi parti hangisidir?",
+        "options": {
+          "A": "Cumhuriyet Halk Partisi (CHP)",
+          "B": "Doğru Yol Partisi (DYP)",
+          "C": "Milliyetçi Hareket Partisi (MHP)",
+          "D": "Adalet ve Kalkınma Partisi (AK Parti)",
+          "E": "Anavatan Partisi (ANAP)"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 10,
+        "text": "Sovyetler Birliği'nin dağılma sürecinde Devlet Başkanı Mihail Gorbaçov'un başlattığı \"açıklık\" politikasının Rusça karşılığı olan terim hangisidir?",
+        "options": {
+          "A": "Perestroyka",
+          "B": "Glasnost",
+          "C": "Nomenklatura",
+          "D": "Pravda",
+          "E": "Bolşevik"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 11,
+        "text": "Türkiye ile Avrupa Birliği ilişkilerinde dönüm noktası olan ve 1 Ocak 1996 tarihi itibarıyla yürürlüğe giren ekonomik entegrasyon anlaşması hangisidir?",
+        "options": {
+          "A": "Ankara Antlaşması",
+          "B": "Katma Protokol",
+          "C": "Gümrük Birliği Antlaşması",
+          "D": "Serbest Ticaret Antlaşması",
+          "E": "Maastricht Antlaşması"
+        },
+        "answer": "C"
+      }
+    ]
+  }
+]
