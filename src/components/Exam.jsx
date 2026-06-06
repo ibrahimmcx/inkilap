@@ -49,6 +49,18 @@ const Exam = ({ exam, onFinish, onCancel }) => {
         </div>
         
         <div style={{ padding: '0 2rem' }}>
+          {exam.description && (
+            <p style={{ 
+              backgroundColor: 'var(--glass-bg)', 
+              padding: '1rem', 
+              borderRadius: '8px',
+              borderLeft: '4px solid var(--primary)',
+              marginBottom: '1rem',
+              lineHeight: '1.5'
+            }}>
+              {exam.description}
+            </p>
+          )}
           <div className="progress-bar">
             <div className="progress-fill" style={{ width: `${progress}%` }}></div>
           </div>

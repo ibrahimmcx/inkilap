@@ -59,7 +59,7 @@ function App() {
       
       <div className="app-container">
         <header>
-          <h1>İnkılap Tarihi Sınavları</h1>
+          <h1>İnkılap Tarihi ve Türk Dili Sınavları</h1>
           <button className="theme-toggle" onClick={toggleTheme}>
             {theme === 'dark' ? '☀️ Aydınlık' : '🌙 Karanlık'}
           </button>

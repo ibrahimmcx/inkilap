@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "Sınav 1: Türk Hukuk İnkılabı",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -248,6 +249,7 @@
   {
     "id": 2,
     "title": "Sınav 2: Eğitim ve Kültür Hayatındaki Düzenlemeler",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -494,6 +496,7 @@
   {
     "id": 3,
     "title": "Sınav 3: Sosyal ve Ekonomik Alanda Yapılan İnkılaplar",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -740,6 +743,7 @@
   {
     "id": 4,
     "title": "Sınav 4: Mustafa Kemal Atatürk Dönemi’nde Dış Politika",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -986,6 +990,7 @@
   {
     "id": 5,
     "title": "Sınav 5: II. Dünya Savaşı Süreci",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -1232,6 +1237,7 @@
   {
     "id": 6,
     "title": "Sınav 6: Atatürk Düşünce Sistemi Çerçevesinde Atatürk İlkeleri",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -1478,6 +1484,7 @@
   {
     "id": 7,
     "title": "Sınav 7: Bütünleyici İlkeler",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -1724,6 +1731,7 @@
   {
     "id": 8,
     "title": "Sınav 8: Darbelerin Gölgesinde Türkiye (1960 - 1980)",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -1970,6 +1978,7 @@
   {
     "id": 9,
     "title": "Sınav 9: 12 Eylül 1980 Darbesi ve Sonrasında Türkiye",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -2216,6 +2225,7 @@
   {
     "id": 10,
     "title": "Sınav 10: Genel Tekrar",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -2462,6 +2472,7 @@
   {
     "id": 11,
     "title": "Sınav 11: Ünite 1",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -2588,6 +2599,7 @@
   {
     "id": 12,
     "title": "Sınav 12: Ünite 2",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -2714,6 +2726,7 @@
   {
     "id": 13,
     "title": "Sınav 13: Ünite 3",
+    "description": "I. Saltanatın kaldırılmasına \nII. Halifeliğin kaldırılmasına \nIII. Cumhuriyetin ilanına",
     "questions": [
       {
         "id": 1,
@@ -2840,6 +2853,7 @@
   {
     "id": 14,
     "title": "Sınav 14: Ünite 4",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -2966,6 +2980,7 @@
   {
     "id": 15,
     "title": "Sınav 15: Ünite 5",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -3092,6 +3107,7 @@
   {
     "id": 16,
     "title": "Sınav 16: Ünite 6",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -3218,6 +3234,7 @@
   {
     "id": 17,
     "title": "Sınav 17: Ünite 7",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -3344,6 +3361,7 @@
   {
     "id": 18,
     "title": "Sınav 18: Ünite 8",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -3464,6 +3482,7 @@
   {
     "id": 19,
     "title": "Sınav 19: Ünite 9",
+    "description": "I. Hatay  \nII. Batum \nIII. Musul",
     "questions": [
       {
         "id": 1,
@@ -3590,6 +3609,7 @@
   {
     "id": 20,
     "title": "Sınav 20: Ünite 10",
+    "description": "II. Dünya Savaşı'ndan sonra sömürge durumunda olan bazı Asya ve Afrika \nülkelerinin Türkiye'yi örnek aldıkları görülmüştür.",
     "questions": [
       {
         "id": 1,
@@ -3716,6 +3736,7 @@
   {
     "id": 21,
     "title": "Sınav 21: Ünite 11",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -3842,6 +3863,7 @@
   {
     "id": 22,
     "title": "Sınav 22: Ünite 12",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -3968,6 +3990,7 @@
   {
     "id": 23,
     "title": "Sınav 23: Ünite 13",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -4094,6 +4117,7 @@
   {
     "id": 24,
     "title": "Sınav 24: Ünite 14",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -4220,6 +4244,7 @@
   {
     "id": 25,
     "title": "Sınav 25: 1980 Sonrası Siyasi Gelişmeler - 1",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -4370,6 +4395,7 @@
   {
     "id": 26,
     "title": "Sınav 26: 1980 Sonrası Siyasi Gelişmeler - 2",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -4520,6 +4546,7 @@
   {
     "id": 27,
     "title": "Sınav 27: 1980 Sonrası Siyasi Gelişmeler - 3",
+    "description": "",
     "questions": [
       {
         "id": 1,
@@ -4652,6 +4679,1024 @@
           "E": "Maastricht Antlaşması"
         },
         "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Sınav 28: Yazım Kuralları",
+    "description": "Bu ünitede dilimizin doğru yazımı ile ilgili temel kurallar ele alınmaktadır. Büyük ve küçük harflerin kullanımı, sayıların, tarihlerin yazımı, bitişik ve ayrı yazılan kelimeler, \"ki\", \"de\", \"mi\" bağlaçlarının ve eklerinin yazımı gibi konular Türkçenin doğru ve etkili bir şekilde kullanılması için büyük önem taşır.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı vardır?",
+        "options": {
+          "A": "Yarın Ayşe teyzemlere gideceğiz.",
+          "B": "Dün akşam TBMM'ye yeni bir kanun teklifi sunuldu.",
+          "C": "Bu kitap 1985'te yayımlanmış.",
+          "D": "O kadar çok çalıştıki sonunda başardı.",
+          "E": "Ankara Kalesi'ni gezmek için yola çıktık."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 2,
+        "text": "Aşağıdaki cümlelerin hangisinde büyük harflerin yazımıyla ilgili bir yanlışlık yapılmıştır?",
+        "options": {
+          "A": "Doğu Anadolu'da kışlar çok çetin geçer.",
+          "B": "Anadolu'nun Doğusu bu mevsimde daha soğuktur.",
+          "C": "Dicle Nehri, bölgemizin önemli su kaynaklarındandır.",
+          "D": "Dün Varlık dergisinin son sayısını okudum.",
+          "E": "Kardeşim, Marmara Üniversitesini kazandı."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "text": "\"de, da\" nın yazımıyla ilgili aşağıdaki cümlelerin hangisinde yanlışlık yapılmıştır?",
+        "options": {
+          "A": "Sen de bizimle sinemaya gelecek misin?",
+          "B": "Evde hiç yiyecek kalmamış.",
+          "C": "Soruları evde çözüp öyle gelmiş.",
+          "D": "O kadar üzüldümkü bende ağladım.",
+          "E": "Bizi sokakta saatlerce bekletti."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "Aşağıdaki cümlelerin hangisinde sayıların yazımı ile ilgili bir yanlışlık vardır?",
+        "options": {
+          "A": "Sınava iki milyon üç yüz bin öğrenci girdi.",
+          "B": "Sınıftaki 15'er öğrenci gruplara ayrıldı.",
+          "C": "Yarışmada 2'nci olduğunu öğrenince çok sevindi.",
+          "D": "Bu binanın yapımı bin dokuz yüz seksen beşte tamamlanmış.",
+          "E": "Toplantı saat 14.30'da başlayacak."
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "text": "Aşağıdakilerden hangisinin yazımı doğrudur?",
+        "options": {
+          "A": "Art arda",
+          "B": "Hiç bir",
+          "C": "Herkez",
+          "D": "Bir kaç",
+          "E": "Orjinal"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Sınav 29: Noktalama İşaretleri",
+    "description": "Noktalama işaretleri, yazılı anlatımda duygu ve düşünceleri daha açık ifade etmek, cümlenin duraklama ve vurgu noktalarını belirtmek, okumayı ve anlamayı kolaylaştırmak için kullanılır. Nokta, virgül, noktalı virgül, soru işareti, ünlem işareti, tırnak işareti, kesme işareti gibi işaretlerin yerinde kullanımı anlam kargaşasını önler.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Aşağıdaki cümlelerin hangisinin sonuna soru işareti (?) konulmalıdır?",
+        "options": {
+          "A": "Neden böyle davrandığını bir türlü anlayamadım",
+          "B": "Kiminle konuştuğumu sana söyleyecek değilim",
+          "C": "Akşam yemeğine ne hazırlayayım",
+          "D": "Olanları duyunca ne yapacağını şaşırdı",
+          "E": "Nereye gideceğimize henüz karar vermedik"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "text": "Eş görevli sözcükleri veya söz öbeklerini ayırmak için kullanılan noktalama işareti aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Nokta",
+          "B": "İki nokta",
+          "C": "Noktalı virgül",
+          "D": "Virgül",
+          "E": "Üç nokta"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "text": "Aşağıdaki cümlelerin hangisinde virgülün (,) kullanımı yanlıştır?",
+        "options": {
+          "A": "Pazardan elma, armut, muz aldım.",
+          "B": "Eve geldim, yemeğimi yedim, uyudum.",
+          "C": "Evet, yarın sizinle geleceğim.",
+          "D": "Hem çalışıyor, hem de okuyor.",
+          "E": "Sevgili kardeşim, seni çok özledim."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "Açıklama yapılacak veya örnek verilecek cümlelerin sonuna aşağıdaki noktalama işaretlerinden hangisi konur?",
+        "options": {
+          "A": "Noktalı virgül",
+          "B": "İki nokta",
+          "C": "Üç nokta",
+          "D": "Virgül",
+          "E": "Nokta"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "text": "Aşağıdaki cümlelerin hangisinde kesme işareti (') yanlış kullanılmıştır?",
+        "options": {
+          "A": "Ahmet'in kalemi bende kalmış.",
+          "B": "1999'da İstanbul'a taşındık.",
+          "C": "TDK'nin yeni yayınlarını inceledim.",
+          "D": "Aydınlı'lar bu habere çok sevindi.",
+          "E": "Atatürk'ü anlamak için eserlerini okumalıyız."
+        },
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Sınav 30: Anlatım Bozuklukları",
+    "description": "Anlatım bozuklukları, cümlede gereksiz sözcük kullanımı, sözcüğün yanlış anlamda veya yanlış yerde kullanımı, anlamca çelişen sözcüklerin bir arada bulunması gibi anlamsal hatalar ile özne-yüklem uyumsuzluğu, ek ve bağlaç yanlışlıkları, tamlama yanlışlıkları gibi dil bilgisel hatalardan kaynaklanır. Açık ve anlaşılır bir dil için bu bozukluklardan kaçınılmalıdır.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Aşağıdaki cümlelerin hangisinde gereksiz sözcük kullanımından kaynaklanan bir anlatım bozukluğu vardır?",
+        "options": {
+          "A": "Arkadaşlarıyla birlikte sinemaya gittiler.",
+          "B": "Soruları çözerken çok dikkatli olmalısın.",
+          "C": "Hava soğuk olduğu için dışarı çıkmadık.",
+          "D": "Yeni aldığı arabayı çok beğenmiş.",
+          "E": "Bu kitabı okumanızı tavsiye ederim."
+        },
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "text": "\"Eminim ki bu sınavdan yüksek bir not almış olmalı.\" cümlesindeki anlatım bozukluğunun nedeni aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Gereksiz sözcük kullanımı",
+          "B": "Anlamca çelişen sözcüklerin bir arada kullanılması",
+          "C": "Sözcüğün yanlış anlamda kullanılması",
+          "D": "Mantık ve sıralama hatası",
+          "E": "Özne-yüklem uyumsuzluğu"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "text": "\"Çok denizde yüzdüğüm için hastalandım.\" cümlesindeki anlatım bozukluğu nasıl giderilebilir?",
+        "options": {
+          "A": "\"çok\" sözcüğü cümleden çıkarılarak",
+          "B": "\"denizde\" sözcüğü yerine \"havuzda\" getirilerek",
+          "C": "\"yüzdüğüm\" yerine \"kaldığım\" getirilerek",
+          "D": "\"çok\" sözcüğü \"denizde\" sözcüğünden sonra getirilerek",
+          "E": "\"için\" sözcüğü cümleden çıkarılarak"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "Aşağıdaki cümlelerin hangisinde özne-yüklem uyumsuzluğu vardır?",
+        "options": {
+          "A": "Kuşlar neşe içinde ötüşüyorlar.",
+          "B": "Öğrenciler derse zamanında girdiler.",
+          "C": "Biz ve onlar bu projede birlikte çalışacağız.",
+          "D": "Herkes bu karara itiraz ettiler.",
+          "E": "Ben ve Ahmet yarın size geleceğiz."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 5,
+        "text": "\"Ektiğimiz fidanlar meyve vermeye başladı.\" cümlesindeki anlatım bozukluğunun nedeni nedir?",
+        "options": {
+          "A": "Mantık hatası",
+          "B": "Özne-yüklem uyumsuzluğu",
+          "C": "Sözcüğün yanlış anlamda kullanılması",
+          "D": "Çelişen ifadelerin kullanılması",
+          "E": "Tamlama yanlışı"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Sınav 31: Yazılı Anlatım Bilgileri",
+    "description": "Bu ünitede, yazılı anlatımın temel özellikleri, anlatım biçimleri (betimleme, öyküleme, açıklama, tartışma) ve düşünceyi geliştirme yolları (örnekleme, tanık gösterme, karşılaştırma vb.) işlenmektedir. Yazılı metinlerin etkili ve amacına uygun olabilmesi için doğru anlatım biçiminin seçilmesi önemlidir.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Yazılı edebiyatımız 8. yüzyılda dikilen Göktürk Kitabeleri’yle başlar. Türk dilinin yazılı edebiyatının ilk örneği bu taşlardır. Bu kitabeler üç taştan oluşur. Birinci taşı Vezir Tonyukuk kendi adına diktirmiştir. İkinci taş, Bilge Kağan tarafından kardeşi Kültigin Kağan adına dikilmiştir. Üçüncü taş ise Bilge Kağan’ın ölümü üzerine onun adına dikilmiştir ve Yollug Tigin tarafından yazılmıştır. Bu parçanın anlatım biçimi aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Betimleme",
+          "B": "Öyküleme",
+          "C": "Açıklama",
+          "D": "Tartışma",
+          "E": "Karşılaştırma"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "text": "Adaçayımdan birkaç yudum aldım. Etrafıma bakındım. Gelen giden yoktu. Yerimden kalktım kapının önüne kadar geldim. Cep telefonum çaldı. Telefonu açtığımda daha evden yeni çıktığını, on beş yirmi dakikada burada olacağını söyledi. Ben çay ocağına döndüğümde oturulacak yer kalmadığını gördüm. O gelinceye kadar ayakta dikildim. Bu parçanın anlatımında aşağıdakilerden hangisine başvurulmuştur?",
+        "options": {
+          "A": "Tartışmaya",
+          "B": "Örneklemeye",
+          "C": "Karşılaştırmaya",
+          "D": "Öykülemeye",
+          "E": "Tanık göstermeye"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "text": "Aşağıdaki cümlelerden hangisinde betimleme yoktur?",
+        "options": {
+          "A": "Okulun bahçesindeki çınarın son yaprakları da dökülmüştü.",
+          "B": "Bu yokuşu babamla bir fayton içinde çıktığımız günü hatırladım.",
+          "C": "Odanın penceresi yoğunlaşmış bir karanlığa açılıyor.",
+          "D": "Gülüverecekmiş gibi duran çocuğun gözleri yumuşak, mavimsi, parıltılıydı.",
+          "E": "Sobanın üzerindeki ibrikten buğu doluyordu odaya."
+        },
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "text": "Yolunuz bir köye düşer. Beyaz badanalı gösterişsiz bir binada, kırık dökük sıralar üzerinde, ders aracı adına kara tahta ile tebeşiri güçlükle sağlayan, okulun bayrağını aylığından satın almış başarılı bir öğretmenle karşılaşırsınız. Öğrencileri ateş gibidir. Sizi “Günaydın!” diye karşılamış, sorularınızı da pek güzel cevaplandırmışlardır. Bu parçanın anlatımı ile ilgili aşağıdaki yargılardan hangisi doğrudur?",
+        "options": {
+          "A": "Yazar öznel düşüncelerini dile getirmiştir.",
+          "B": "Karşıt kavramlar bir arada kullanılmıştır.",
+          "C": "Yazar gözlemlediği bir yeri anlatmıştır.",
+          "D": "Öğretici bilgilere yer verilmiştir.",
+          "E": "Bazı kavramlar tanımlanmıştır."
+        },
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "text": "Bilan sırtlarında çamlar altındayım. Bin metre aşağıda İskenderun Ovası ve şehir, soluk almaya mecalsiz, güneş altında dümdüz yatıyor. Gölgelik içinden o kızgın yerlere hayretle bakıyorum. Ben o kadar rahatım, öyle huzur ve saadet verici tatlı rüzgâr karşısındayım ki gözle görünen bir yerde sıcaktan bunalmış, güneşten usanmış insanların bulunabileceğine inanmıyorum. Aşağısı bana çok uzak, çok korkunç, yarı yalan gibi görünüyor. Bu parçanın anlatımı için aşağıdakilerden hangisi söylenebilir?",
+        "options": {
+          "A": "Betimlemede kişisellik ağır basmaktadır.",
+          "B": "Bilimsel bilgilerden yararlanılmıştır.",
+          "C": "Öyküleme tekniğine başvurulmuştur.",
+          "D": "Bazı kavramlar tanımlanmıştır.",
+          "E": "Karşılaştırmalara başvurulmuştur."
+        },
+        "answer": "A"
+      },
+      {
+        "id": 6,
+        "text": "Son günlerde \"idi\" nin ayrı veya birleşik yazıl-masıyla ilgili bir tartışma başladı. Bildiğim kadarıyla bu konuda oybirliğiyle varılmış bir saptama yok. Bazılarına göre \"idi\"nin ayrıyazılması, yerine göre anlatımın vurgulanmasını sağlıyor ya da anlatıma tarihsel bir ton katıyor. Nazım Hikmet \"Şeyh Bedrettin Destanı\"nda bu olanağı çok iyi kullanmıştır. Şunu da bilmek gerekir ki söz konusu iki biçimden biri dilin daha eski dönemlerine ait bir biçimken, diğeri daha yeni. Bu parçanın anlatımında aşağıdakilerden hangileri kullanılmıştır?",
+        "options": {
+          "A": "Tartışma, tanık gösterme, örnekleme",
+          "B": "Açıklama, karşılaştırma, tanık gösterme",
+          "C": "Örnekleme, tanık gösterme, tanımlama",
+          "D": "Öyküleme, karşılaştırma, tanımlara",
+          "E": "Açıklama, örnekleme, karşılaştırma"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 7,
+        "text": "Cumhuriyetimizin 82. yıl dönümünü yaşadığımız şu günlerde bile cumhuriyetin tanımı hakkında müthiş bir cehalet var. Cumhuriyet dendiği zaman akla ilk gelen demokrasi kavramıdır. Cumhuriyet demek demokrasi demek mi? Hayır! Cumhuriyet “halka ait” demektir. Saddam’ın Irak’ı da cumhuriyetti İran da cumhuriyet. Bunun yanında demokrasinin beşiği olarak nitelendirilen Avrupa’nın İngiltere, İsveç, Danimarka gibi bazı ülkelerinde demokrasinin en üst düzeyde olmasına rağmen yönetim biçimleri monarşidir. Yukarıdaki parçanın anlatımında aşağıdaki aşağıdakilerden hangilerine başvurulmuştur?",
+        "options": {
+          "A": "Tanık gösterme – Tanımlama – Tartışma",
+          "B": "Tanımlama – Örneklendirme – Öyküleme",
+          "C": "Betimleme – Tartışma – Örneklendirme",
+          "D": "Açıklama – Tartışma – Betimleme",
+          "E": "Tanımlama – Tartışma – Örneklendirme"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 8,
+        "text": "Sabahleyin gökyüzü parlak, ufuk açıktı\nGüneşli bir havada yaylımız yola çıktı\nBu gurbetten gurbete giden yolun üstünde\nBu üç mevsimi değişmiş görüyorum üç günde\nBu dizelerde aşağıdakilerden hangisi ağır basmaktadır?",
+        "options": {
+          "A": "Karşılaştırma",
+          "B": "Tartışma",
+          "C": "Örnekleme",
+          "D": "Betimleme",
+          "E": "Açıklama"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 9,
+        "text": "Gökyüzü duru ve aydınlıktı. Korkuyla etrafına bakındı. Ahşap evlerin tahtaları arasından sızan güneş ışıklarında cilveleşen güvercinleri gördü. Kimi kahkahalarla top kovalayan, kimi büyük bir ciddiyetle su birikintilerinde kâğıttan gemiler yüzdürerek korsancılık oynayan, dizleri yaralı umursamaz çocuklar arasından geçtikçe, korkusu buharlaşıp yok oldu. Yürüdükçe sokakları, tepeyi, tepeye varan patikayı gördü. Deve dişini andıran patika yoldan tepeye çıkmaya koyuldu. Bu parçanın anlatımında aşağıdakilerden hangisi yoktur?",
+        "options": {
+          "A": "Tanık gösterme",
+          "B": "Çeşitli duyulara seslenme",
+          "C": "Gözlem gücünden yararlanma",
+          "D": "Benzetme sanatına yer verme",
+          "E": "Öykülemeye başvurma"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Sınav 32: Yazılı Anlatım Türleri - 1",
+    "description": "Yazılı anlatım türleri, düşünce, duygu ve olayların belli kurallar ve biçimler çerçevesinde ifade edildiği metinlerdir. Sohbet, mektup, deneme, fıkra, makale, eleştiri, anı, gezi yazısı ve biyografi gibi türler; yazarın amacına, konunun işlenişine ve okuyucuyla kurulan iletişimin şekline göre birbirlerinden ayrılırlar.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "‘’Sohbet’’ türü ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+        "options": {
+          "A": "Ele alınan konuda okuyucu, mutlaka ikna edilmelidir.",
+          "B": "Sohbetlerde daha çok okurların ilgisini çeken günlük olaylar konu edilmelidir.",
+          "C": "Okuyucuya verilmek istenen bilgi ve düşünceler, kısa yoldan, derli toplu verilmelidir.",
+          "D": "Anlatım, herkesin anlayabileceği özellikte ve konuşma diline yakın olmalıdır.",
+          "E": "Yeri geldikçe konu ile ilgili fıkra, halk deyimi, atasözü, vecizelerden yararlanılabilir."
+        },
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "text": "Aşağıdakilerden hangisi mektup türünün amaçlarından değildir?",
+        "options": {
+          "A": "Bir yardım istemek",
+          "B": "Sevinç ve üzüntü bildirmek",
+          "C": "Haber vermek",
+          "D": "Bir kişiyi tanıtmak",
+          "E": "Bir meseleyi tartışmak"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 3,
+        "text": "I. Birbirinden farklı yerlerde bulunan kişiler ve kurumlar arasında özel ya da resmî iletişimi sağlayan yazı türüdür. II. Bu tür, aynı zamanda bir haberleşme aracıdır. III. Bu türde yazarın duygu ve düşünceleri içten bir şekilde yansır. IV. Bu türde dil, dil ötesi işlevde kullanılır. V. Resmî mektup, iş mektubu, özel mektup, edebî mektup gibi çeşitleri vardır. Numaralanmış cümlelerin hangisinde mektupla ilgili bilgi yanlışı vardır?",
+        "options": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4",
+          "E": "5"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "Canım Efendim, Bilseniz ne kadar severim ‘‘canım’’ demeyi. Ca’yı şöyle uzatarak… Kısaca söylemenin de bir zevki, bir tatlılığı vardır, bilirim. Ama ‘‘Caanım’’ demek daha hoşuma gider benim. Nasıl anlatayım? Daha bir âşıkça oluyor. Hani âşık denince bir de şair anlaşılıyor ya işte o anlamıyla, daha doğrusu iki anlamıyla birden… Bu metin, hangi tür mektuptan alınmış olabilir?",
+        "options": {
+          "A": "Özel mektup",
+          "B": "İş mektubu",
+          "C": "Dilekçe",
+          "D": "Edebî mektup",
+          "E": "Resmî mektup"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "text": "Aşağıdakilerden hangisinde bilgi yanlışı vardır?",
+        "options": {
+          "A": "Resmî mektuplarda, mektubun ciddiyetini azaltacak süslü ifadelere yer verilmez.",
+          "B": "Ek belgelerin bulunduğu dilekçelerde adres bölümünün altında ‘‘EKLER’’ bölümü bulunur.",
+          "C": "Özel mektupların giriş bölümünde mektubun yazılış nedeni, gelişme bölümünde asıl konu, sonuç bölümünde sevgi, saygı ve iyi dilekler yer alır.",
+          "D": "İş mektuplarında dilin alıcıyı harekete geçirme işleviyle heyecana bağlı işlevlerinden yararlanılır.",
+          "E": "Mektuplar eski edebiyatımızda münşaat ve mektubat adı verilen eserlerde toplanmıştır."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 6,
+        "text": "Özel mektup yazılırken şu özelliklere dikkat edilir: I. Sağ üst köşeye tarih ve yer yazılır. II. Hitap sözünü oluşturan kelimelerin ilk harfleri büyük yazılır. III. Kendine özgü bir yazım planı vardır. IV. Son bölümde sevgi, saygı, iyi dilekler belirtilir. V. Sol alt köşeye ad soyad yazılır ve imza atılır. Özel mektupla ilgili numaralanmış bilgilerden hangisi yanlıştır?",
+        "options": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 7,
+        "text": "I. Gazete çevresinde gelişen metin türlerindendir. II. Bu yazı türünde yazar ele aldığı konuyu derinlemesine incelemez. III. Yazarın amacı, okuyucuya karşılıklı konuşma havasında duygu ve düşüncelerini açıklamak, hoş zaman geçirtmektir. IV. Bu metin türünde samimi, senli benli, nükteli bir üslup kullanılır. V. Mahalli ve kişisel söyleyişlere, deyim ve atasözlerine yer vermekten kaçınılır. Yukarıdaki numaralanmış cümlelerden hangisi sohbet türüyle ilgili yanlış bir bilgidir?",
+        "options": {
+          "A": "V",
+          "B": "IV",
+          "C": "III",
+          "D": "II",
+          "E": "I"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "text": "Aşağıdakilerden hangisi söyleşi türünün özelliklerinden biri değildir?",
+        "options": {
+          "A": "Herkesin ilgisini çekecek konular anlatılır.",
+          "B": "Bir düşünce açıklanıp okuyucuya bilgi verilir.",
+          "C": "Anlatıcı, kendi yorumuna yer verebilir.",
+          "D": "Konu çok derine inilmeden ele alınır.",
+          "E": "Sade, samimi bir anlatımı vardır."
+        },
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "text": "1) Yazarın okuyucuyla konuşuyormuş gibi bir anlatımı vardır. 2) Nüktelerden, halk söyleyişlerinden, fıkralardan yararlanılır. 3) Kısa ve yüzeysel bir anlatımı vardır. 4) Amaç okuyucunun dikkatini, ele alınan konuya yöneltmektir. 5) Yazar düşüncelerini bilimsel veriler kullanarak kanıtlar. Numaralanmış cümlelerin hangisinde sohbetin özelliklerinden biri verilmemiştir?",
+        "options": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4",
+          "E": "5"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 10,
+        "text": "Aşağıdakilerden hangisi edebiyatımızda ünlü bir mektuptur?",
+        "options": {
+          "A": "Harname",
+          "B": "Şikayetname",
+          "C": "İskendername",
+          "D": "Garipname",
+          "E": "Zafername"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Sınav 33: Yazılı Anlatım Türleri - 2",
+    "description": "Yazılı anlatım türleri, düşünce, duygu ve olayların belli kurallar ve biçimler çerçevesinde ifade edildiği metinlerdir. Sohbet, mektup, deneme, fıkra, makale, eleştiri, anı, gezi yazısı ve biyografi gibi türler; yazarın amacına, konunun işlenişine ve okuyucuyla kurulan iletişimin şekline göre birbirlerinden ayrılırlar.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Ele alınan bir konunun bazı yönleri üzerinde özel bir görüşle derinlemesine yapılan incelemeleri yansıtan yazılara denir. Genellikle ünlü bir kişinin hayatı, eserleri ve başarıları üzerinde yürütülen bir türdür. Tek yön üzerine derinlemesine araştırma söz konusudur. Araştırmada o güne kadar gizli kalmış yönler belirlenip ortaya konulur. Yukarıdaki parçada kişisel hayatı alan konu alan hangi metinden bahsedilmektedir?",
+        "options": {
+          "A": "Monografi",
+          "B": "Anı (hatıra)",
+          "C": "Biyografi",
+          "D": "Otobiyografi",
+          "E": "Portre"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "text": "Kişisel hayatı konu alan türlerden olan \"biyografi (yaşam öyküsü)\" ile ilgili verilen aşağıdaki bilgilerden hangisi yanlıştır?",
+        "options": {
+          "A": "Edebiyat, sanat, siyaset, ticaret vb. alanlarda yaptıkları ve yaşadıklarıyla devrini etkilemiş kişilerin hayatını anlatan yazı türüne denir.",
+          "B": "Biyografi (yaşam öyküsü) anlatımında üçüncü kişi anlatımı kullanılır.",
+          "C": "Ünlü kişilerin hayatlarını konu alıp bunları roman tarzında işleyen ve edebi değer taşıyan yazılara \"biyografik roman\" adı verilir.",
+          "D": "Biyografi yazımında tarihsel sıralamaya dikkat edilmez.",
+          "E": "Biyografi yazarı bilgi, belge ve kanıtlara dayanır."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "text": "Kişilerin özellikle de tanınmış kişilerin yaşadıklarını, tanık oldukları olayları gözlem ve bilgilerine dayanarak anlattıkları yazı türüne denir. (I) Anıda yaşanmış olanlar değil, yaşanmakta olanlar dile getirilir. (II) Anılarla birlikte dönemin anlayışı, siyasal durumu, tarihsel gerçeklikleri de anlatılır. (III) Anılarda birinci kişinin ağzından anlatım (ben anlatımı) esastır. (IV) Anılar, günü gününe tutulan notlar şeklinde yazılabildiği gibi; sonraki zamanlarda hafızayı yoklayarak da yazılabilir. (V) Yukarıda numaralanmış yerlerin hangisinde \"anı (hatıra)\" türü ile ilgili bir bilgi yanlışlığı söz konusudur?",
+        "options": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "text": "Gezi yazıları, çok eski zamanlara dayanan bir geçmişe sahiptir. (I) Hun hükümdarı Atilla'ya gönderilen Priskos'un eseri ile Kilikyalı Zemarkhos'un Bizans İmparatorluğu elçisi olduğu dönemde tuttuğu notlar gezi yazılarının ilk örneğini oluşturur. (II) Venedikli ünlü gezgin Marco Polo ve Arap gezgin İbn-i Batuta'nın gezi yazıları ilk önemli eserler olarak bilinir. (III) İbni Batuta özellikle Anadolu ve Horasan başta olmak üzere bu civarlarda yaşayan Türkleri eserinde konu edinmiştir. (IV) Marco Polo'nun ise Orta Asya ve Yakın Doğu ülkelerine yaptığı geziden mükemmel bir gezi yazısı örneği ortaya çıkmıştır. (IV) Türk edebiyatında ilk gezi kitabı ünlü denizci Piri Reis'in \"Miratü'l Memalik\" (Ülkelerin Aynası) eseridir. (V) Yukarıda numaralanmış yerlerin hangisinde \"gezi yazısı\" türü ile ilgili bir bilgi yanlışlığı söz konusudur?",
+        "options": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 5,
+        "text": "Altı çocuklu, az topraklı bir köylü ailesinin ikinci çocuğuyum. Babam Veli, Yemen'de seferberlikte askerlik yapmış, yaralanmış, esir düşmüş. Toprağımız olmadığından kardeşimle ben köyde ırgatlık yaparak evimizin geçimini sağlardık. Aç yattığımız çok gün olmuştur. Yukarıdaki yazı parçası aşağıdaki yazın türlerinden hangisine örnek olabilir?",
+        "options": {
+          "A": "Deneme",
+          "B": "Otobiyografi",
+          "C": "Biyografi",
+          "D": "Söyleşi",
+          "E": "Günlük"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "text": "Edebiyatımızda aşağıdaki düşünce yazılarından hangisi diğerlerine göre daha az örneği bulunan bir türdür?",
+        "options": {
+          "A": "Makale",
+          "B": "Deneme",
+          "C": "Anı",
+          "D": "Gezi yazısı",
+          "E": "Otobiyografi"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 7,
+        "text": "Aşağıdakilerin hangisi insanların anı yazma nedenlerinden biri değildir?",
+        "options": {
+          "A": "Yaşadıklarını günü gününe belgelendirmek",
+          "B": "Kendini başkalarına birinci ağızdan tanıtmak",
+          "C": "Birikimini, deneyimini insanlarla paylaşmak",
+          "D": "Kamuoyu önünde kendisiyle hesaplaşmak",
+          "E": "Özellikle gelecek kuşaklara uyarıda bulunmak"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "text": "Aşağıdakilerden hangisi gezi yazısı türünün edebiyatımızdaki önemli temsilcilerindendir?",
+        "options": {
+          "A": "Evliya Çelebi",
+          "B": "Namık Kemal",
+          "C": "Şinasi",
+          "D": "İbni Batuta",
+          "E": "Edirneli Sehî Bey"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "text": "Edebiyatımızdaki ilk gezi kitabımız aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Mirat-ül Memalik- Seydi Ali Reis",
+          "B": "Evliya Çelebi- Seyahatname",
+          "C": "Ahmet Mithat Efendi- Avrupa’da Bir Cevelan",
+          "D": "Reşat Nuri Güntekin-Anadolu Notları, Tuna'dan Batı'ya",
+          "E": "Ahmet Haşim-Frankfurt Seyahatnamesi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "text": "Ahmet Haşim, 1885'te Bağdat'ta doğdu, 1933'te İstanbul’da öldü. Ahmet Haşim, 1908 sonrası Fecr-i Âti ismi altında toplanan şair ve yazarlarla beraber kendini tanıtmıştır. Bu topluluğun bütün üyeleri gibi o da Tevfik Fikret ve Cenap Şahabettin'in etkisinde kalmıştır. Onun şiirlerinde Türk şairlerinden çok Fransız şairlerinin etkisi görülür. Şairin; Piyale, Göl Saatleri gibi şiir kitapları yanında Bize Göre adlı bir deneme kitabı da vardır. Yukarıdaki parça aşağıdaki yazı türlerinin hangisinden alınmış olabilir?",
+        "options": {
+          "A": "Deneme",
+          "B": "Fıkra",
+          "C": "Günlük",
+          "D": "Eleştiri",
+          "E": "Biyografi"
+        },
+        "answer": "E"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Sınav 34: Yazılı Anlatım Türleri - 3",
+    "description": "Yazılı anlatım türleri, düşünce, duygu ve olayların belli kurallar ve biçimler çerçevesinde ifade edildiği metinlerdir. Sohbet, mektup, deneme, fıkra, makale, eleştiri, anı, gezi yazısı ve biyografi gibi türler; yazarın amacına, konunun işlenişine ve okuyucuyla kurulan iletişimin şekline göre birbirlerinden ayrılırlar.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "“Amacı; adayın özgün araştırma yapma yeteneğini kazandığını göstermektir. Bu nedenle uygun bir çalışma, aynı amacı güden bir bilimsel makale gibi olmalıdır.” Yukarıda özellikleri verilen düz yazı türü aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Makale",
+          "B": "Otobiyografi",
+          "C": "Anı",
+          "D": "Tez",
+          "E": "Söyleşi"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 2,
+        "text": "I. Bilimsel ve akademik yönü ağır basan, tek kişinin konuşmacı olarak katıldığı bir sözlü anlatım türüdür. II. Bir sanatçının, bir sanat eserinin iyi ve kötü yanlarını ortaya koyarak onun gerçek değerini belirleyen, hem eserin yazarına hem de okura yol gösteren yazılardır. Yukarıdaki numaralanmış cümlelerde tanımı yapılmış edebi türler aşağıdakilerin hangisinde sırasıyla verilmiştir?",
+        "options": {
+          "A": "Eleştiri - Makale",
+          "B": "Anı - Deneme",
+          "C": "Biyografi - Makale",
+          "D": "Konferans - Eleştiri",
+          "E": "Bildiri - Eleştiri"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "text": "Edebiyatımızdaki ilk eleştiri eseri aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Ziya Paşa- Takip",
+          "B": "Namık Kemal-Tahrib-i Harabat",
+          "C": "Recaizade Mahmut Ekrem- Zemzeme Mukaddimesi",
+          "D": "Recaizade Mahmut Ekrem- Takdir-i Elhan",
+          "E": "Muallim Naci- Demdeme"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "text": "Aşağıdakilerden hangisi bilimsel veya akademik alanlarda tercih edilen anlatım türlerinden sayılır?",
+        "options": {
+          "A": "Gezi Yazısı",
+          "B": "Bildiri",
+          "C": "Sohbet",
+          "D": "Deneme",
+          "E": "Fıkra"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "text": "15-20 dakikalık zaman diliminde yapılan sözlü anlatım türü aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Bildiri",
+          "B": "Gezi Yazısı",
+          "C": "Sohbet",
+          "D": "Deneme",
+          "E": "Tez"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 6,
+        "text": "Aşağıdakilerden hangisi iyi bir eleştirinin özelliklerinden biri değildir?",
+        "options": {
+          "A": "Üzerinde düşünülen, yazılan yapıt bütün yönleriyle ele alınmalıdır.",
+          "B": "Eleştirmen eserle ilgili düşüncelerini, \"sevdim, beğendim, beğenmedim\" gibi sözcüklerle belirtmelidir.",
+          "C": "Eleştiri, ele alınan yapıta, ondan alınan örneklere bağlı kalmalıdır.",
+          "D": "Eleştirmen esere ön yargılarla değil, nesnel bir biçimde yaklaşmalıdır.",
+          "E": "Eleştirmen eleştirisini nesnel nedenlere dayandırarak yapmalıdır."
+        },
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "text": "Necati Cumalı'nın şiirleri, günümüzün sivrilmiş; adları çok anılan şairlerinkine benzemez. Kendine özgü, yalnız kendinin olan bir deyişi var onun. Öyle parlak değil; ama okudukça sarar bizi, yavaş yavaş sarar. Bir kere okuyup geçersiniz pek bir özenle ilgilenip durmanızı ister. Yukarıdaki yazı parçası aşağıdaki yazın türlerinden hangisine örnek olabilir?",
+        "options": {
+          "A": "Eleştiri",
+          "B": "Makale",
+          "C": "Söyleşi",
+          "D": "Fıkra",
+          "E": "Anı"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "text": "Bir kişinin efsane yaratmasını anlatırken başarısız olan Orhan Kemal, bir efsanenin yıkılışını anlatırken alabildiğine ustadır, başarılıdır. Bu, öyle sanıyorum, efsaneyi yıkanın gene bir insan topluluğu oluşundan ve bu yıkışın gerçek sebeplere bağlı oluşundan ileri geliyor. Bundan da Orhan Kemal'in hayal dünyasının sınırlı olduğu, olayları ve kurguları toplumdan alırsa kısmen başarılı olduğu anlaşılıyor. Yukarıdaki parça aşağıdakilerden hangisinden alınmış olabilir?",
+        "options": {
+          "A": "Makale",
+          "B": "Eleştiri",
+          "C": "Fıkra",
+          "D": "Anı",
+          "E": "Günlük"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "text": "Tartışmaya, iddiaya dayanarak bir öneri, bir fikir ileri sürmek amacıyla yazılan bilimsel yazı aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Fıkra",
+          "B": "Biyografi",
+          "C": "Tez",
+          "D": "Roman",
+          "E": "Sohbet"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 10,
+        "text": "Aşağıdakilerden hangisi bilimsel veya akademik alanlarda tercih edilen anlatım türlerinden sayılır?",
+        "options": {
+          "A": "Röportaj",
+          "B": "Biyografi",
+          "C": "Sohbet",
+          "D": "Roman",
+          "E": "Tez"
+        },
+        "answer": "E"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Sınav 35: Yazılı Anlatım Türleri - 4",
+    "description": "Yazılı anlatım türleri, düşünce, duygu ve olayların belli kurallar ve biçimler çerçevesinde ifade edildiği metinlerdir. Sohbet, mektup, deneme, fıkra, makale, eleştiri, anı, gezi yazısı ve biyografi gibi türler; yazarın amacına, konunun işlenişine ve okuyucuyla kurulan iletişimin şekline göre birbirlerinden ayrılırlar.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Fıkra İle ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+        "options": {
+          "A": "Günlük konuşma dili kullanılır.",
+          "B": "Düşünceleri kanıtlama amacı yoktur.",
+          "C": "Okuru eğitmek amacıyla yazılır.",
+          "D": "Güncel konularda yazılır.",
+          "E": "Kısa ve yoğun bir anlatımı vardır."
+        },
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "text": "Herhangi bir konuda okuyucuya bilgi vermek, bir gerçeği açıklamak ya da bazı bilgiler çerçevesinde bir düşünceyi savunmak amacıyla yazılan düz yazı türüne …….. denir. Gazete ile doğmuş bir yazı türü olan bu tür ……. Dönemi'nde Türk edebiyatına girmiştir. Yukarıdaki boşluklara sırasıyla aşağıdakilerden hangileri getirilmelidir?",
+        "options": {
+          "A": "Makale – Tanzimat",
+          "B": "Makale – Cumhuriyet",
+          "C": "Fıkra – Tanzimat",
+          "D": "Makale – Serveti Fünun",
+          "E": "Deneme – Tanzimat"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "text": "“Makale\" ile \"deneme\" türlerinin karşılaştırıldığı aşağıdaki seçeneklerin hangisinde bir bilgi yanlışlığı vardır?",
+        "options": {
+          "A": "Denemede yazar bilgileri kanıtlamak, bir teze dayandırmak zorunda değildir. Makale ise bilimsel verilere, anketlere, araştırma sonuçlarına dayanır.",
+          "B": "Denemede yazar bilgilerine gem vurmak zorunda değildir. İçinden geldiği gibi yazar; makaleler ise nesnel bir bakış açısı ve resmi bir üslupla yazılır.",
+          "C": "Makalede mecazlı, süslü, dolambaçlı anlatım ile konuşma dili havasından kaçınılır. Ciddi, ağırbaşlı, yalın, pürüzsüz, açık ve anlaşılır bir anlatım esas alınır. Denemede ise samimi bir anlatım esastır.",
+          "D": "Makalelerde soyut; denemelerde, somut kavramlar ön plandadır.",
+          "E": "Makale bilimsel, deneme, sanatsal yapıtlar içerisinde değerlendirilir."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "\"Eğer mümkün olsaydı karşınıza anadan doğma çıkardım. Bu kitapta size asla bir şey kanıtlama iddiam yoktur. Elimden geldiğince size beni anlattım. Bana hak vermenizi ya da yargılamanızı istemiyorum. Herkes önüne bakar, ben içime ba-karım: Benim işim yalnız kendimledir. Hep kendimi gözden geçiririm, kendimi yoklarım, kendimi tadarım. Bir şey öğretmem, sadece anlatırım.\" Yukarıdaki sözler aşağıdaki yazınsal türlerden hangisi için söylenmiş olabilir?",
+        "options": {
+          "A": "Söyleşi",
+          "B": "Fıkra",
+          "C": "Deneme",
+          "D": "Anı",
+          "E": "Makale"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 5,
+        "text": "Bu \"pazar\" yazısında sizleri rahatlatacak şeylerden söz edeceğim: Plaj mevsimi geliyor. Kışın mangal başlarında, kalorifer yanında, denizin sadece sözlüklerde adı geçen bir nesne olduğuna inananlar, neon ışığında biçimini yitiren bedenleriyle plajlara koşacaklar; bir sanatoryum açmazından yeni kurtulmuş hastalar gibi, sinirli karınlarıyla sırtlarını, güneşin, tuzlu suyun dinlendirici ürpertilerine bırakacaklar. Yukarıdaki parça aşağıdaki yazı türlerinin hangisinden alınmış olabilir?",
+        "options": {
+          "A": "Günlük",
+          "B": "Makale",
+          "C": "Fıkra",
+          "D": "Anı",
+          "E": "Eleştiri"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "text": "Eski uygarlıklardan bu yana tarım yapılan topraklarımız, özellikle organik madde, azot, fosfor gibi temel bitki besin maddeleri yönünden yoksundur. Bitkisel üretimin nicelik ve nitelik açısından gereksinilen düzeye ulaştırılması için, topraktaki eksik bitki besin maddelerinin tamamlanması zorunludur. Yukarıdaki parça aşağıdaki yazın türlerinden hangisine örnek olabilir?",
+        "options": {
+          "A": "Deneme",
+          "B": "Fıkra",
+          "C": "Eleştiri",
+          "D": "Makale",
+          "E": "Röportaj"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 7,
+        "text": "Aşağıdakilerden hangisi fıkra ile makalenin ortak özelliklerinden biridir?",
+        "options": {
+          "A": "Okuyucuyu bilgilendirme amaçlı olarak yazılmak",
+          "B": "Genelde güncel konularda yazılmak",
+          "C": "Savunulan düşünceyi kanıtlamaya çalışmak",
+          "D": "Öznel bir üslupla yazılmak",
+          "E": "Bilimsel bir araştırma örneği niteliğinde yazılmak"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "text": "Aşağıdaki eserlerden hangisi \"deneme\" türünde kaleme alınmamıştır?",
+        "options": {
+          "A": "Çukurova (Yaşar Kemal)",
+          "B": "Gurabhane-i Laklakan (Ahmet Haşim)",
+          "C": "Tiryaki Sözleri (Cenap Şahabettin)",
+          "D": "Eşkâl-i Zaman (Ahmet Rasim)",
+          "E": "Eski Saat (Falih Rıfkı Atay)"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "text": "Aşağıdakilerden hangi ikisi düşünce yazısıdır?",
+        "options": {
+          "A": "Roman – öykü",
+          "B": "Öykü – deneme",
+          "C": "Makale – roman",
+          "D": "Masal – fıkra",
+          "E": "Makale – deneme"
+        },
+        "answer": "E"
+      },
+      {
+        "id": 10,
+        "text": "Yazarın herhangi bir konudaki görüşlerini, duygu ve düşüncelerini kesin kurallara varmadan, kanıtlamaya kalkmadan, okuyucuyu inanmaya zorlamadan anlattığı yazı türüdür. Edebiyatımızda Cumhuriyet'ten sonra görülmeye başlanan bu türde Nurullah Ataç, Suut Kemal Yetkin, Sabahattin Eyüboğlu, Ahmet Haşim güzel örnekler vermişlerdir. Yukarıda açıklanan yazı türü aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Deneme",
+          "B": "Öykü",
+          "C": "Makale",
+          "D": "Eleştiri",
+          "E": "Sohbet"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Sınav 36: Resmi Yazışma Örnekleri",
+    "description": "Dilekçe, tutanak ve özgeçmiş gibi resmî yazışma türleri, kurumlar arası veya kişi ile kurum arasındaki iletişimi belli kurallar ve kalıplar dâhilinde gerçekleştiren metinlerdir. Resmi, ciddi ve açık bir dil kullanılması, biçim kurallarına uygun hareket edilmesi bu türlerin temel özelliklerindendir.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Yetkili makamlar dilekçe sahiplerine en geç kaç gün içinde bilgi vermek zorundadır?",
+        "options": {
+          "A": "10",
+          "B": "20",
+          "C": "30",
+          "D": "40",
+          "E": "50"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "text": "“Tutanak”la ilgili seçeneklerden hangisi yanlıştır?",
+        "options": {
+          "A": "Bir kişi tarafından imzalanmak zorundadır.",
+          "B": "Dili resmî dildir.",
+          "C": "A4 veya A5 kâğıt kullanılır.",
+          "D": "Hiçbir kişisel yorum yapılmaz.",
+          "E": "Kurşun kalem kullanılmaz."
+        },
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "text": "“Curriculum Vitae” ne demektir?",
+        "options": {
+          "A": "İlan",
+          "B": "Memorandum",
+          "C": "Resmî olmayan not",
+          "D": "Özgeçmiş",
+          "E": "Elektronik posta"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "text": "Aşağıdakilerden hangisi özgeçmiş yazarken dikkat edilecek hususlardan biridir?",
+        "options": {
+          "A": "Tarih yazılır",
+          "B": "İmza atılır",
+          "C": "11-12 punto yazılır",
+          "D": "a, b, c harfleri ile maddelenir",
+          "E": "En fazla 4-5 sayfa yazılır."
+        },
+        "answer": "C"
+      },
+      {
+        "id": 5,
+        "text": "“Özgeçmiş sunum yazısı” ile ilgili aşağıdaki bilgilerden hangisi yanlıştır?",
+        "options": {
+          "A": "E-posta ile gönderilebilir.",
+          "B": "Faks ile gönderilebilir.",
+          "C": "Tükenmez ya da dolmakalemle imzalanabilir.",
+          "D": "1-2 paragrafla sınırlandırılabilir.",
+          "E": "A4 sayfasına yazılabilir."
+        },
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "text": "Belgelenmesi gereken bir durumu tespit edenler tarafından hazırlanıp imzalanan belgeye ……………………… denir. Boşluğa gelecek ifade aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Dilekçe",
+          "B": "Mektup",
+          "C": "Tutanak",
+          "D": "İhbar",
+          "E": "Tebliğ"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 7,
+        "text": "Dilekçe ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+        "options": {
+          "A": "Kısa ve öz yazılması gerekir.",
+          "B": "Sol alt köşede dilekçe sahibinin adresi ve iletişim bilgileri yer alır.",
+          "C": "Hangi kuruma yazıldığı başta belirtilir.",
+          "D": "Sağ alt köşede dilekçe sahibinin imzası yer alır.",
+          "E": "Samimi dilek ve temennilerle bitirilir."
+        },
+        "answer": "E"
+      },
+      {
+        "id": 8,
+        "text": "Dilekçe ilgili aşağıdaki yargılardan hangisi yanlıştır?",
+        "options": {
+          "A": "Çizgisiz beyaz kâğıda yazılır.",
+          "B": "Yazılan kurum adının sağ altına kurumun bulunduğu şehrin adı yazılır.",
+          "C": "Konu kısaca anlatılır.",
+          "D": "Alt makama yazılırsa \"arz ederim\" üst makama yazılırsa \"rica ederim\" şeklinde yazılır.",
+          "E": "Dilekçenin sol alt köşesine adres ve varsa ekler yazılır."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 9,
+        "text": "Tutanakla ilgili aşağıdaki bilgilerden hangisi yanlıştır?",
+        "options": {
+          "A": "Tutanaklar sade bir dille ve olayların oluş sırasına göre yazılır.",
+          "B": "Tutanaklar, başlık ve imza bölümü dışarıda bırakılırsa, tarih ve saatle başlar tarih ve saatle biter.",
+          "C": "Başlık bölümünde “tutanak” olduğu belirtilmelidir.",
+          "D": "Tutanaklar en az üç kişi tarafından imzalanmalıdır.",
+          "E": "Eğer tutanak birden fazla sayfaya yazılacak ise sayfanın üst kısmında tutanağın kaçıncı sayfası olduğu yazı ile belirtilmelidir."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 10,
+        "text": "Tutanak, dilekçe, özgeçmiş vb. yazılırken aşağıdakilerden hangisine daha çok önem verilmelidir?",
+        "options": {
+          "A": "Sayfa düzenine",
+          "B": "Tarih ve yer bilgisine",
+          "C": "Anlaşılırlığa",
+          "D": "Harflerin büyüklüğüne",
+          "E": "Hangi kuruma yazıldığına"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Sınav 37: Sözlü Anlatım ve Türleri",
+    "description": "Sözlü anlatım, duygu, düşünce ve bilgilerin söz yoluyla dinleyicilere aktarılmasıdır. Kongre, seminer, panel, forum, münazara, konferans gibi türleri bulunan sözlü anlatımda, ses tonu, vurgu, beden dili ve konuya hakimiyet büyük önem taşır; etkili iletişim becerisi hedeflenir.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Alanında otorite kabul edilen kişiler tarafından bir bilim dalındaki gelişmelerin, belli birikimi olan ilgili kişilere aktarıldığı toplantılara ne denir?",
+        "options": {
+          "A": "Kongre",
+          "B": "Seminer",
+          "C": "Panel",
+          "D": "Münazara",
+          "E": "Forum"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "text": "Özellikle televizyonlarda tartışma programlarına orada bulunmayan ama başka bir yerdeki kişilerin teknoloji yardımıyla programa katıldıkları bilinmektedir. Yukarıda bir özelliğinden bahsedilen sözlü anlatım türü hangisidir?",
+        "options": {
+          "A": "Münazara",
+          "B": "Söyleşi",
+          "C": "Konferans",
+          "D": "Telekonferans",
+          "E": "Forum"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "text": "Dinleyicilerin konu ile ilgili bilgi ve tecrübelerini ileri sürmelerine fırsat ve imkân vermek -Dinleyicileri aktif duruma getirerek konu üzerinde canlı ve hareketli şekilde durmalarını sağlamak Yukarıda amaçları açıklanan aynı zamanda Eski Romalılar zamanında halkın sorunlarını konuşmak üzere toplandıkları alana da adını veren sözlü anlatım türüne ne denir?",
+        "options": {
+          "A": "Arena",
+          "B": "Forum",
+          "C": "Toplantı",
+          "D": "Kongre",
+          "E": "Konferans"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "text": "Konuyu tartışmanın değil, konunun ilgili kişiler tarafından olumlu veya olumsuz yönlerinin ortaya konulmasının asıl amaç olduğu, bir başkan tarafından yönetilen uzman kişilerce yapılan seri konuşmalara ne denir?",
+        "options": {
+          "A": "Açık oturum",
+          "B": "Kongre",
+          "C": "Sempozyum",
+          "D": "Forum",
+          "E": "Nutuk"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "text": "Farklı ülkelerden devlet, kuruluş temsilcilerinin, yöneticilerinin katılmasıyla ya da siyasi parti ve derneklerin belli gündemler için toplanmasıyla yapılan toplantılara ne ad verilir?",
+        "options": {
+          "A": "Kongre",
+          "B": "Açık oturum",
+          "C": "Münazara",
+          "D": "Telekonferans",
+          "E": "Sempozyum"
+        },
+        "answer": "A"
       }
     ]
   }

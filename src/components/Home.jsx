@@ -6,8 +6,8 @@ const Home = ({ exams, onSelectExam }) => {
       <div className="glass-panel" style={{ padding: '2rem', marginBottom: '2rem' }}>
         <h2>Deneme Sınavları</h2>
         <p className="text-muted">
-          Aşağıdaki 10 deneme sınavından birini seçerek bilginizi test edebilirsiniz. 
-          Her sınav 20 sorudan oluşmaktadır ve sonuçlarınızı anında görebilirsiniz.
+          Aşağıdaki deneme sınavlarından birini seçerek İnkılap Tarihi ve Türk Dili konularındaki bilginizi test edebilirsiniz. 
+          Sonuçlarınızı anında görebilirsiniz.
         </p>
       </div>
       
