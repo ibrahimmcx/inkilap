@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yönetim ve Organizasyon Final Hazırlık</title>
+  <style>
+    :root{
+      --bg:#ffffff;--card:#ffffff;--text:#1e293b;--muted:#64748b;--primary:#2563eb;--primary2:#1d4ed8;--ok:#16a34a;--bad:#dc2626;--warn:#f59e0b;--line:#e2e8f0;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#ffffff;color:var(--text);line-height:1.6}
+    header{padding:40px 20px;text-align:center;background:#0f172a;color:white}
+    header h1{margin:0 0 12px;font-size:32px}
+    header p{margin:0 auto;max-width:900px;color:#cbd5e1;line-height:1.6;font-size:1.1rem}
+    .container{max-width:1150px;margin:40px auto;padding:0 20px}
+    .panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px;box-shadow:0 10px 30px rgba(0,0,0,.05);margin-bottom:24px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:20px}
+    button{border:0;border-radius:12px;padding:16px 20px;font-weight:700;font-size:1.05rem;cursor:pointer;transition:.2s;background:var(--primary);color:white}
+    button:hover{background:var(--primary2);transform:translateY(-2px);box-shadow:0 4px 12px rgba(37,99,235,0.2)}
+    button.secondary{background:#f1f5f9;color:#0f172a;border:1px solid var(--line)}
+    button.secondary:hover{background:#e2e8f0}
+    .exam-title{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:20px}
+    .badge{display:inline-block;padding:8px 12px;border-radius:999px;background:#eff6ff;color:#1e40af;font-weight:700;font-size:14px}
+    .question{border:1px solid var(--line);border-radius:16px;padding:24px;margin:20px 0;background:#fff;box-shadow:0 4px 15px rgba(0,0,0,.02)}
+    .qhead{font-weight:700;font-size:1.15rem;margin-bottom:16px;line-height:1.6}
+    .options{display:grid;gap:12px}
+    .option{border:1px solid var(--line);background:#f8fafc;color:var(--text);text-align:left;border-radius:12px;padding:16px;font-size:1.05rem;font-weight:500;cursor:pointer;transition:.2s}
+    .option:hover{background:#eff6ff;border-color:#bfdbfe;transform:none}
+    .option.correct{background:#dcfce7;border-color:#86efac;color:#14532d}
+    .option.wrong{background:#fee2e2;border-color:#fca5a5;color:#7f1d1d}
+    .explanation{display:none;margin-top:12px;padding:13px;border-radius:12px;background:#f1f5f9;border-left:5px solid var(--primary);line-height:1.55}
+    .explanation.show{display:block}
+    .scorebox{position:sticky;top:8px;z-index:10;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:#0f172a;color:white;border-radius:16px;padding:14px 16px;margin-bottom:18px}
+    .scorebox span{font-weight:800}
+    .note{line-height:1.7;color:#334155}
+    .mini{font-size:13px;color:var(--muted)}
+    .hidden{display:none}
+    .topic{font-weight:800;color:#1d4ed8}
+    footer{text-align:center;color:#64748b;padding:20px}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Yönetim ve Organizasyon Final Hazırlık Sistemi</h1>
+  <p>10 adet deneme sınavı • Her denemede 20 soru • Final tarzı örnek olay, karşılaştırma ve kavram karıştırma soruları • Şıkka tıklayınca cevap ve kısa öğretici açıklama görünür.</p>
+</header>
+<div class="container">
+  <section class="panel" id="home">
+    <h2>Deneme Seç</h2>
+    <p class="note">Kanka soruları özellikle sadece “tanım nedir?” şeklinde yapmadım. TKY, süreç yenileme, benchmarking, temel yetenek, outsourcing, stratejik ortaklık, şebeke/sanal organizasyon, küçülme, öğrenen organizasyon, personel güçlendirme ve karar verme süreci konularını karıştırmalı ve final mantığında hazırladım.</p>
+    <div class="grid" id="examButtons"></div>
+  </section>
+  <section class="panel hidden" id="examPanel">
+    <div class="exam-title">
+      <div>
+        <h2 id="examName"></h2>
+        <div class="mini">Her soruda bir şık seç. Cevabı gördükten sonra açıklamayı oku; asıl öğrenme orada.</div>
+      </div>
+      <button class="secondary" onclick="goHome()">Deneme Seçimine Dön</button>
+    </div>
+    <div class="scorebox">
+      <div>Çözülen: <span id="answered">0</span>/20</div>
+      <div>Doğru: <span id="correctCount">0</span></div>
+      <div>Yanlış: <span id="wrongCount">0</span></div>
+    </div>
+    <div id="questions"></div>
+  </section>
+</div>
+<footer>Finale hazırlık için öğretici deneme sistemi</footer>
+<script>
+const topics = {
+  tky: {
+    name: "Toplam Kalite Yönetimi",
+    qs: [
+      ["Bir işletmede ürünler son kontrolde ayıklanıyor; hatalı ürünler müşteriye gitmeden ayrılıyor. Ancak yönetim, hatanın kaynağını süreç içinde önlemiyor. Bu durum TKY açısından en çok hangi eksikliği gösterir?", ["Önleyici yaklaşımın zayıf olduğunu", "Benchmarking yapılmadığını", "Joint venture kurulmadığını", "Hiyerarşinin fazla basık olduğunu"], 0, "TKY sadece son kontrol değildir. Asıl amaç hatayı üretimden sonra yakalamak değil, ilk seferinde doğru yaparak hatayı oluşmadan önlemektir."],
+      ["Bir müşteri şikayetleri artınca işletme sadece satış sonrası ekibi suçluyor. TKY anlayışına göre doğru yorum hangisidir?", ["Kalite yalnızca satış sonrası birimin sorumluluğudur", "Kalite tüm işletme ve değer zinciri boyunca herkesin sorumluluğudur", "Kalite sadece teknik standartlara uygunluktur", "Sorun sadece dış müşteridedir"], 1, "Toplam kalite anlayışında kalite tüm bölümlerin, çalışanların ve hatta tedarik zincirinin ortak sorumluluğudur."],
+      ["Bir üretim ekibi her hafta küçük iyileştirmeler yaparak fire oranını azaltıyor. Bu davranış TKY'deki hangi ilkeye en yakındır?", ["Kaizen", "Franchise", "Kademe azaltma", "Yönetim sözleşmesi"], 0, "Kaizen sürekli iyileştirme demektir. Büyük ve ani değişimden çok, düzenli küçük geliştirmeler öne çıkar."],
+      ["Aşağıdakilerden hangisi TKY'nin başarı koşullarından biri değildir?", ["Üst yönetimin liderliği", "Çalışanların eğitimi", "Müşteri odaklılık", "Kalitenin yalnızca kalite kontrol departmanına bırakılması"], 3, "TKY'de kalite ayrı bir departmanın işi olarak görülmez; herkesin görevidir."],
+      ["Bir işletme kalite maliyetlerini incelerken garanti, iade ve müşteri şikayet giderlerini ayrı kalem olarak yazıyor. Bu maliyet hangi sınıfa girer?", ["Önleme maliyeti", "Değerlendirme maliyeti", "Dış hata maliyeti", "Eğitim maliyeti"], 2, "Ürün müşteriye ulaştıktan sonra ortaya çıkan şikayet, garanti ve iade gibi giderler dış hata maliyetidir."],
+      ["'İlk seferinde doğru yap' ifadesi hangi yönetim yaklaşımının temel düşüncesidir?", ["Toplam Kalite Yönetimi", "Klasik yönetim", "Franchise", "Yönetim sözleşmesi"], 0, "TKY'de kalite, üretim bittikten sonra kontrol ederek değil, sürecin başından itibaren doğru yaparak sağlanır."],
+      ["TKY uygulayan bir işletmede çalışanlar fikirlerini rahatça söyleyebiliyor ve kararlara katılabiliyor. Bu durum TKY'nin hangi yönünü gösterir?", ["Demokratik ve katılımcı yaklaşım", "Merkeziyetçi kontrol", "Yalnızca teknik kalite", "Dış kaynak bağımlılığı"], 0, "TKY paylaşma, katılımcılık, ekip çalışması ve çift yönlü iletişime dayanır."],
+      ["Bir işletme tedarikçileriyle kalite standartlarını birlikte geliştiriyor. Bu TKY'de hangi ilkeyle ilgilidir?", ["Tedarikçilerle işbirliği", "Sıfır hiyerarşi", "Yönetim sözleşmesi", "Politik risk"], 0, "TKY ürünün müşteriye ulaşmasına kadar tüm zinciri kapsar; tedarikçilerle işbirliği kalite için önemlidir."],
+      ["TKY'de iç müşteri kavramı neyi anlatır?", ["Sadece ürünü satın alan nihai müşteriyi", "İşletme içinde birbirinden hizmet alan kişi ve bölümleri", "Devlet kurumlarını", "Rakip firmaları"], 1, "İç müşteri, işletme içinde bir sonraki sürecin ya da bölümün hizmet aldığı kişi/birimdir."],
+      ["Aşağıdaki ifadelerden hangisi TKY açısından yanlıştır?", ["Sürekli eğitim önemlidir", "Sıfır hata hedeflenir", "Kalite son kontrolden ibarettir", "Müşteri beklentileri dikkate alınır"], 2, "TKY kaliteyi son kontrol değil, tüm süreç boyunca herkesin sorumluluğu olarak görür."],
+      ["Kalite maliyetlerinde önleme maliyetine örnek hangisidir?", ["Müşteri iadesi", "Garanti ödemesi", "Personel kalite eğitimi", "Hurda ürün"], 2, "Eğitim, süreç analizi ve ön üretim çalışmaları hata oluşmadan önce yapıldığı için önleme maliyetidir."],
+      ["Bir firma 'müşteri memnuniyeti sadece satış departmanını ilgilendirir' diyorsa TKY'ye göre hangi hata yapılmaktadır?", ["Toplamlık ilkesi göz ardı edilmektedir", "Benchmarking doğru uygulanmaktadır", "Süreç yenileme yapılmıştır", "Temel yetenek korunmuştur"], 0, "TKY'de toplamlık, örgütün tüm basamak ve faaliyetlerinin kaliteye dahil olmasıdır."],
+      ["TKY'de istatistik ve analiz kullanımının temel amacı nedir?", ["Kararları sezgiden tamamen arındırmak", "Süreçleri veriye dayalı izlemek ve iyileştirmek", "Çalışan sayısını azaltmak", "Franchise gelirini artırmak"], 1, "İstatistik ve analiz, hataların nedenini görmek ve süreçleri ölçülebilir biçimde geliştirmek için kullanılır."],
+      ["Bir işletmede çalışanların yaratıcılığı ve yenilikçiliği teşvik ediliyorsa bu hangi TKY özelliğiyle ilişkilidir?", ["Çalışan katılımı", "Dış hata maliyeti", "Sanal organizasyon", "Yönetim sözleşmesi"], 0, "TKY çalışanları pasif uygulayıcı değil, iyileştirmenin aktif parçası olarak görür."],
+      ["Aşağıdakilerden hangisi değerlendirme maliyetidir?", ["Test ve muayene", "Hurda", "Garanti", "Kalite eğitimi"], 0, "Ürün veya sürecin kaliteye uygunluğunu ölçmek için yapılan test ve muayeneler değerlendirme maliyetidir."],
+      ["Bir işletme sürekli kalite eğitimi veriyor ama üst yönetim uygulamayı desteklemiyor. En olası sonuç nedir?", ["TKY'nin başarısı zorlaşır", "TKY otomatik olarak başarılı olur", "Sadece dış müşteri memnun olur", "Kalite maliyeti tamamen sıfırlanır"], 0, "TKY'de üst yönetimin liderliği temel ilkedir. Destek yoksa uygulama kağıt üzerinde kalabilir."],
+      ["İç hata maliyetine en uygun örnek hangisidir?", ["Müşteri şikayeti", "Garanti servisi", "Üretim sırasında çıkan hurda", "Reklam kampanyası"], 2, "Ürün müşteriye gitmeden önce işletme içinde ortaya çıkan hurda ve yeniden işleme iç hata maliyetidir."],
+      ["TKY'yi sadece teknik yöntem olarak görmek neden eksiktir?", ["Çünkü TKY aynı zamanda insan, kültür, katılım ve yönetim felsefesidir", "Çünkü TKY sadece finans bölümünü ilgilendirir", "Çünkü TKY yalnızca kriz döneminde uygulanır", "Çünkü TKY dış kaynak kullanımıdır"], 0, "Notlarda TKY'nin hem teknik hem felsefi yönü olduğu vurgulanır; insan faktörü merkezde yer alır."],
+      ["Bir işletme müşteri beklentilerini aşmayı hedefliyorsa hangi kavrama yaklaşır?", ["Kalite", "Politik risk", "Kademe azaltma", "Reorganizasyon"], 0, "Kalite, müşterinin beklediğini karşılamak ve mümkünse fazlasını vermektir."],
+      ["TKY'de en doğru yönetici tavrı hangisidir?", ["Sadece emir vermek", "Çift yönlü iletişim kurmak ve ekip çalışmasını desteklemek", "Bilgiyi saklamak", "Hataları kişilere yüklemek"], 1, "TKY yöneticisi katılımcılığı, saygılı iletişimi ve ekip çalışmasını destekler."]
+    ]
+  },
+  surec: { name:"Süreç Yenileme", qs: [
+    ["Bir kurum müşteri başvurusunu 8 farklı imzadan geçiriyor. Yeni sistemde tüm süreç dijitalleşiyor, gereksiz onaylar kalkıyor. Bu en çok hangi yaklaşımdır?", ["Süreç yenileme", "Yalnızca TKY", "Franchise", "Dış hata analizi"], 0, "Süreç yenileme mevcut süreci küçük düzeltmekten çok, uçtan uca yeniden tasarlamaktır."],
+    ["Süreç yenilemenin temel farkı nedir?", ["Mevcut sistemi küçük adımlarla iyileştirmesi", "İş yapma biçimini köklü şekilde değiştirmesi", "Sadece personel sayısını artırması", "Yalnızca kalite kontrol yapması"], 1, "Reengineering radikal değişimdir; sistem yanlış olabilir diyerek baştan tasarlar."],
+    ["'Bu adım müşteriye değer katıyor mu?' sorusu hangi yaklaşımın merkezindedir?", ["Süreç yenileme", "Yönetim sözleşmesi", "Franchise", "Alt kademe kararı"], 0, "Süreç yenilemede değer katmayan faaliyetler çıkarılır."],
+    ["Reorganizasyon ile süreç yenileme arasındaki fark hangisidir?", ["Reorganizasyon iş yapış biçimini, süreç yenileme sadece unvanları değiştirir", "Reorganizasyon mevki/ilişki düzenler; süreç yenileme işlerin yapılma tarzını değiştirir", "İkisi tamamen aynıdır", "Süreç yenileme sadece personel eğitimi demektir"], 1, "Reorganizasyon yapısal düzenleme; süreç yenileme ise süreçlerin kökten yeniden kurulmasıdır."],
+    ["Bir işletmede departmanlar kendi işini iyi yapıyor ama müşteri siparişi çok geç tamamlanıyor. Süreç yenileme neye odaklanır?", ["Departmanları ayrı ayrı ödüllendirmeye", "Siparişin uçtan uca akışına", "Sadece muhasebe kayıtlarına", "Sadece personel kıdemine"], 1, "Süreç yenileme fonksiyon değil, müşteriye sonuç üreten uçtan uca süreç mantığına odaklanır."],
+    ["Süreç yenilemenin başarısızlık nedenlerinden biri hangisidir?", ["Üst yönetim desteğinin yetersizliği", "Müşteri odaklı düşünme", "Gereksiz işlerin kaldırılması", "Bilgi teknolojisi kullanımı"], 0, "Politik risklerden biri üst yönetimin yetersiz desteği ve işletme içi dirençtir."],
+    ["Bir banka kredi sürecini 15 günden 15 dakikaya indiriyorsa hangi sonuç hedeflenmiştir?", ["Hız ve müşteri değeri", "Daha fazla hiyerarşi", "Kontrol sayısını artırma", "Karar yetkisini tamamen kaldırma"], 0, "Süreç yenileme daha hızlı, kaliteli ve düşük maliyetli hizmet sunmayı hedefler."],
+    ["Süreç yenilemede işi yapanların karar verici hale gelmesi ne anlama gelir?", ["Karar yetkisinin sürece yakın kişilere verilmesi", "Tüm kararların üst yönetimde toplanması", "Personelin sadece emir uygulaması", "Hataların gizlenmesi"], 0, "Süreç yenileme karar noktalarını işi yapanlara yaklaştırır; bu hız ve etkinlik sağlar."],
+    ["Aşağıdakilerden hangisi süreç yenileme için daha uygundur?", ["Her ay küçük motivasyon toplantısı yapmak", "Sipariş alma, üretim ve teslimatı tek süreç olarak yeniden tasarlamak", "Sadece logoyu değiştirmek", "Sadece personel kıyafetini değiştirmek"], 1, "Süreç yenileme yüzeysel değişiklik değil, iş akışının bütününü yeniden kurmaktır."],
+    ["Süreç yenilemenin TKY'den farkı hangi seçenekte doğru verilmiştir?", ["TKY radikal, süreç yenileme sürekli küçük iyileştirmedir", "TKY sürekli iyileştirme, süreç yenileme radikal yeniden tasarımdır", "İkisi de yalnızca muhasebe tekniğidir", "Süreç yenileme müşteriyle ilgilenmez"], 1, "Finalde en önemli ayrım budur: TKY küçük ve sürekli iyileştirme; süreç yenileme köklü değişim."],
+    ["Süreç yenilemede bilgi akışının değişmesi neden önemlidir?", ["Kararların hızlanması ve doğru noktaya taşınması için", "Bilginin saklanması için", "Hiyerarşiyi artırmak için", "Maliyetleri belirsizleştirmek için"], 0, "Süreç yenileme karar yetki merkezlerini ve bilgi akışını yeniden düzenler."],
+    ["Bir süreçte aynı bilginin üç farklı formda tekrar tekrar girilmesi hangi nedenle kaldırılmalıdır?", ["Katma değer yaratmadığı için", "Hiyerarşiyi artırdığı için", "Franchise gereği olduğu için", "Temel yetenek olduğu için"], 0, "Tekrarlayan ve müşteriye değer katmayan işler süreç yenilemede minimuma indirilir."],
+    ["Süreç yenilemenin fonksiyonel riski neyle ilgilidir?", ["Yanlış sistem ve işlerin seçilmesi", "Çalışanların maaşının artması", "Müşteri odaklılığın güçlenmesi", "Rakiplerin kıyaslanması"], 0, "Fonksiyonel risk; yanlış süreç seçimi, yetersiz tanımlama ve bilgi teknolojisinin hatalı kullanımıdır."],
+    ["Bir işletme 'önce mevcut sistemi düzeltelim, köklü değişim istemiyoruz' diyorsa hangi yaklaşıma daha yakındır?", ["TKY", "Süreç yenileme", "Joint venture", "Sıfır hiyerarşi"], 0, "Mevcut sistemi küçük iyileştirmelerle düzeltme TKY/kaizen mantığına daha yakındır."],
+    ["Süreç yenilemede yapay iş sırası yerine ne esas alınır?", ["İşlerin doğal akışı", "En eski prosedür", "En fazla imza", "Unvan sırası"], 0, "İşlerin yapılma sırası yapay zorlamadan çok doğal sürecini izlemelidir."],
+    ["Bir süreç yenileme projesinde müşteriye değer katmayan faaliyetler çıkarılırken çalışan katılımı da sağlanıyor. Bu neden önemlidir?", ["Süreci bilen kişiler gerçek sorunları gösterebilir", "Çalışanlar her zaman üst yönetimden daha az bilir", "Katılım süreci yavaşlatmak için yapılır", "Bu sadece yasal zorunluluktur"], 0, "Notlarda süreçlerin personelin katılımıyla kritik gözle değerlendirildiği belirtilir."],
+    ["Süreç yenileme hangi çevresel baskıya cevap olarak ortaya çıkar?", ["Rekabet, hız, kalite ve düşük maliyet ihtiyacı", "Sadece tatil planlaması", "Sadece muhasebe denetimi", "Sadece bina düzeni"], 0, "İşletmeler müşteri için daha iyi, kaliteli, hızlı ve ucuz hizmet sunmak zorundadır."],
+    ["Süreç yenilemede kontrolün minimuma indirilmesi ne demektir?", ["Gereksiz üst kontrol ve tekrarların azaltılması", "Hiç kalite aranmaması", "Yasal kuralların kaldırılması", "Tedarikçilerin yok sayılması"], 0, "Amaç kontrolsüzlük değil, değer katmayan tekrar kontrol noktalarını azaltmaktır."],
+    ["Süreç yenileme uygulamasında en riskli yönetici davranışı hangisidir?", ["Başta istekli olup sonra desteği kesmek", "Süreci uçtan uca düşünmek", "Teknolojiyi doğru kullanmak", "Katma değeri sorgulamak"], 0, "Politik risklerden biri baştaki arzu ve hırsın kaybolmasıdır."],
+    ["Bir işletme müşteriye ulaşan toplam değeri artırmak için satın alma, imalat ve pazarlamayı 'sipariş gerçekleştirme' süreci altında topluyor. Bu hangi mantıktır?", ["Süreç odaklılık", "Sadece bölümlendirme", "Franchise", "Dış hata maliyeti"], 0, "Süreç yenileme fonksiyonları ayrı ayrı değil, müşteriye çıktı üreten süreçler olarak ele alır."]
+  ]},
+  benchCore: { name:"Benchmarking, Temel Yetenek ve Outsourcing", qs: [
+    ["Bir kafe, müşteri bekleme süresini azaltmak için Starbucks'ın sipariş sistemini inceliyor ve kendi sistemine uyarlıyor. Bu hangi yaklaşımdır?", ["Benchmarking", "Süreç yenileme", "Yönetim sözleşmesi", "İç hata maliyeti"], 0, "Benchmarking, başarılı işletmelerin uygulamalarını inceleyip kendi performansını artırmak için kullanmaktır."],
+    ["Benchmarking'in temel hedefi hangisidir?", ["En iyi uygulamayı bulmak, yakalamak ve geçmek", "Tüm işleri içeride yapmak", "Hiyerarşiyi artırmak", "Müşteriden gelen bilgiyi yok saymak"], 0, "Kıyaslama, önce en iyiye ulaşmayı sonra onu aşmayı hedefler."],
+    ["Apple'ın kullanıcı deneyimi ve tasarım becerisi hangi kavrama örnektir?", ["Temel yetenek", "Dış hata", "Franchise", "Politik risk"], 0, "Temel yetenek işletmeyi rakiplerden ayıran, taklit edilmesi zor bilgi ve beceridir."],
+    ["Bir işletme temel yeteneği dışındaki yemek, güvenlik ve servis işlerini dış firmaya veriyor. Bu hangi uygulamadır?", ["Outsourcing", "Insourcing", "Sıfır hiyerarşi", "Sezgisel karar"], 0, "Outsourcing, bazı hizmet veya süreçlerin daha etkin yapacak dış tedarikçiye devredilmesidir."],
+    ["Aşağıdakilerden hangisi temel yetenek sayılmak için zorunlu değildir?", ["Taklit edilmesi güç olması", "Stratejik hedefler için önemli olması", "Rakiplerden ayırması", "Her çalışan tarafından aynı anda yapılması"], 3, "Temel yetenek herkesin yaptığı sıradan iş değil, işletmeye özgü ve stratejik bir üstünlüktür."],
+    ["Outsourcing'in en önemli risklerinden biri hangisidir?", ["Tedarikçiye aşırı bağımlılık", "Uzmanlık artışı", "Maliyet avantajı", "Esneklik kazanma"], 0, "Dış kaynak sağlayıcıya aşırı bağımlılık kontrol ve esneklik kaybı yaratabilir."],
+    ["Canon'un optik ve görüntüleme bilgisini farklı ürünlerde kullanması temel yeteneğin hangi özelliğini gösterir?", ["Nihai ürünlerin üretiminde kullanılabilme", "Sadece maliyet kalemi olma", "Kolay taklit edilme", "Kısa dönemli gereksizlik"], 0, "Temel yetenek, farklı temel ürün ve hizmetlerin üretiminde kullanılabilecek stratejik bilgi karışımıdır."],
+    ["Bir işletme benchmarking yaparken ilk olarak neyi belirlemelidir?", ["Kıyaslama konusunu", "Rakiplerin maaşlarını", "Personel yemek listesini", "Franchise ücretini"], 0, "Kıyaslama süreci öncelikle hangi konuda kıyaslama yapılacağının belirlenmesiyle başlar."],
+    ["'İyi bildiğin işi yap, iyi bilmediğini uzmanına yaptır' düşüncesi hangi iki kavramı birlikte açıklar?", ["Temel yetenek ve outsourcing", "Franchise ve dış hata", "Kademe azaltma ve garanti", "Programlanmış karar ve sezgi"], 0, "Temel yetenek içeride tutulur; temel olmayan işler dış kaynakla çözülebilir."],
+    ["Bir firma rakibinden doğrudan kopyalama yapmadan, onun başarılı süreçlerini analiz edip kendi koşullarına uyarlıyor. Bu durumda en doğru yorum nedir?", ["Benchmarking taklit değil, öğrenme ve uyarlamadır", "Bu kesinlikle franchise'dır", "Bu sadece küçülmedir", "Bu karar verme değildir"], 0, "Benchmarking bilinçsiz kopyalama değil; veri toplayıp farkları analiz ederek uygun uygulamayı geliştirmektir."],
+    ["Outsourcing uzun vadede hangi olumsuz sonuca yol açabilir?", ["Endüstrinin içinin boşalması", "Her zaman temel yeteneğin güçlenmesi", "Tedarikçi bağımlılığının sıfırlanması", "Bilgi paylaşımının tamamen bitmesi"], 0, "Notlarda bazı işlerin sürekli yurtdışından alınmasının endüstrinin içini boşaltabileceği belirtilir."],
+    ["Bir işletmenin temel yeteneklerini belirlemesi hangi stratejik kararlarda rol oynar?", ["Küçülme, outsourcing, stratejik birlik ve şebeke organizasyon kararlarında", "Sadece günlük yemek seçiminde", "Sadece izin planlarında", "Sadece ofis rengi seçiminde"], 0, "Temel yetenek, hangi işlerin içeride kalacağı ve hangi işlerin dışarıya verileceği konusunda yol gösterir."],
+    ["Benchmarking'de veri toplama yöntemi olarak hangisi kullanılabilir?", ["Faaliyet raporları ve gözlem", "Sadece dedikodu", "Hiç veri toplamamak", "Yalnızca sezgi"], 0, "Faaliyet raporları, basın haberleri, gözlem, mülakat ve müşteri bilgileri kıyaslama verisi olabilir."],
+    ["Bir işletme tasarımda çok güçlü ama lojistikte zayıf. Lojistiği dış firmaya vermesi neden mantıklıdır?", ["Temel yeteneğine odaklanmasını sağlar", "Tüm kontrolü artırır", "Her riski yok eder", "Müşteri beklentisini gereksiz kılar"], 0, "Outsourcing işletmenin öz yeteneklerine odaklanmasına yardımcı olur; ancak kontrol riski yönetilmelidir."],
+    ["Outsourcing kararının hatalı verilmesi ne doğurabilir?", ["Stratejik zarar ve kontrol kaybı", "Mutlak başarı", "Kalitenin otomatik artması", "Tedarikçi riskinin yok olması"], 0, "Yanlış dış kaynak kararı maliyet, kalite, gizlilik ve kontrol sorunları yaratabilir."],
+    ["Temel yetenek için 'taklit edilmesi güç olmalı' şartı neden önemlidir?", ["Rekabet avantajının sürdürülebilmesi için", "Rakiplerin hemen aynısını yapması için", "Maliyetlerin artması için", "Kalite kontrolü kaldırmak için"], 0, "Kolay taklit edilen bir özellik uzun süreli rekabet üstünlüğü sağlamaz."],
+    ["Benchmarking sonucunda performans farkları bulunduktan sonra ne yapılmalıdır?", ["Performans hedefi ve uygulama planı hazırlanmalıdır", "Kıyaslama tamamen bırakılmalıdır", "Veriler silinmelidir", "Tedarikçilerle ilişki kesilmelidir"], 0, "Kıyaslama yalnızca analiz değil; hedef belirleme, uygulama ve yeniden kıyaslama sürecidir."],
+    ["Bir işletme dış kaynak kullanırken gizli bilgilerinin rakiplere sızmasından endişe ediyor. Bu hangi başlığa girer?", ["Outsourcing sorunu", "TKY ilkesi", "Kaizen avantajı", "İç müşteri faydası"], 0, "Gizli bilgilerin sızması outsourcing'in önemli risklerindendir."],
+    ["Bir işletmenin temel yeteneğiyle doğrudan ilgili faaliyetler için en doğru seçenek hangisidir?", ["İşletme bünyesinde yürütülmelidir", "Mutlaka dışarıya verilmelidir", "Rakibe devredilmelidir", "Önemsiz görülmelidir"], 0, "Temel yetenekler işletmenin rekabet avantajının merkezidir; bu yüzden içeride korunmalıdır."],
+    ["Benchmarking, TKY ve süreç yenileme birlikte düşünüldüğünde doğru eşleştirme hangisidir?", ["TKY: iyileştirir, süreç yenileme: baştan tasarlar, benchmarking: başkasından öğrenir", "TKY: ortak şirket kurar, benchmarking: işten çıkarır, süreç yenileme: marka hakkı verir", "Üçü de aynı şeydir", "Üçü de sadece finansal analizdir"], 0, "Bu üç kavram finalde karıştırılır. Ayırıcı mantık: iyileştirme, radikal tasarım, kıyaslayarak öğrenme."]
+  ]},
+  stratejik: { name:"Stratejik Ortaklıklar", qs: [
+    ["İki işletme sermaye, teknoloji ve pazarlama gücünü birleştirip ayrı bir şirket kuruyorsa bu nedir?", ["Joint venture", "Franchise", "Yönetim sözleşmesi", "Kademe azaltma"], 0, "Joint venture'da ortaklardan ayrı, yeni ve ayrı tüzel kişiliği olan bir işletme kurulur."],
+    ["Bir otelin sahibi yatırımcıda kalıyor ancak oteli Hilton yönetiyor. Bu hangi stratejik ortaklık türüdür?", ["Yönetim sözleşmesi", "Franchise", "Benchmarking", "Dış hata maliyeti"], 0, "Yönetim sözleşmesinde mülkiyet başka tarafta olabilir; yönetim işlevi profesyonel firmaya devredilir."],
+    ["Bir şirket başka bir işletmeye marka adını kullanarak standart ürün satma hakkı veriyor. Bu nedir?", ["Franchise", "Joint venture", "Sanal organizasyon", "Personel güçlendirme"], 0, "Franchise'da marka ve iş modeli belirli şartlarla kullandırılır; karşılığında başlangıç/periyodik ödeme alınabilir."],
+    ["Stratejik ortaklıkların temel amacı hangisidir?", ["Pazardaki varlığı güçlendirmek ve genişletmek", "Her zaman rakibi yok etmek", "Çalışan sayısını rastgele azaltmak", "Kaliteyi sadece son kontrolde ölçmek"], 0, "Stratejik ortaklıklar kaynak birleştirerek pazarda güçlenme ve genişleme amacı taşır."],
+    ["McDonald's ve Coca-Cola ilişkisi hangi kavrama örnek verilebilir?", ["Stratejik ortaklık", "İç hata maliyeti", "Sıfır hiyerarşi", "Sezgisel karar"], 0, "Ortak dağıtım/pazarlama ve tamamlayıcı ürün ilişkileri stratejik ortaklık örneği olabilir."],
+    ["TOGG örneği neden joint venture mantığına uygundur?", ["Birden fazla grubun ayrı tüzel kişilik altında kaynak birleştirmesi", "Sadece marka kiralaması", "Yalnızca kalite muayenesi", "Tek çalışanın karar vermesi"], 0, "Joint venture'ın kritik yönü ayrı yasal varlık ve ortak kaynak kullanımıdır."],
+    ["Rakiplerin ortaklığı hangi durumda hukuken sorunlu hale gelir?", ["Fiyat belirleme ve pazar paylaşımı yaparlarsa", "Belirli Ar-Ge alanında işbirliği yaparlarsa", "Teknoloji geliştirirlerse", "Maliyet düşürmeye çalışırlarsa"], 0, "Rakipler bazı alanlarda işbirliği yapabilir; ancak rekabeti ortadan kaldıran fiyat/pazar anlaşmaları yasaktır."],
+    ["Stratejik ortaklıklarda sinerji neyi ifade eder?", ["Birlikte elde edilen etkinin ayrı ayrı etkilerden büyük olmasını", "Her işletmenin tamamen bağımsız ve ilgisiz olmasını", "Bilginin saklanmasını", "Müşteri değerinin azalmasını"], 0, "Sinerji, ortaklıkla tarafların tek başına ulaşamayacağı daha büyük fayda üretmesidir."],
+    ["Franchise ile joint venture arasındaki temel fark nedir?", ["Franchise marka kullanım hakkı; joint venture ayrı şirket kurmadır", "Franchise mutlaka ayrı tüzel kişilik kurar", "Joint venture sadece reklamdır", "İkisi de kalite maliyetidir"], 0, "Finalde sık karışır: franchise marka/iş modeli hakkı, joint venture yeni ortak işletme."],
+    ["Bir havayolu ve otel zinciri müşterilere karşılıklı indirim sağlıyor. Bu hangi stratejik ortaklık türüne yakındır?", ["Fiyatlandırmaya dayalı ortaklık", "İç hata maliyeti", "Süreç yenileme", "Yetki devri"], 0, "Karşılıklı fiyat indirimi fiyatlandırmaya dayalı stratejik ortaklık örneğidir."],
+    ["Bir firma yabancı pazara girerken yerel dağıtım ağı olan firmayla işbirliği yapıyor. Temel gerekçe nedir?", ["Pazara giriş maliyetini ve riskini azaltmak", "Kalite kontrolü tamamen kaldırmak", "Tüm faaliyetleri içeride toplamak", "Kararları sezgiyle almak"], 0, "Stratejik ortaklıklar yeni pazarlara girişte risk ve maliyeti azaltabilir."],
+    ["Teknoloji ve bilgi transferi amaçlı ortaklıkların temel amacı nedir?", ["Bilgiyi elde etme maliyetini azaltmak", "Müşteri taleplerini yok saymak", "Kademeleri artırmak", "Tüm riski tek tarafa yüklemek"], 0, "Bu ortaklıklarda bilgiye erişim ve teknoloji kullanımı temel motivasyondur."],
+    ["Stratejik ortaklıklarda kültür farklılıkları hangi başlığa girer?", ["Sorunlar", "Temel ilkeler", "Kalite maliyeti", "Sıfır hiyerarşi avantajı"], 0, "Yönetim tarzı, kavramlara verilen anlam ve kültür farklılıkları ortaklık sorunlarıdır."],
+    ["Leading Hotels of the World tarzı otel birlikleri hangi ortaklık yönünü gösterir?", ["Pazarlama ağı ve müşteri veri tabanı paylaşımı", "Sadece işten çıkarma", "Sadece üretim fire analizi", "Hiyerarşiyi artırma"], 0, "Pazarlama fonksiyonlu ortaklıklarda marka, reklam, müşteri ağı ve dağıtım imkanları paylaşılabilir."],
+    ["Bir ortaklıkta taraflar birlikte reklam kampanyası yürütüyorsa bu hangi türdür?", ["Tutundurmaya dayalı stratejik ortaklık", "Yönetim sözleşmesi", "İç müşteri ilişkisi", "Sezgisel karar"], 0, "Tutundurma; reklam, kampanya ve tanıtım faaliyetlerini kapsar."],
+    ["Joint venture'da en kritik hukuki konu hangisidir?", ["Yeni işletmenin sermaye, kontrol ve anlaşma yapısı", "Sadece çalışanların öğle yemeği", "Sadece ürün rengi", "Sadece ofis konumu"], 0, "Joint venture ayrı yapı kurduğu için sermaye, yönetim kontrolü ve anlaşma özellikleri önemlidir."],
+    ["Bir şirket başka bir şirketin satış ağını kullanarak yeni ürününü hızlı pazara sunmak istiyor. Bu hangi gerekçedir?", ["Pazarlama fonksiyonlu stratejik ortaklık", "Küçülme", "Dış hata maliyeti", "Programlanmış karar"], 0, "Satış gücü, pazarlama ağı ve hizmet ağını paylaşmak pazarlama fonksiyonlu ortaklık nedenidir."],
+    ["Stratejik ortaklıkların nedenlerinden biri olmayan seçenek hangisidir?", ["Maliyet avantajı", "Yeni pazara girme", "Teknolojiye ulaşma", "Bilgiyi tamamen yok etme"], 3, "Ortaklıklar bilgiye erişim, maliyet avantajı ve pazar genişletme için yapılır; bilgiyi yok etmek amaç değildir."],
+    ["Bir tedarikçi, sattığı sistemi daha kaliteli hale getirmek için başka tedarikçiyle ortaklık kuruyor. Bu hangi tür ortaklıktır?", ["Tedarikçiler tarafından yapılan stratejik ortaklık", "Franchise", "Kademe azaltma", "Sezgisel karar"], 0, "Hizmet veya sistemi iyileştirmek için tedarikçiler arası ortaklık kurulabilir."],
+    ["Stratejik ortaklıkta 'kendine rakip oluşturma ihtimali' neyi anlatır?", ["Ortaklığın uzun vadede taraflardan birini güçlü rakibe dönüştürebilmesini", "TKY'nin kesin başarısını", "Kalite maliyetinin düşmesini", "Sıfır hatanın gerçekleşmesini"], 0, "Ortaklık bilgi ve yetenek paylaşımı içerdiğinden, taraflardan biri ileride rakip haline gelebilir."]
+  ]},
+  org: { name:"Şebeke, Sanal Organizasyon, Küçülme", qs: [
+    ["Bir moda markası tasarımı kendisi yapıyor, üretimi farklı fabrikalara, dağıtımı lojistik firmasına veriyor. Bu hangi yapıdır?", ["Şebeke organizasyon", "Sıfır hiyerarşi", "Klasik bürokrasi", "Kalite kontrol"], 0, "Şebeke organizasyonda faaliyetler tek işletmede değil, farklı uzman işletmelere dağılmıştır."],
+    ["Şebeke organizasyonun temel özelliği hangisidir?", ["Komuta-kontrol yerine yatay ilişkiler ve yoğun iletişim", "Tüm işlerin tek merkezde toplanması", "Müşteri ile iletişimin kesilmesi", "Sadece hiyerarşi artışı"], 0, "Şebeke yapıda bağımsız ama bağlı firmalar, işbirliği ve esneklik ön plandadır."],
+    ["Farklı şehirlerdeki çalışanlar teknolojiyle tek organizasyon gibi hizmet sunuyorsa bu nedir?", ["Sanal organizasyon", "İç hata maliyeti", "Yönetim sözleşmesi", "Pareto analizi"], 0, "Sanal organizasyon, coğrafi olarak dağınık kişi/firmaların teknolojiyle tek organizasyon gibi çalışmasıdır."],
+    ["Sanal organizasyonların avantajlarından biri hangisidir?", ["Coğrafi bağımsızlık", "İletişimin tamamen yok olması", "Maliyetlerin zorunlu artması", "Unvanların mutlak önem kazanması"], 0, "Teknoloji sayesinde farklı mekanlarda bulunan kişiler koordineli çalışabilir."],
+    ["Küçülme uygulamasının temel amacı ne olabilir?", ["Maliyetleri düşürmek ve karar sürecini hızlandırmak", "Gereksiz kademeleri artırmak", "Müşteri ihtiyaçlarını önemsememek", "Her işi daha karmaşık hale getirmek"], 0, "Küçülme rekabet gücünü artırmak için maliyet, süreç, pozisyon veya personel azaltmayı hedefleyebilir."],
+    ["Kademe azaltma ne demektir?", ["Alt kademe ile üst kademe arasındaki yönetim basamaklarını azaltmak", "Tüm çalışanları işten çıkarmak", "Kalite kontrol sayısını artırmak", "Franchise vermek"], 0, "Kademe azaltma, organizasyonu yalınlaştırır ve karar verenle işi yapan arasındaki mesafeyi kısaltır."],
+    ["Drucker'a göre her ek kademe bilgi akışında ne yaratır?", ["Gürültü ve sağlıklı bilgi ulaşma ihtimalinde azalma", "Mutlak kalite artışı", "Sıfır maliyet", "Tam motivasyon"], 0, "Notlarda her ilave kademenin bilginin sağlıklı ulaşma ihtimalini azalttığı belirtilir."],
+    ["Küçülmenin çalışanlar üzerindeki olumsuz etkisi hangisidir?", ["Gelecek korkusu ve stres", "Mutlak iş tatmini", "Hiçbir belirsizlik olmaması", "Karar hızının daima düşmesi"], 0, "Küçülme personelde stres, endişe, bağlılık azalması ve yabancılaşma doğurabilir."],
+    ["'Küçülerek büyümek' ifadesi neyi anlatır?", ["Faaliyetler yalınlaşırken finansal sonuçların büyüyebilmesini", "Her küçülmenin iflas olduğunu", "Personelin mutlaka artmasını", "Müşteri değerinin yok olmasını"], 0, "Küçülme her zaman finansal küçülme demek değildir; daha az kaynakla daha çok sonuç alınabilir."],
+    ["Sıfır hiyerarşi yapısında otorite daha çok neye dayanır?", ["Bilgi ve yetenekten doğan kazanılmış otoriteye", "Sadece unvana", "Sadece yaşa", "Sadece bina büyüklüğüne"], 0, "Sıfır hiyerarşide farklılık mevkiden değil bilgi ve yetenekten kaynaklanır."],
+    ["Şebeke organizasyonun dezavantajı hangisidir?", ["Koordinasyon ve kontrol zorluğu", "Uzmanlığın artması", "Esnekliğin yükselmesi", "Maliyetlerin düşebilmesi"], 0, "Farklı firmalarla çalışmak esneklik sağlasa da güven, koordinasyon ve kontrol sorunu yaratabilir."],
+    ["Bir işletme bazı mağazaları kapatıp personel sayısını azaltıyor. Bu hangi kavramdır?", ["Küçülme", "Benchmarking", "Joint venture", "Kaizen"], 0, "Personel, pozisyon, süreç veya faaliyet azaltımı örgütsel küçülme kapsamındadır."],
+    ["Kademe azaltma sonucunda çalışanlar açısından ne olabilir?", ["İşler yeniden dağıtılır ve iş yükü artabilir", "Herkesin işi tamamen biter", "Bilgi akışı kesinlikle durur", "Müşteri hizmeti yok olur"], 0, "Kademeler azalınca işler daha geniş sorumluluklarla personele dağıtılabilir."],
+    ["Sanal organizasyon hangi teknolojik temele dayanır?", ["Bilgisayar ve iletişim olanakları", "Sadece fiziksel dosya arşivi", "Sadece manuel imza", "Sadece yüz yüze toplantı"], 0, "Sanal organizasyonun sürekliliği teknoloji destekli haberleşmeye bağlıdır."],
+    ["Şebeke organizasyon ile outsourcing ilişkisi için en doğru ifade hangisidir?", ["Şebeke yapı çoğu zaman farklı uzman firmalardan yararlanır", "Outsourcing şebeke yapıyla hiç ilgili değildir", "Şebekede tüm işler tek firmadadır", "Şebekede iletişim gerekmez"], 0, "Şebeke organizasyon, işlerin farklı işletmelere dağıtılması nedeniyle dış kaynak ilişkileriyle yakından ilgilidir."],
+    ["Sıfır hiyerarşi örneğinde kendi kendini yöneten ekipler neyi gösterir?", ["Yöneticisiz veya az yöneticili otonom çalışma", "Katı emir-komuta", "Bilginin paylaşılmaması", "Sadece üst yönetim kararı"], 0, "Sıfır hiyerarşi küçük, kendi içinde yeterli ve otonom ekiplerle çalışır."],
+    ["Küçülmenin amaçlarından olmayan seçenek hangisidir?", ["İletişimdeki bozulmaları artırmak", "Maliyetleri düşürmek", "Karar sürecini hızlandırmak", "Müşteri ihtiyaçlarına odaklanmak"], 0, "Küçülme iletişim bozulmalarını azaltmayı hedefler; artırmayı değil."],
+    ["Sanal organizasyonda unvanların öneminin azalması neyle ilişkilidir?", ["Esnek ve bilgiye dayalı çalışma", "Katı hiyerarşi", "Dış müşteriyi yok sayma", "Sadece kalite testi"], 0, "Sanal ve esnek yapılarda katkı, bilgi ve işbirliği unvandan daha önemli hale gelebilir."],
+    ["Bir işletme hızlı büyümek için her departmanı kurmak yerine uzman firmalarla ağ kuruyor. Bu hangi avantajdır?", ["Şebeke organizasyonun hızlı büyüme ve düşük yatırım avantajı", "Hiyerarşi artışı", "Kontrolün mutlaklaşması", "Kararların yavaşlaması"], 0, "Şebeke organizasyon her kaynağı içeride kurma zorunluluğunu azaltır."],
+    ["Kademe azaltmanın ana hedefi hangisidir?", ["İşi yapan ile karar veren arasındaki mesafeyi kısaltmak", "Bürokrasiyi büyütmek", "Maliyetleri artırmak", "Bilgi akışını bozmak"], 0, "Kademe azaltma daha yalın yapı, hızlı iletişim ve hızlı karar için yapılır."]
+  ]},
+  learning: { name:"Öğrenen Organizasyon", qs: [
+    ["Bir işletme hatalarından ders çıkarıyor, bilgiyi çalışanlarla paylaşıyor ve bu bilgiyi yeni prosedürlere dönüştürüyor. Bu hangi kavramdır?", ["Öğrenen organizasyon", "Franchise", "Dış hata maliyeti", "Yönetim sözleşmesi"], 0, "Öğrenen organizasyon deneyimlerden sonuç çıkarır, yeni bilgi üretir ve bunu kurumsal bilgiye dönüştürür."],
+    ["Kişisel öğrenme ile organizasyonel öğrenme arasındaki fark nedir?", ["Kişisel öğrenme bireyde kalır; organizasyonel öğrenme sistem ve prosedüre dönüşür", "İkisi tamamen aynıdır", "Organizasyonel öğrenme sadece ezberdir", "Kişisel öğrenme yasaktır"], 0, "Organizasyonel öğrenmede bilgi ortak değer, yöntem, prosedür ve database haline gelir."],
+    ["Öğrenen organizasyonun temelinde hangi unsur vardır?", ["Bilgi teknolojileri ve sistemleri", "Bilgiyi saklama", "Hiyerarşiyi sonsuz artırma", "Sadece sezgi"], 0, "Notlarda temel olarak bilgi teknolojileri ve sistemleri vurgulanır."],
+    ["Bir işletme 'biz zaten eskiden başarılıydık, değişmemize gerek yok' diyorsa hangi öğrenme sorunu vardır?", ["Geçmişin başarılarına sığınma", "Sistematik sorun çözme", "Ortak vizyon", "Bilgi paylaşımı"], 0, "Geçmiş başarıya sığınmak öğrenen organizasyonun önündeki engellerdendir."],
+    ["Öğrenen organizasyon neden dış çevre değişim hızından daha hızlı öğrenmeye çalışır?", ["Ayakta kalmak ve rekabet avantajı sağlamak için", "Müşteriyi kaybetmek için", "Hataları artırmak için", "Bilgiyi yok etmek için"], 0, "Yaşamayı öğrenebilme hızı dış çevre değişimine eşit veya ondan büyük olmalıdır."],
+    ["Grup düzeyinde öğrenme neyi ifade eder?", ["Bireylerin öğrendiklerini grup içinde paylaşarak ortak anlayışa ulaşması", "Bilginin yalnızca yöneticide kalması", "Herkesin ayrı ayrı susması", "Sadece dış müşteriyle ilgilenmek"], 0, "Grup öğrenmesi, kişisel bilgilerin paylaşılması ve birlikte yorumlanmasıdır."],
+    ["Öğrenen organizasyonun özelliklerinden biri hangisidir?", ["Sistematik sorun çözme", "Sorunu kabul etmeme", "Bilgiyi paylaşmama", "Risk almayı tamamen yasaklama"], 0, "Sistematik sorun çözme öğrenen organizasyonun temel özelliklerindendir."],
+    ["Bilginin hızla ve etkin kullanılması hangi organizasyon yaklaşımında özellikle önemlidir?", ["Öğrenen organizasyon", "Sadece klasik yönetim", "Franchise", "Dış hata maliyeti"], 0, "Öğrenen organizasyon bilginin üretilmesini, paylaşılmasını ve sorun çözmede kullanılmasını esas alır."],
+    ["Bir işletmede çalışanlar hatalarını gizliyor, ders alınmıyor ve aynı sorunlar tekrarlanıyor. Bu neyin eksikliğidir?", ["Öğrenen organizasyon kültürünün", "Franchise hakkının", "Joint venture sermayesinin", "Dış müşteri varlığının"], 0, "Ders almama ve sorunu görmezden gelme öğrenen organizasyon sorunlarıdır."],
+    ["Öğrenen organizasyon için organizasyon yapısı nasıl olmalıdır?", ["Daha basık ve öğrenmeye açık", "Mutlaka çok kademeli", "Tamamen kapalı iletişimli", "Sadece emir-komutalı"], 0, "Sürekli öğrenme için değişime katılımı ve bilgi paylaşımını kolaylaştıran basık yapı önemlidir."],
+    ["Ortak vizyon neden öğrenen organizasyon için önemlidir?", ["Bilgiyi ve çabayı aynı yöne toplar", "Herkesi farklı hedefe iter", "Paylaşımı engeller", "Müşteri beklentisini yok sayar"], 0, "Ortak vizyon çalışanların öğrenmesini ve gelişimini aynı stratejik hedefe bağlar."],
+    ["Aşağıdakilerden hangisi öğrenen organizasyonun sorunlarından biridir?", ["Ben bilirim yaklaşımı", "Bilgi paylaşımı", "Yeni yaklaşımları deneme", "Geçmiş deneylerden öğrenme"], 0, "Ben bilirim yaklaşımı yeni bilgiye kapalı olma ve öğrenmeyi engelleme anlamına gelir."],
+    ["Öğrenme olayının davranışa yansıması neden önemlidir?", ["Gerçek öğrenmenin göstergesi davranış değişikliğidir", "Öğrenme sadece ezberdir", "Davranış hiç önemli değildir", "Öğrenme sadece belge toplamaktır"], 0, "Öğrenme, bilginin algılanıp özümsenmesi ve davranışlara yansıtılmasıyla anlam kazanır."],
+    ["Geleceğe ilişkin senaryolar üretmek öğrenen organizasyonda ne sağlar?", ["Belirli şartlarda ne yapılabileceğini deneme ve öğrenme fırsatı", "Planlamayı tamamen ortadan kaldırma", "Hiyerarşiyi büyütme", "Müşteriyle bağı koparma"], 0, "Senaryo üretmek geleceğe hazırlanmayı ve farklı koşullarda öğrenmeyi sağlar."],
+    ["Öğrenen organizasyonda ödüllendirmede esneklik neden önemlidir?", ["Öğrenme, paylaşma ve gelişmeyi teşvik eder", "Bilgiyi saklamayı ödüllendirir", "Hataları artırır", "Kültürü zayıflatır"], 0, "Esnek ödüllendirme bilgi paylaşımı, gelişim ve katılım davranışlarını güçlendirebilir."],
+    ["Bir firma rakiplerinden ve sektörde işi en iyi yapanlardan öğreniyorsa hangi özellik görülür?", ["Başkalarından öğrenme", "Sorunu kabul etmeme", "Bilgi saklama", "Dış hata"], 0, "Öğrenen organizasyon sadece kendi deneyiminden değil, başkalarının tecrübelerinden de öğrenir."],
+    ["Öğrenen organizasyon kültüründe risk alma nasıl değerlendirilir?", ["Temel unsurları tehlikeye atmadan kontrollü risk alma desteklenir", "Her risk kesin yasaktır", "Sınırsız ve plansız risk istenir", "Risk yalnızca dış müşteriye bırakılır"], 0, "Yeni yaklaşım deneme ve gelişme için kontrollü risk alma gerekir."],
+    ["Bilgiyi paylaşmama öğrenen organizasyon açısından neden zararlıdır?", ["Kişisel bilgi kurumsal bilgiye dönüşemez", "Öğrenmeyi hızlandırır", "Ortak database oluşur", "Sinerjiyi artırır"], 0, "Bilgi paylaşılmazsa organizasyon düzeyinde öğrenme gerçekleşmez."],
+    ["Bir işletme her başarısızlığı suçlama yerine öğrenme fırsatı görüyor. Bu hangi anlayışa uygundur?", ["Öğrenen organizasyon", "Katı bürokrasi", "Franchise", "Dış hata maliyeti"], 0, "Öğrenen organizasyon hata ve deneyimlerden ders çıkararak gelişir."],
+    ["Öğrenen organizasyonun nihai amacı aşağıdakilerden hangisine daha yakındır?", ["Değişen çevreye uyum sağlayan dinamik yapı oluşturmak", "Değişimi reddetmek", "Bilgiyi kişisel düzeyde hapsetmek", "Müşteri beklentilerini azaltmak"], 0, "Öğrenen organizasyon kendini yenileyen ve dış çevreye uyum sağlayan dinamik organizasyondur."]
+  ]},
+  empowerment: { name:"Personel Güçlendirme ve Yetki Devri", qs: [
+    ["Bir müşteri temsilcisi küçük bir müşteri sorununu çözmek için sürekli müdür onayı bekliyorsa hangi yaklaşım eksiktir?", ["Personel güçlendirme", "Franchise", "Dış hata", "Benchmarking"], 0, "Personel güçlendirme, işi yapan kişinin hızlı karar almasını sağlar."],
+    ["Personel güçlendirmenin temel varsayımı nedir?", ["İşi yapan kişi işi yöneticiden daha iyi bilir", "Tüm kararlar üst yönetimde kalmalıdır", "Çalışan yalnızca emir uygular", "Bilgi paylaşılmamalıdır"], 0, "Güçlendirme, yetkinin işi fiilen yapan kişide olması gerektiği anlayışına dayanır."],
+    ["Yetki devri ile personel güçlendirme arasındaki fark hangisidir?", ["Yetki devrinde yetki yöneticiden asta geçer; güçlendirmede yetki işi yapandadır", "İkisi tamamen aynıdır", "Güçlendirmede çalışan karar alamaz", "Yetki devrinde sorumluluk tamamen astındır"], 0, "Yetki devri hiyerarşik bir aktarımdır; güçlendirme daha kalıcı ve iş sahibine dayalıdır."],
+    ["Yetki devrinde sorumluluk kime aittir?", ["Yöneticiye", "Müşteriye", "Tedarikçiye", "Rakibe"], 0, "Notlarda yetki astındır fakat sorumluluk yöneticidedir denir."],
+    ["Güçlendirme için yönetici nasıl davranmalıdır?", ["Koçluk yapmalı, kaynak sağlamalı ve güven ortamı kurmalıdır", "Bilgiyi saklamalıdır", "Hata yapmayı tamamen cezalandırmalıdır", "Her kararı kendisi vermelidir"], 0, "Güçlendirmede yönetici emir veren değil, ön açan ve geliştiren kişidir."],
+    ["Personel güçlendirmenin müşteri hizmetlerine etkisi hangisidir?", ["Müşteri isteklerine daha hızlı cevap verilir", "Her sorun üst yönetime çıkar", "Hizmet tamamen durur", "Müşteri bağlılığı azalır"], 0, "Yetkilendirilmiş çalışan 'üstlerime sormalıyım' demeden yaratıcı çözüm üretebilir."],
+    ["Güçlendirme için organizasyon yapısı nasıl olursa daha uygundur?", ["Basık ve katılımcılığa açık", "Çok kademeli ve kapalı", "Bilgi paylaşımı olmayan", "Sadece emir-komuta temelli"], 0, "Basık yapı, bilgi paylaşımı ve katılımcı prosedürler güçlendirmeyi destekler."],
+    ["Güçlendirmede bilgi paylaşımı neden zorunludur?", ["Karar alacak kişinin doğru bilgiye erişmesi gerekir", "Çalışanın bilgisiz kalması için", "Yönetimin gücü gizlemesi için", "Müşteriyi oyalamak için"], 0, "Bilgi ve kaynak olmadan verilen karar hakkı gerçek güçlendirme olmaz."],
+    ["Aşağıdakilerden hangisi güçlendirme uygulama sorunlarından biridir?", ["Üst yönetimin destek vermemesi", "Açık vizyon", "Eğitim ortamı", "Geri bildirim"], 0, "Üst yönetim desteği yoksa güçlendirme uygulanamaz veya etkisiz kalır."],
+    ["Güçlendirilecek personelin hangi özelliği uygulamayı kolaylaştırır?", ["Değişime açık ve kendine güvenli olması", "Geri bildirimden kaçması", "Öğrenmeye kapalı olması", "Aksiyon almaktan uzak durması"], 0, "Kendini geliştirme arzusu, özgüven ve değişime açıklık güçlendirmeyi kolaylaştırır."],
+    ["Katılım veya yönetime katılma ne demektir?", ["Çalışanların karar sürecine katılması", "Çalışanların tamamen susturulması", "Kararların sadece müşteriye bırakılması", "Tedarikçilerin yönetimi devralması"], 0, "Katılım, çalışanların karar sürecinde söz sahibi olmasıdır; mutlak değil nispi olabilir."],
+    ["Güç kavramı içinde uzmanlık gücü nasıl artırılır?", ["Eğitim ve geliştirme ile", "Bilgi saklayarak", "Kaynakları keserek", "Motivasyonu azaltarak"], 0, "Uzmanlık gücü eğitim ve sürekli geliştirme ile artar."],
+    ["Pozisyon gücünü artırmak güçlendirmede neyle sağlanabilir?", ["Seçim hakkı vermekle", "Tüm seçenekleri kaldırmakla", "Hiyerarşiyi gizlemekle", "Geri bildirimi kesmekle"], 0, "Çalışana işle ilgili seçim hakkı vermek pozisyon gücünü artırır."],
+    ["Personel güçlendirmenin maliyetlerinden biri hangisidir?", ["Eğitim ve yüksek nitelikli işgören maliyeti", "Müşteri bağlılığının artması", "Hızlı cevap verme", "İşin anlamlı bulunması"], 0, "Güçlendirme faydalı olsa da eğitim, seçim ve nitelikli personel maliyeti yaratabilir."],
+    ["Hataların maliyeti çok yüksekse güçlendirme açısından ne söylenebilir?", ["Uygulama dikkatli tasarlanmalıdır", "Sınırsız yetki verilmelidir", "Bilgi paylaşılmamalıdır", "Performans ölçülmemelidir"], 0, "Hata maliyeti yüksek alanlarda güçlendirme kontrollü, eğitimli ve sistemli yapılmalıdır."],
+    ["Performans değerleme ve ödüllendirme sistemi güçlendirmeyle ilişkilendirilmezse ne olur?", ["Güçlendirme davranışları desteklenmez", "Uygulama kesin başarılı olur", "Çalışanlar otomatik motive olur", "Bilgi sistemi gereksiz olur"], 0, "Ödüllendirme sistemi istenen davranışı pekiştirmelidir."],
+    ["Güçlendirilmiş personelin 'benim hatam değil' demek yerine çözüm üretmesi hangi faydayı gösterir?", ["Sahiplenme ve müşteri odaklılık", "Sorumluluktan kaçma", "Karar yavaşlığı", "Bilgi saklama"], 0, "Güçlendirme çalışanı işin sahibi yapar; çözüm üretme eğilimini artırır."],
+    ["Güçlendirme ile demokratikleşme arasındaki ilişki nedir?", ["Çalışanların karar ve süreçlere daha fazla katılması", "Tüm kararların gizlenmesi", "Hiyerarşinin kesin artması", "Çalışanın pasifleştirilmesi"], 0, "Organizasyonlarda demokratikleşme eğilimi güçlendirmenin nedenlerinden biridir."],
+    ["Personel güçlendirme için açık vizyon ve misyon neden önemlidir?", ["Çalışanın karar verirken hangi yöne hizmet edeceğini bilmesi için", "Çalışanın kafasını karıştırmak için", "Müşteriyi dışlamak için", "Tedarikçiyi yok saymak için"], 0, "Karar hakkı verilen kişi yönü ve amacı bilmezse kararlar dağınık olur."],
+    ["Güçlendirme sonucu standart hizmetin bozulma ihtimali hangi başlığa girer?", ["Uygulama sorunu/maliyet", "Temel avantaj", "Benchmarking aşaması", "Joint venture şartı"], 0, "Yetki arttığında tutarsız hizmet sunumu riski doğabilir; bu nedenle eğitim ve standartlar önemlidir."]
+  ]},
+  decision: { name:"Karar Verme Süreci", qs: [
+    ["Karar kavramını en doğru anlatan ifade hangisidir?", ["Alternatifler arasından seçim yapmaktır", "Tek yol varken düşünmektir", "Sadece emir vermektir", "Her zaman sezgiyle hareket etmektir"], 0, "Karar, birden fazla seçenek içinden uygun olanı seçmektir. Tek yol varsa gerçek karar yoktur."],
+    ["Bir yönetici 'sorun nedir, hedefimiz ne?' diye başlıyorsa karar sürecinin hangi aşamasındadır?", ["Amaç belirleme ve sorun tanımlama", "Alternatifleri değerlendirme", "Seçim yapma", "Uygulama sonrası kıyas"], 0, "Karar süreci önce sorun/amaç tanımlamayla başlar."],
+    ["SMART hedefte '2026'nın ilk 6 ayında satışları %15 artırmak' ifadesi hangi özellikleri taşır?", ["Belirli, ölçülebilir ve zamana bağlı", "Belirsiz ve ölçülemez", "Sadece sezgisel", "Amaçsız"], 0, "Bu hedef açık, ölçülebilir, gerçekçi değerlendirilebilir ve süre içerir."],
+    ["Bir sorunun kök nedenine inilememesi karar sürecinde hangi aşamayı zayıflatır?", ["Sorun tanımlama ve irdeleme", "Şık işaretleme", "Franchise verme", "Yönetim sözleşmesi"], 0, "Sorun doğru tanımlanmazsa alternatifler de yanlış oluşturulur."],
+    ["Pareto analizi, balık kılçığı ve akış diyagramları hangi aşamada daha çok kullanılır?", ["Sorunları irdeleme ve öncelik belirleme", "Rastgele seçim", "Franchise ücreti belirleme", "Personel tatili planlama"], 0, "Bu araçlar nedenleri ve öncelikleri analiz etmek için kullanılır."],
+    ["Alternatiflerin belirlendiği aşamada hangi özellik öne çıkar?", ["Yaratıcılık ve yenilik", "Tek seçeneğe zorlanma", "Bilginin saklanması", "Hedeflerin unutulması"], 0, "Çözüm alternatifleri geliştirme aşaması yöneticinin yaratıcılığını gösterir."],
+    ["'Tek yol varsa karar da yoktur' ifadesi ne anlama gelir?", ["Karar için alternatif gerekir", "Karar her zaman tek seçenektir", "Karar gereksizdir", "Sezgi her şeyi çözer"], 0, "Karar verme seçim yapmayı gerektirir; seçim için seçenek olmalıdır."],
+    ["Alternatifleri değerlendirirken aşağıdakilerden hangisi dikkate alınır?", ["Maliyet, uygulanabilirlik ve başarı olasılığı", "Sadece yöneticinin sevdiği renk", "Sadece rakibin logosu", "Hiçbir kriter"], 0, "Alternatifler maliyet, uygulanabilirlik, arzu edilirlik, başarı olasılığı ve kültürel uyum gibi ölçütlerle incelenir."],
+    ["Bir yönetici seçim kriteri olarak maliyet, zaman ve kaynak ihtiyacını belirliyor. Hangi aşamadadır?", ["Seçim kriterlerini belirleme", "Sorunu yok sayma", "Benchmarking veri toplama", "Franchise verme"], 0, "Seçim yapmadan önce hangi ölçütlere göre karar verileceği belirlenir."],
+    ["Stratejik karar ile operasyonel karar farkı için en doğru ifade hangisidir?", ["Stratejik karar uzun vadeli ve genel yön belirler; operasyonel karar günlük işleyişe yakındır", "Operasyonel karar her zaman daha önemlidir", "Stratejik karar rutin stok girişidir", "İkisi tamamen aynıdır"], 0, "Stratejik karar örgütün geleceğini ve yönünü etkiler; operasyonel karar günlük uygulamalara yöneliktir."],
+    ["Programlanabilen karar örneği hangisidir?", ["Rutin stok yenileme kararı", "Yeni pazara girme kararı", "Krizde şirket birleşmesi", "Yeni teknoloji yatırımı"], 0, "Programlanabilen kararlar rutin, tekrar eden ve prosedürü belli kararlardır."],
+    ["Programlanamayan karar örneği hangisidir?", ["Yeni ve belirsiz bir pazara giriş", "Her cuma yapılan rapor gönderimi", "Standart izin formu onayı", "Rutin fatura kaydı"], 0, "Programlanamayan kararlar alışılmış olmayan, belirsiz ve yaratıcı çözüm gerektiren kararlardır."],
+    ["Belirsizlik altında karar vermede en büyük zorluk nedir?", ["Sonuçların ve koşulların net bilinmemesi", "Tüm bilgilerin eksiksiz olması", "Alternatiflerin kesin başarı garantisi", "Maliyetlerin sıfır olması"], 0, "Belirsizlikte karar verici tüm sonuç ve olasılıkları net bilemez."],
+    ["Sezgisel karar neye dayanır?", ["Tecrübe, altıncı his ve hızlı yargıya", "Sadece yazılı prosedüre", "Tamamen rastgeleliğe", "Hiçbir deneyime"], 0, "Sezgisel karar özellikle deneyim ve hızlı değerlendirme ile ilişkilidir; ama tek başına yeterli olmayabilir."],
+    ["Yönetim modeli seçerken önce hangi soru sorulmalıdır?", ["Hangi sorun/gelişim alanı bizi yeni modele itti?", "Hangi logo daha güzel?", "Kaç sandalye var?", "Rakip ne renk kullanıyor?"], 0, "Model seçimi de karar süreci gibidir; önce sorun ve amaç belirlenmelidir."],
+    ["İşletme maliyetlerini 6 ayda %10 azaltmak hedefi hangi açıdan iyi yapılandırılmıştır?", ["Ölçülebilir ve zamana bağlıdır", "Tamamen belirsizdir", "Uygulanamaz olduğu kesindir", "Hiç hedef değildir"], 0, "Yüzde ve süre içeren hedef ölçülebilir ve zamana bağlıdır."],
+    ["Alternatif yönetim modelleri belirlenirken hangisi örnek olabilir?", ["TKY, klasik, neoklasik veya şebeke organizasyon", "Sadece yemek listesi", "Sadece tatil planı", "Sadece ofis boyası"], 0, "Karar sürecinde farklı yönetim modelleri alternatif olarak değerlendirilebilir."],
+    ["Bir alternatif işletme kültürüne uygun değilse ne olabilir?", ["Uygulama direnci ve başarısızlık riski artar", "Kesinlikle başarılı olur", "Maliyet sıfırlanır", "Karar gereksiz olur"], 0, "Alternatifler değerlendirilirken işletme kültürüne uygunluk önemlidir."],
+    ["Karar sürecinde amaçlar arasında öncelik belirlenmezse ne olur?", ["Kaynaklar dağılır ve karar kalitesi düşer", "Her şey otomatik düzelir", "Alternatif üretmeye gerek kalmaz", "Sorunlar yok olur"], 0, "Öncelik belirleme, sınırlı kaynakların doğru hedefe yönelmesini sağlar."],
+    ["Bir yönetici sadece 'bence böyle olsun' diyerek maliyet, zaman ve uygulanabilirliği hiç incelemiyorsa hangi aşamayı atlamıştır?", ["Alternatifleri irdeleme ve seçim kriteri belirleme", "Sorunu gizleme", "Franchise alma", "Sanal organizasyon kurma"], 0, "Sağlıklı karar için alternatifler kriterlere göre değerlendirilmelidir."]
+  ]},
+  mixed1: { name:"Karma Final Denemesi 1", qs: [] },
+  mixed2: { name:"Karma Final Denemesi 2", qs: [] },
+  mixed3: { name:"Karma Final Denemesi 3", qs: [] }
+};
+function pick(topic, indexes){return indexes.map(i=>topics[topic].qs[i]);}
+topics.mixed1.qs = [
+  ...pick('tky',[0,3,5,8]), ...pick('surec',[0,2,9,12]), ...pick('benchCore',[0,2,4,8]), ...pick('stratejik',[0,2,6]), ...pick('org',[0,5]), ...pick('learning',[0,4]), ...pick('empowerment',[0,2]), ...pick('decision',[0,6])
+].slice(0,20);
+topics.mixed2.qs = [
+  ...pick('decision',[1,2,4,7]), ...pick('empowerment',[4,7,9]), ...pick('learning',[1,3,7]), ...pick('org',[2,6,9]), ...pick('stratejik',[1,8,10]), ...pick('benchCore',[5,10]), ...pick('surec',[4,10]), ...pick('tky',[10])
+].slice(0,20);
+topics.mixed3.qs = [
+  ...pick('tky',[1,2,12,17]), ...pick('surec',[3,5,11,18]), ...pick('benchCore',[11,14,19]), ...pick('stratejik',[12,15,19]), ...pick('org',[10,12]), ...pick('learning',[10,11]), ...pick('empowerment',[14,19]), ...pick('decision',[10,12])
+].slice(0,20);
+const exams = [
+  {id:'mixed1', title:'Deneme 1 - Karma Final'},
+  {id:'mixed2', title:'Deneme 2 - Karma Final'},
+  {id:'mixed3', title:'Deneme 3 - Karma Final'},
+  {id:'tky', title:'Deneme 4 - TKY Ağırlıklı'},
+  {id:'surec', title:'Deneme 5 - Süreç Yenileme'},
+  {id:'benchCore', title:'Deneme 6 - Benchmarking / Outsourcing'},
+  {id:'stratejik', title:'Deneme 7 - Stratejik Ortaklık'},
+  {id:'org', title:'Deneme 8 - Yeni Organizasyon Yapıları'},
+  {id:'learning', title:'Deneme 9 - Öğrenen Organizasyon'},
+  {id:'empowerment', title:'Deneme 10 - Güçlendirme + Karar'}
+];
+// Deneme 10'u tam final dengesi için güçlendirme + karar karışımı yap
+const deneme10 = [...pick('empowerment',[0,1,2,3,4,5,6,7,8,9]), ...pick('decision',[0,1,2,3,4,5,6,7,8,9])];
+function init(){
+  const box=document.getElementById('examButtons');
+  exams.forEach((e,idx)=>{const b=document.createElement('button');b.textContent=e.title;b.onclick=()=>startExam(e.id, e.title, idx);box.appendChild(b);});
+}
+function startExam(id,title,idx){
+  document.getElementById('home').classList.add('hidden');
+  document.getElementById('examPanel').classList.remove('hidden');
+  document.getElementById('examName').innerHTML = title + ' <span class="badge">20 Soru</span>';
+  document.getElementById('answered').textContent='0';document.getElementById('correctCount').textContent='0';document.getElementById('wrongCount').textContent='0';
+  const data = idx===9 ? deneme10 : topics[id].qs;
+  const qbox=document.getElementById('questions');qbox.innerHTML='';
+  data.forEach((q,i)=>renderQuestion(qbox,q,i));
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function renderQuestion(parent,q,i){
+  const div=document.createElement('div');div.className='question';div.dataset.done='false';
+  const h=document.createElement('div');h.className='qhead';h.innerHTML=`${i+1}. ${q[0]}`;div.appendChild(h);
+  const opts=document.createElement('div');opts.className='options';
+  q[1].forEach((op,oi)=>{const btn=document.createElement('button');btn.className='option';btn.textContent=String.fromCharCode(65+oi)+') '+op;btn.onclick=()=>answer(div,btn,oi,q[2]);opts.appendChild(btn);});
+  div.appendChild(opts);
+  const exp=document.createElement('div');exp.className='explanation';exp.innerHTML=`<b>Doğru Cevap: ${String.fromCharCode(65+q[2])}</b><br>${q[3]}`;div.appendChild(exp);
+  parent.appendChild(div);
+}
+function answer(card,btn,choice,correct){
+  if(card.dataset.done==='true') return;
+  card.dataset.done='true';
+  const buttons=card.querySelectorAll('.option');
+  buttons.forEach((b,idx)=>{ if(idx===correct)b.classList.add('correct'); });
+  if(choice!==correct) btn.classList.add('wrong');
+  card.querySelector('.explanation').classList.add('show');
+  const a=+document.getElementById('answered').textContent+1;
+  document.getElementById('answered').textContent=a;
+  if(choice===correct) document.getElementById('correctCount').textContent=+document.getElementById('correctCount').textContent+1;
+  else document.getElementById('wrongCount').textContent=+document.getElementById('wrongCount').textContent+1;
+}
+function goHome(){document.getElementById('examPanel').classList.add('hidden');document.getElementById('home').classList.remove('hidden');window.scrollTo({top:0,behavior:'smooth'});}
+init();
+</script>
+</body>
+</html>

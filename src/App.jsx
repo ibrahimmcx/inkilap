@@ -5,7 +5,7 @@ import Result from './components/Result';
 import questionsData from './questions.json';
 
 function App() {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
   const [view, setView] = useState('home'); // 'home', 'exam', 'result'
   const [selectedExam, setSelectedExam] = useState(null);
   const [userAnswers, setUserAnswers] = useState({});

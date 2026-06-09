@@ -24,6 +24,12 @@ const Home = ({ exams, onSelectExam }) => {
             <button className="btn secondary" style={{ padding: '1rem 2rem', fontSize: '1.1rem' }} onClick={() => setCategory('turkdili')}>
               Türk Dili
             </button>
+            <button className="btn" style={{ padding: '1rem 2rem', fontSize: '1.1rem', backgroundColor: '#8b5cf6', color: 'white' }} onClick={() => window.open('/siber_guvenlik_final_kesin_duzgun.html', '_blank')}>
+              Siber Güvenlik
+            </button>
+            <button className="btn" style={{ padding: '1rem 2rem', fontSize: '1.1rem', backgroundColor: '#f59e0b', color: 'white' }} onClick={() => window.open('/yonetim_organizasyon_final_deneme.html', '_blank')}>
+              Yönetim Organizasyon
+            </button>
           </div>
         </div>
       </div>
